@@ -1,0 +1,6 @@
+.door-enter-active, .door-leave-active {
+  transition: opacity .5s;
+}
+.door-enter, .door-leave-to {
+  opacity: 0;
+}

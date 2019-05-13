@@ -1,0 +1,24 @@
+@import "mixins/mixins";
+
+html, body {
+  font-family: 'Roboto';
+  font-size: 20px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  #app {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* Global classes. */
+
+.text-faded { color: #888; }
+.text-small { font-size: 0.8em; }
+
+.spacer {
+  flex-grow: 1;
+}
