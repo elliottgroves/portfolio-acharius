@@ -8,8 +8,7 @@
       <div class="navigation">
         <v-btn depressed color="black" class="active-button">Home</v-btn>
         <v-btn flat @click="portfolio()">Projects</v-btn>
-        <v-btn flat>Design</v-btn>
-        <v-btn flat>Rates</v-btn>
+        <v-btn flat>About</v-btn>
       </div>
     </div>
   </div>
@@ -51,6 +50,9 @@ export default {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
+  canvas {
+    z-index: 4;
+  }
   .header {
     position: fixed;
     top: 0;

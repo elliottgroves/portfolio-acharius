@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/views/home'
 import Projects from '@/components/views/projects'
+import IdentityManagement from '@/components/views/projects/identity-management'
 
 Vue.use(Router)
 
@@ -16,6 +17,11 @@ export default new Router({
       path: '/projects',
       name: 'Projects',
       component: Projects
+    },
+    {
+      path: '/projects/identity-management',
+      name: 'IdentityManagement',
+      component: IdentityManagement
     }
   ]
 })

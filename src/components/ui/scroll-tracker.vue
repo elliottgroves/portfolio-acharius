@@ -25,13 +25,17 @@
       }
     },
     methods: {
+      updateProgressMarker() {
+        updateOnScroll(0, 1.0, progress => this.scrollCallback(progress));
+      },
       scrollCallback(progress) {
+        if(typeof this.$refs['progress-marker'] === 'undefined') return;
         this.$refs['progress-marker'].style.top = (this.scrollHeight * progress).toString() + 'px';
-        // this.$refs['percent'].innerHTML = progress;
       }
     },
     mounted() {
-      updateOnScroll(0, 1.0, progress => this.scrollCallback(progress));      
+      window.addEventListener('resize', this.updateProgressMarker, false);
+      this.updateProgressMarker();
     }
   }
 </script>

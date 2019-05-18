@@ -1,4 +1,5 @@
-@import "mixins/mixins";
+@import './global.inc';
+@import 'mixins/mixins';
 
 html, body {
   font-family: 'Roboto';
@@ -13,6 +14,8 @@ html, body {
     height: 100%;
   }
 }
+
+$blue: #193d54;
 
 /* Global classes. */
 
@@ -40,7 +43,7 @@ html, body {
 }
 
 .background-three {
-  background-color: #193d54;
+  background-color: $blue;
   .text {
     color: #fff;
     text-shadow: 4px 4px #fa6182;
