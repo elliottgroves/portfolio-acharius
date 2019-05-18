@@ -22,3 +22,27 @@ html, body {
 .spacer {
   flex-grow: 1;
 }
+
+.background-one {
+  background-color: #fa6182;
+  .text {
+    color: #fff;
+    text-shadow: 4px 4px #549aae;
+  }
+}
+
+.background-two {
+  background-color: #fff;
+  .text {
+    color: #193d54;
+    text-shadow: 4px 4px #fa6182;
+  }
+}
+
+.background-three {
+  background-color: #193d54;
+  .text {
+    color: #fff;
+    text-shadow: 4px 4px #fa6182;
+  }
+}

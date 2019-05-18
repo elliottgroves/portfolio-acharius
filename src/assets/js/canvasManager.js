@@ -1,9 +1,8 @@
 const borderWidth = 40;
-const speed = 9;
+const speed = 14;
 const initDate = new Date();
 
-const homeBgColor = '#ddd';
-const portfolioBgColor = '#fa6182';
+const homeBgColor = '#1c4966';
 
 let xpos = 0;
 let ypos = 0;
@@ -103,7 +102,7 @@ function home(canvas, bg, bgOutline) {
 
   toff = (new Date() - initDate) % (((canvas.height * 2) - loopOffset) * speed) / speed;
 
-  ctx.fillStyle = '#1c4966';
+  ctx.fillStyle = homeBgColor;
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
   ctx.drawImage(bg, xoff/2, yoff/2 - toff, canvas.width, canvas.height * 2);

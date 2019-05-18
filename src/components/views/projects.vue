@@ -2,13 +2,6 @@
   <div class="wrapper">
     <img ref="image" style="display: none;" src="../../assets/bg.png">
     <img ref="outline-image" style="display: none;" src="../../assets/bg-outline.png">
-    <div class="content">
-      <content-block heading="Identity Management" theme="one"></content-block>
-      <content-block heading="Tl;dr" theme="two"></content-block>
-      <content-block heading="Design Process" theme="three"></content-block>
-      <content-block heading="Problem Framing" theme="two"></content-block>
-    </div>
-    <canvas ref="canvas"></canvas>
     <div class="header">
       <div class="title">Acharius Design</div>
       <div class="navigation">
@@ -18,20 +11,22 @@
         <v-btn flat>Rates</v-btn>
       </div>
     </div>
+    <project-content></project-content>
+    <canvas ref="canvas" v-if="renderCanvas"></canvas>
   </div>
 </template>
 
 <script>
 import * as canvasManager from '../../assets/js/canvasManager.js';
-import ContentBlock from '../content/content-block.vue';
+import ProjectContent from '../content/project-content.vue';
 
 export default {
   name: 'Projects',
   components: {
-    ContentBlock,
+    ProjectContent
   },
   data: () => ({
-    renderCanvas: true,
+    renderCanvas: true
   }),
   computed: {
     canvas() {
@@ -42,12 +37,12 @@ export default {
     },
     bgOutline() {
       return this.$refs['outline-image'];
-    },
+    }
   },
   methods: {
     home() {
-      // this.$router.push('/');
-      canvasManager.transitionToHome(this.canvas, this.bg, this.bgOutline);
+      this.$router.push('/');
+      // canvasManager.transitionToHome(this.canvas, this.bg, this.bgOutline);
     },
     clearCanvas() {
       canvasManager.clearAnimation(this.canvas);
@@ -73,12 +68,6 @@ export default {
 .wrapper {
   width: 100vw;
   height: 100vh;
-  .content {
-    z-index: -1;
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-  }
   .header {
     position: fixed;
     top: 0;

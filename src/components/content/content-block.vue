@@ -1,6 +1,6 @@
 <template>
-  <div class="content-block" :class="theme">
-    <div class="heading">{{ heading.toUpperCase() }}</div>
+  <div class="content-block" :class="`background-${theme}`">
+    <div class="text">{{ text.toUpperCase() }}</div>
     <slot></slot>
   </div>
 </template>
@@ -9,7 +9,7 @@
 export default {
   name: 'content-block',
   props: {
-    heading: {
+    text: {
       type: String,
       default: ''
     },
@@ -25,34 +25,14 @@ export default {
 .content-block {
   z-index: 1;
   width: 100vw;
-  height: 100vh;
+  height: auto;
   padding-top: 100px;
   display: flex;
   flex-flow: column;
   align-items: center;
-  .heading {
+  border: 20px solid #fff;
+  .text {
     font-size: 40px;
-  }
-  &.one {
-    background-color: #fa6182;
-    .heading {
-      color: #fff;
-      text-shadow: 4px 4px #549aae;
-    }
-  }
-  &.two {
-    background-color: #fff;
-    .heading {
-      color: #193d54;
-      text-shadow: 4px 4px #fa6182;
-    }
-  }
-  &.three {
-    background-color: #193d54;
-    .heading {
-      color: #fff;
-      text-shadow: 4px 4px #fa6182;
-    }
   }
 }
 </style>
