@@ -1,5 +1,5 @@
 <template>
-  <div class="project-thumbnail" :class="direction">
+  <div class="project-thumbnail" :class="direction" @click="navigate()">
     <div class="trail"></div>
     <div class="image-container">
       <img class="image image-one" :src="getImgUrl(imageOneSrc)">
@@ -23,7 +23,7 @@
         type: String,
         default: ''
       },
-      srcBase: {
+      pathname: {
         type: String,
         default: ''
       },
@@ -34,15 +34,18 @@
     },
     computed: {
       imageOneSrc() {
-        return `project-thumbnails/${this.srcBase}/image-one.png`;
+        return `project-thumbnails/${this.pathname}/image-one.png`;
       },
       imageTwoSrc() {
-        return `project-thumbnails/${this.srcBase}/image-two.png`;
-      },
+        return `project-thumbnails/${this.pathname}/image-two.png`;
+      }
     },
     methods: {
       getImgUrl(src) {
         return require(`../../assets/${src}`);
+      },
+      navigate() {
+        this.$router.push({ path: `/projects/${this.pathname}` });
       }
     }
   }

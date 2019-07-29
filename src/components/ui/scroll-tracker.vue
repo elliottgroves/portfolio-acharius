@@ -2,7 +2,7 @@
   <div class="scroll-tracker" ref="scroll-tracker">
     <div class="percent" ref="percent"></div>
     <div class="progress-marker" ref="progress-marker"></div>
-    <div v-for="(item, index) in content" @click="scrollTo(item)" :class="`background-${item.theme}`" :key="`content-marker-${index}`" class="marker" >
+    <div v-for="(item, index) in content" @click="scrollTo(item)" :class="`background-${item.theme}`" :key="`content-marker-${index}`" class="marker">
       <span class="text">{{item.text.toUpperCase()}}</span>
     </div>
   </div>
@@ -83,7 +83,7 @@
     &:hover {
       cursor: pointer;
       width: 100%;
-      box-shadow: 6px 6px #707070;
+      box-shadow: 4px 4px #707070;
       .text {
         opacity: 1;
       }
