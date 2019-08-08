@@ -2,22 +2,7 @@
   <div class="project-content">
     <scroll-tracker :content="content"></scroll-tracker>
     <div class="content">
-      <content-block text="Identity Management" theme="one">
-        <div class="spacer"></div>
-      </content-block>
-      <content-block text="Tl;dr" theme="two">
-        <div class="spacer"></div>
-      </content-block>
-      <content-block text="Design Process" theme="three">
-        <div class="spacer"></div>
-      </content-block>
-      <content-block text="Problem Framing" theme="two">
-        <div class="spacer"></div>
-      </content-block>
-      <content-block text="Users" theme="one">
-        <div class="spacer"></div>
-      </content-block>
-      <content-block text="Proposed Design" theme="two">
+      <content-block v-for="(item, index) in content" :title="item.text" :theme="item.theme" :key="index">
         <div class="spacer"></div>
       </content-block>
     </div>
@@ -34,14 +19,12 @@
       ContentBlock,
       ScrollTracker
     },
-    data: () => ({
-      content: [{text: 'Identity Management', theme: 'one'},
-                {text: 'Tl;dr', theme: 'two'},
-                {text: 'Design Process', theme: 'three'},
-                {text: 'Problem Framing', theme: 'two'},
-                {text: 'Users', theme: 'one'},
-                {text: 'Proposed Design', theme: 'two'}],
-    })
+    props: {
+      content: {
+        type: Array,
+        default: () => [],
+      }
+    },
   }
 </script>
 

@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import Home from '@/components/views/home'
 import About from '@/components/views/about'
 import Projects from '@/components/views/projects'
-import IdentityManagement from '@/components/views/projects/identity-management'
+import IdentityManagement from '@/components/views/projects/identity-management/identity-management'
 
 Vue.use(Router)
 

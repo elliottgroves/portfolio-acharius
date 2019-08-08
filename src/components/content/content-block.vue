@@ -1,15 +1,20 @@
 <template>
   <div class="content-block" :class="`background-${theme}`">
-    <div class="text">{{ text.toUpperCase() }}</div>
-    <slot></slot>
+    <div class="block-title">
+      
+      <span>{{ title.toUpperCase() }}</span>
+    </div>
+    <div class="content-container">
+      <slot></slot>
+    </div>
   </div>
 </template>
 
 <script>
-export default {
+export default {  
   name: 'content-block',
   props: {
-    text: {
+    title: {
       type: String,
       default: ''
     },
@@ -31,8 +36,17 @@ export default {
   flex-flow: column;
   align-items: center;
   border: 20px solid #fff;
-  .text {
+  .block-title {
     font-size: 40px;
+  }
+  .content-container {
+    display: flex;
+    flex-flow: column;
+    .content-header {
+      text-transform: uppercase;
+      font-weight: bold;
+      align-self: flex-start;
+    }  
   }
 }
 </style>

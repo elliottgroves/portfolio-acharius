@@ -3,7 +3,7 @@
     <div class="percent" ref="percent"></div>
     <div class="progress-marker" ref="progress-marker"></div>
     <div v-for="(item, index) in content" @click="scrollTo(item)" :class="`background-${item.theme}`" :key="`content-marker-${index}`" class="marker">
-      <span class="text">{{item.text.toUpperCase()}}</span>
+      <span class="block-title">{{item.text.toUpperCase()}}</span>
     </div>
   </div>
 </template>
@@ -75,7 +75,7 @@
     overflow: hidden;
     white-space: nowrap;
     font-size: 22px;
-    .text {
+    .block-title {
       opacity: 0;
       padding-left: 10px;
       transition: opacity 0.2s ease-in;
@@ -84,7 +84,7 @@
       cursor: pointer;
       width: 100%;
       box-shadow: 4px 4px #707070;
-      .text {
+      .block-title {
         opacity: 1;
       }
     }

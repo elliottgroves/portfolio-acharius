@@ -1,18 +1,18 @@
 <template>
   <div class="wrapper">
     <navbar activeButton="projects"></navbar>
-    <project-content></project-content>
+    <identity-management-content></identity-management-content>
   </div>
 </template>
 
 <script>
-  import ProjectContent from '../../content/project-content.vue';
-  import Navbar from '../../ui/navbar.vue';
+  import IdentityManagementContent from './identity-management-content.vue';
+  import Navbar from '@/components/ui/navbar.vue';
 
   export default {
     name: 'Projects',
     components: {
-      ProjectContent,
+      IdentityManagementContent,
       Navbar
     },
     methods: {

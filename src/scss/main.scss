@@ -28,24 +28,36 @@ $blue: #193d54;
 
 .background-one {
   background-color: #fa6182;
-  .text {
+  .block-title {
     color: #fff;
     text-shadow: 3px 3px #549aae;
+  }
+  .content-header {
+    color: #fff;
+    font-size: 40px; 
   }
 }
 
 .background-two {
   background-color: #fff;
-  .text {
+  .block-title {
     color: #193d54;
     text-shadow: 3px 3px #fa6182;
+  }
+  .content-header {
+    color: #193d54;
+    font-size: 40px; 
   }
 }
 
 .background-three {
   background-color: $blue;
-  .text {
+  .block-title {
     color: #fff;
     text-shadow: 3px 3px #fa6182;
+  }
+  .content-header {
+    color: #fff;
+    font-size: 40px; 
   }
 }
