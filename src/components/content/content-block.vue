@@ -80,6 +80,9 @@ export default {
       text-transform: uppercase;
       font-weight: bold;
       align-self: flex-start;
+      &:not(:first-of-type) {
+        margin-top: 40px;  
+      }
     }  
   }
 }

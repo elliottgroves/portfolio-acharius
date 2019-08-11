@@ -3,7 +3,7 @@
     <scroll-tracker :content="content"></scroll-tracker>
     <div class="content">
       <content-block title="Identity Management" theme="one">
-        <div class="block-one">
+        <div class="block-one full-width">
           <span class="sponsor-info">Sponsored by <img class="okta-logo" src="@/assets/projects/identity-management/okta-logo.png"></span>
           <span>UX / UI Design</span>
           <img class="okta-devices" src="@/assets/projects/identity-management/okta-devices.png">
@@ -28,7 +28,7 @@
         <p class="content-text">Visualizing usage, centralized access control, and security alerts</p>
       </content-block>
       <content-block title="Design Process" theme="three">
-        <div class="block-three">
+        <div class="block-three full-width">
           <img class="design-process-artboard" src="@/assets/projects/identity-management/design-process-artboard.png">
           <div class="artboard-labels">
             <span>Narrow down on target problem space</span>
@@ -38,7 +38,7 @@
         </div>
       </content-block>
       <content-block title="Problem Framing" theme="two">
-        <div class="block-four">
+        <div class="block-four full-width">
           <span class="content-header">Problem Space</span>
           <p>Individuals generally perceive little or no control over the information that comprise their identities.</p>
           <p>Without visibility into the exchange of identity attributes across the enterprise for authentication, verification, and authorization, individuals are vulnerable to identity fraud.</p>
@@ -50,7 +50,7 @@
         </div>
       </content-block>
       <content-block title="Research" theme="four">
-        <div class="block-five">
+        <div class="block-five full-width">
           <div class="content-header">Methods</div>
           <p>Based on our limited schedule, we decided to deploy three research methods: <b>literature review</b>,&nbsp;<b>semi-structured interviews</b>, and&nbsp;<b>competitive analysis</b>.</p>
           <p>To see the full body of research we conducted, please click the button below.</p>
@@ -81,10 +81,200 @@
         </div>
       </content-block>
       <content-block title="Users" theme="one">
-        <div class="spacer"></div>
+        <div class="content-header">Persona</div>
+        <img class="full-width" src="@/assets/projects/identity-management/user-profile.png">
       </content-block>
       <content-block title="Proposed Design" theme="two">
-        <div class="spacer"></div>
+        <div class="block-seven full-width">
+          <div class="content-header">Design Overview</div>
+          <p>Okta, being one of the market leaders in the IDaaS [Identity as a Service] markets, has a state-of-the-art platform deploying Single Sign-On (SSO), Multi-factor Authentication (MFA), Universal Directory, Lifecycle Management, etc. It already has a stronghold in the B2B and B2E categories across industries.</p>
+          <p>We intend to leverage these strengths and extend the platform to the consumer market.</p>
+          <div class="content-header">Design Implementation</div>
+          <img class="full-width" src="@/assets/projects/identity-management/design-concept.png">
+          <div class="content-header">Design Implementation</div>
+          <p>Our design leverages the three previously mentioned concepts into the Okta PIM. PIM is a multi-platform, identity management application that addresses users' pain points regarding application management, data transparency, and data security.</p>
+          <div class="content-header">Onboarding</div>
+          <div class="workflow-row full-width">
+            <div class="workflow-list-item">
+              <h1>1</h1>
+              <img src="@/assets/projects/identity-management/workflow-one.png">
+              <p>When new users sign up for Okta PIM, they can select their user type to better personalize their privacy and security settings.</p>
+            </div>
+            <div class="workflow-list-item right">
+              <h1>2</h1>
+              <img src="@/assets/projects/identity-management/workflow-two.png">
+              <p>Users are then able to import their login and application information from web service providers like Chrome, Firefox, and others.</p>
+            </div>
+          </div>
+          <div class="workflow-row full-width">
+            <div class="workflow-list-item">
+              <h1>3</h1>
+              <img src="@/assets/projects/identity-management/workflow-three.png">
+            </div>
+            <div class="workflow-list-item">
+              <h1>4</h1>
+              <img src="@/assets/projects/identity-management/workflow-four.png">
+            </div>
+          </div>
+          <span class="full-width label">
+            <p>Upon importing their applications, users can view and access them under customizable tabs, such as work or personal.</p>
+          </span>
+          <div class="content-header">Account Center</div>
+          <div class="full-width">
+            <h1>5</h1>
+            <img class="full-width" src="@/assets/projects/identity-management/workflow-five.png">
+          </div>
+          <div class="workflow-row full-width">
+            <div class="workflow-list-item">
+              <h1>6</h1>
+              <img src="@/assets/projects/identity-management/workflow-six.png">
+              <p>As users visualize their profile, they can see the number of accounts associated with them. Users can see how those accounts are leveraged and shared to other accounts.</p>
+            </div>
+            <div class="workflow-list-item right">
+              <h1>7</h1>
+              <img src="@/assets/projects/identity-management/workflow-seven.png">
+              <p>For example, in the case of James Morrow, he uses his Gmail account to log in to Facebook, which then uses his Facebook account to connect to other applications.</p>
+            </div>
+          </div>
+          <div class="content-header">Security Manager</div>
+          <div class="workflow-row full-width">
+            <div class="workflow-list-item">
+              <h1>8</h1>
+              <img src="@/assets/projects/identity-management/workflow-eight.png">
+              <p>Additionally, users can receive updates on the status of their accounts.</p>
+            </div>
+            <div class="workflow-list-item right">
+              <h1>9</h1>
+              <img src="@/assets/projects/identity-management/workflow-nine.png">
+              <p>Through these updates, users can decide to change their privacy and security settings to best fit thecurrent situation.</p>
+            </div>
+          </div>
+        </div>
+      </content-block>
+      <content-block title="Design Strategy" theme="three">
+        <div class="block-eight">
+          <p class="full-width">As we move further into the digital world, the methods for defining an individual's identity grow more and more complex. A personal is no longer simply represented by name, sex, date of birth, and address. Identities have changed over time to include other details such as employment, social, financial, and medical data and history.</p>
+          <img class="full-width design-strategy" src="@/assets/projects/identity-management/design-strategy-diagram.png">
+          <p class="full-width">In order to address this ever-changing construct of identity in the digital world, we envision Okta PIM to be a precursor to Phase 4. In the near future, we anticipate self-sovereign identity networks driving this sort of human interaction and placing the locus of control in people's hands.</p>
+          <img class="full-width" src="@/assets/projects/identity-management/design-strategy-flow.png">
+          <div class="flow-labels full-width">
+            <p>Bring greater transparency to the user by introducing a real-time usage map that shows who, where, and how our personal information is being used, along with access control and security alert mechanicms.</p>
+            <p class="center">Creating services based off PIM that enable the user to perform actions such as filing taxes, making payments, filing insurance claims from a centralized locations.</p>
+            <p class="right">Providing ultimate authority to the user over their identity with control over identity profiles and attributes, visibility, auditable records, all while maintaining trust.</p>
+          </div>
+        </div>
+      </content-block>
+      <content-block title="Design Considerations" theme="two">
+        <div class="block-nine full-width">
+          <b class="full-width">What happens if a user's Okta account gets hacked?</b>
+          <p>A user getting their Okta account hacked would be much like any other case - a user would have to reset their password. To log in to the Okta account, however, Okta users are required to use either two-step factor authentication or multi-factor authentication. Therefore, the likelihood of a user's account being hacked is decreased.</p>
+          <b class="full-width">What happens to PIM if users change their login information on their applications?</b>
+          <p>In the event that a user decides to update their login information to a specific application, PIM would identify the change via a security alert and ask users to update the information on the Okta PIM platform.</p>
+          <b class="full-width">What happens if PIM doesn't work?</b>
+          <p>In the event that PIM's functionality does not work, users would still be able to control their data and security preferences through the individual applications. However, users would not be able to visualize how their personal data cascades.</p>
+        </div>
+      </content-block>
+      <content-block title="Research (Extended)" theme="four">
+        <div class="block-ten full-width">
+          <div class="content-header">Insight Support</div>
+          <div class="circles single full-width">
+            <div class="circle">
+              <h1>1</h1>
+              <div class="image">
+                <img src="@/assets/projects/identity-management/research-circle-image.png">
+              </div>
+              <p>Users often don't care about their personal data being online or consider their personal data valuable.</p>
+            </div>
+          </div>
+          <div class="content-header">Primary Research</div>
+          <div class="research-content">
+            <span><b>Semi-Structured Interview</b>: 10.01.2018</span>
+            <div>
+              <span><b>Participant</b>: Female, 22, Professional Caretaker</span>
+            </div>
+            <b>Q: What are your top concerns about your personal data on the Internet?</b>
+            <span>"I just don't think about it."</span>
+            <b>Q: What social media sites do you use? What sites have you signed up for?</b>
+            <span>Facebook, Tumblr, Instagram, Pinterest, shopping websites</span>
+            <b>Q: Do you pay attention to app permission and what data you allow apps access to?</b>
+            <span>"Never."</span>
+            <b>Q: How do you feel about companies selling your personal data to create targeted ads?</b>
+            <span>"It's annoying. I try not to pay attention to ads."</span>
+            <b>Q: How do you feel about having your personal information public on Facebook?</b>
+            <span>"I don't care really. Should I care?"</span>
+            <div class="divider-line"></div>
+          </div>
+          <div class="circles single full-width">
+            <div class="circle">
+              <h1>2</h1>
+              <div class="image">
+                <img src="@/assets/projects/identity-management/circle-two.png">
+              </div>
+              <p>Users often don't take preemptive measures to secure their personal data online.</p>
+            </div>
+          </div>
+          <div class="content-header">Secondary Research</div>
+          <div class="research-graphs full-width">
+            <img src="@/assets/projects/identity-management/research-graph-one.png">
+            <img src="@/assets/projects/identity-management/research-graph-one.png">
+          </div>
+          <div class="divider-line"></div>
+          <div class="circles single full-width">
+            <div class="circle">
+              <h1>3</h1>
+              <div class="image">
+                <img src="@/assets/projects/identity-management/circle-three.png">
+              </div>
+              <p>Users are unaware of how their personal data is being handled online, particularly in the case of social media sites selling their data.</p>
+            </div>
+          </div>
+          <div class="research-content">
+            <span><b>Semi-Structured Interview</b>: 10.02.2018</span>
+            <div>
+              <span><b>Participant</b>: Female, 56, Business Director</span>
+            </div>
+            <b>Q: What does digital identity mean to you?</b>
+            <span>"Identity is about keeping my personal identifiable information secure - so my social security number, driver's license number, and credit card numbers."</span>
+            <b>Q: What social media sites do you use? What sites have you signed up for?</b>
+            <span>Facebook and Instagram</span>
+            <b>Q: Do you pay attention to app permission and what data you allow apps access to?</b>
+            <span>"No."</span>
+            <b>Q: What do you do to protect your digital identity?</b>
+            <span>"I use LastPass and LifeLock. My husband had his identity stolen in an Anthem data breach, so I wanted to try and protect us from further misuse.</span>
+          </div>
+          <div class="divider-line"></div>
+          <div class="content-header">Competitive Analysis</div>
+          <img class="full-width" src="@/assets/projects/identity-management/competitive-analysis.png">
+          <div class="divider-line"></div>
+          <div class="content-header">Contrary Research</div>
+          <p>It's always important to acknowledge contradictory information while researching because telling the perfect story of design is deceptive. If you only present information that directly supports your claims and don't include contrary information, you risk missing pain points users experience as well as oversimplifying the problem.</p>
+          <div class="research-content">
+            <span><b>Semi-Structured Interview</b>: 10.03.2018</span>
+            <div>
+              <span><b>Participant</b>: Male, 27, Process Improvement Leader</span>
+            </div>
+            <b>Q: What does digital identity mean to you?</b>
+            <span>"Identity would be my footprint - my phones, social media, work computer, what other people have access to, and stuff like that."</span>
+            <b>Q: What social media sites do you use? What sites have you signed up for?</b>
+            <span>"Facebook and Twitter. I have Instagram but never use it."</span>
+            <b>Q: Do you pay attention to app permission and what data you allow apps access to?</b>
+            <span>"I try to limit it as much as possible."</span>
+            <b>Q: What do you do to protect your digital identity?</b>
+            <span>"I use LifeLock. I think it's important to protect my identity as much as possible."</span>
+          </div>
+        </div>
+      </content-block>
+      <content-block title="Reflection" theme="one">
+        <div class="block-eleven full-width">
+          <b>What worked?</b>
+          <p>Our division of labor controlled for the lifespan of the project (one week). We set out a research plan and assigned deliverables for each team meeting. All group members delivered research, iterations, prototypes, and wireframes on-time and in-bulk. Each member of this team had distinct strengths to bring to the project that allowed us to not only balance each others' ideas, but also leverage our differing backgrounds and perspectives to consider many aspects of the design in the one-week timeline.</p>
+          <b>What to improve for next time?</b>
+          <p>Although it seemed that each area of our design had merit, it became difficult within the one-week timespan to prioritize these focus points of our design and design strategy. I can personally work to further constrain the scope of the project within the timeline in order to avoid having a design too narrow with many particular considerations identified versus a very apt design with not as many secondary considerations.</p>
+          <i><b>All iconography sourced from The Noun Project: https://thenounproject.com/</b></i>
+          <div class="next-project-footer">
+            <span>Next Project</span>
+          </div>
+        </div>
       </content-block>
     </div>
   </div>
@@ -107,7 +297,11 @@
                 {text: 'Problem Framing', theme: 'two'},
                 {text: 'Research', theme: 'four'},
                 {text: 'Users', theme: 'one'},
-                {text: 'Proposed Design', theme: 'two'}]
+                {text: 'Proposed Design', theme: 'two'},
+                {text: 'Design Strategy', theme: 'three'},
+                {text: 'Design Considerations', theme: 'two'},
+                {text: 'Research (Extended)', theme: 'four'},
+                {text: 'Reflection', theme: 'one'}]
     }),
   }
 </script>
@@ -119,9 +313,52 @@
     width: 100vw;
     height: 100vh;
     margin-top: 40px;
+    .full-width {
+      max-width: 820px;
+    }
+
     .spacer {
       height: 400px;
     }
+
+    .circles {
+      display: flex;
+      justify-content: space-between;
+      .circle {
+        display: flex;
+        flex-flow: column;
+        width: 250px;
+        align-items: center;
+        &.one {
+          text-align: left;
+        }
+        &.two {
+          text-align: center;
+        }
+        &.three {
+          text-align: right;
+        }
+        .image {
+          width: 200px;
+          height: 200px;
+          border-radius: 100%;
+          background-color: #193d54;
+          margin-bottom: 20px;
+          padding: 10px;
+          padding-top: 22px;
+          img {
+            width: 180px;
+          }
+        }
+        h1 {
+          width: 100%;
+        }
+      }
+      &.single {
+        justify-content: center;
+      }
+    }
+
     .block-one {
       display: flex;
       flex-flow: column;
@@ -160,7 +397,6 @@
       }
     }
     .block-three {
-      max-width: 820px;
       .design-process-artboard {
         width: 800px;
         margin-left: 15px;
@@ -176,7 +412,6 @@
       }
     }
     .block-four {
-      max-width: 820px;
       display: flex;
       flex-flow: column;
       .focus-area-diagram {
@@ -185,7 +420,6 @@
       }
     }
     .block-five {
-      max-width: 820px;
       .full-research-link {
         position: relative;
         cursor: pointer;
@@ -218,37 +452,100 @@
           }
         }
       }
-      .circles {
-        width: 100;
+    }
+    .user-profile-image {
+      border: 2px solid #777;
+    }
+    .block-seven {
+      .workflow-row {
         display: flex;
+        flex-flow: row;
         justify-content: space-between;
-        .circle {
-          display: flex;
-          flex-flow: column;
-          width: 250px;
-          align-items: center;
-          &.one {
-            text-align: left;
-          }
-          &.two {
-            text-align: center;
-          }
-          &.three {
-            text-align: right;
-          }
-          .image {
-            width: 200px;
-            height: 200px;
-            border-radius: 100%;
-            background-color: #193d54;
+        .workflow-list-item {
+          max-width: 400px;
+          img {
+            max-width: 400px;
             margin-bottom: 20px;
-            padding: 10px;
-            padding-top: 22px;
-            img {
-              width: 180px;
+          }
+          &.right {
+            p {
+              text-align: right;
             }
           }
+        }  
+      }
+      .label {
+        p {
+          width: 550px;
+          margin: auto;
         }
+      }
+    }
+    .block-eight {
+      color: #fff;
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      .design-strategy {
+        position: relative;
+        &:after {
+          position: absolute;
+          transition: left 0.1s ease, top 0.1s ease;
+          left: -4px;
+          top: -4px;
+          width: 300px;
+          height: 62px;
+          border: 2px solid #ddd;
+          content: "";
+        }
+      }
+      * {
+        margin-bottom: 20px;
+      }
+      .flow-labels {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        p {
+          max-width: 260px;
+        }
+        .center {
+          text-align: center;
+        }
+        .right {
+          text-align: right;
+        }
+      }
+    }
+    .block-ten {
+      .research-content {
+        display: flex;
+        flex-flow: column;
+        font-size: 1.2em;
+        span {
+          margin: 10px 0;
+        }
+        b {
+          margin-top: 30px;
+        }
+      }
+      .research-graphs {
+        display: flex;
+        margin-top: 40px;
+        justify-content: space-between;
+        img {
+          max-width: 400px;
+        }
+      }
+    }
+    .block-eleven {
+      .next-project-footer {
+        margin-top: 100px;
+        text-align: right;
+        font-size: 37px;
+        text-transform: uppercase;
+        color: #fff;
+        text-shadow: 3px 3px #549aae;
       }
     }
   }
