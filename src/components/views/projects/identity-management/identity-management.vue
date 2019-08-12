@@ -10,7 +10,7 @@
   import Navbar from '@/components/ui/navbar.vue';
 
   export default {
-    name: 'Projects',
+    name: 'identity-management',
     components: {
       IdentityManagementContent,
       Navbar

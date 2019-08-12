@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <navbar activeButton="projects"></navbar>
-    <identity-management-content></identity-management-content>
+    <voice-highlighting-content></voice-highlighting-content>
   </div>
 </template>
 
@@ -10,7 +10,7 @@
   import Navbar from '@/components/ui/navbar.vue';
 
   export default {
-    name: 'Projects',
+    name: 'voice-highlighting',
     components: {
       VoiceHighlightingContent,
       Navbar
