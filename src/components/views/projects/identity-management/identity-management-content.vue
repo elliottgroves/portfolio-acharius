@@ -316,11 +316,6 @@
     .full-width {
       max-width: 820px;
     }
-
-    .spacer {
-      height: 400px;
-    }
-
     .circles {
       display: flex;
       justify-content: space-between;

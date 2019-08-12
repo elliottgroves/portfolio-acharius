@@ -1,9 +1,10 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import Home from '@/components/views/home'
-import About from '@/components/views/about'
-import Projects from '@/components/views/projects'
-import IdentityManagement from '@/components/views/projects/identity-management/identity-management'
+import Vue from 'vue';
+import Router from 'vue-router';
+import Home from '@/components/views/home';
+import About from '@/components/views/about';
+import Projects from '@/components/views/projects';
+import IdentityManagement from '@/components/views/projects/identity-management/identity-management';
+import VoiceHighlighting from '@/components/views/projects/voice-highlighting/voice-highlighting';
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/projects/identity-management',
       name: 'IdentityManagement',
       component: IdentityManagement
+    },
+    {
+      path: '/projects/voice-highlighting',
+      name: 'VoiceHighlighting',
+      component: VoiceHighlighting
     }
   ]
 })

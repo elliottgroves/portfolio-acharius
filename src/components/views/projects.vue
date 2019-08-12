@@ -8,34 +8,34 @@
       <div class="content-row">
         <project-thumbnail
           name="Identity Management"
-          description="Leveraging Okta's existing platform to move from B2B to B2C identity and security management."
+          description="Leveraging Okta's existing platform to move from B2B to B2C identity and security management"
           pathname="identity-management"></project-thumbnail>
         <project-thumbnail
           name="Food Delivery"
-          description="Exploring relationships between delivery drivers and restaurant workers."
+          description="Exploring relationships between delivery drivers and restaurant workers"
+          pathname="identity-management"
+          direction="top-right"></project-thumbnail>
+      </div>
+      <div class="content-row">
+        <project-thumbnail
+          name="Voice Highlighting (24-Hour Challenge)"
+          description="Challenging Amazon Audible's existing methodology of capturing and bookmarking passages in audiobooks"
+          pathname="voice-highlighting"></project-thumbnail>
+        <project-thumbnail
+          name="Identity Management"
+          description="Leveraging Okta's existing platform to move from B2B to B2C identity and security management"
           pathname="identity-management"
           direction="top-right"></project-thumbnail>
       </div>
       <div class="content-row">
         <project-thumbnail
           name="Identity Management"
-          description="Leveraging Okta's existing platform to move from B2B to B2C identity and security management."
-          pathname="identity-management"></project-thumbnail>
-        <project-thumbnail
-          name="Identity Management"
-          description="Leveraging Okta's existing platform to move from B2B to B2C identity and security management."
-          pathname="identity-management"
-          direction="top-right"></project-thumbnail>
-      </div>
-      <div class="content-row">
-        <project-thumbnail
-          name="Identity Management"
-          description="Leveraging Okta's existing platform to move from B2B to B2C identity and security management."
+          description="Leveraging Okta's existing platform to move from B2B to B2C identity and security management"
           pathname="identity-management"
           direction="bottom-left"></project-thumbnail>
         <project-thumbnail
           name="Identity Management"
-          description="Leveraging Okta's existing platform to move from B2B to B2C identity and security management."
+          description="Leveraging Okta's existing platform to move from B2B to B2C identity and security management"
           pathname="identity-management"
           direction="bottom-right"></project-thumbnail>
       </div>
