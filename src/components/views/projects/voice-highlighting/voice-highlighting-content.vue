@@ -1,6 +1,5 @@
 <template>
   <div class="project-content">
-    <scroll-tracker :content="content"></scroll-tracker>
     <div class="content">
       <content-block title="24-Hour Challenge" theme="four">
         <div class="block-one full-width">

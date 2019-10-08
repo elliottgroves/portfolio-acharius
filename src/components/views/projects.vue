@@ -11,32 +11,27 @@
           description="Leveraging Okta's existing platform to move from B2B to B2C identity and security management"
           pathname="identity-management"></project-thumbnail>
         <project-thumbnail
-          name="Food Delivery"
-          description="Exploring relationships between delivery drivers and restaurant workers"
-          pathname="identity-management"
+          name="My Portfolio"
+          description="Treating my own portfolio as a design system allowed me to better understand my own design practices and philosophy"
+          pathname="portfolio"
           direction="top-right"></project-thumbnail>
       </div>
       <div class="content-row">
+        <project-thumbnail
+          name="Food Delivery"
+          description="Exploring relationships between delivery drivers and restaurant workers"
+          pathname="food-delivery"></project-thumbnail>
         <project-thumbnail
           name="Voice Highlighting (24-Hour Challenge)"
           description="Challenging Amazon Audible's existing methodology of capturing and bookmarking passages in audiobooks"
-          pathname="voice-highlighting"></project-thumbnail>
-        <project-thumbnail
-          name="Identity Management"
-          description="Leveraging Okta's existing platform to move from B2B to B2C identity and security management"
-          pathname="identity-management"
+          pathname="voice-highlighting"
           direction="top-right"></project-thumbnail>
       </div>
       <div class="content-row">
         <project-thumbnail
-          name="Identity Management"
-          description="Leveraging Okta's existing platform to move from B2B to B2C identity and security management"
-          pathname="identity-management"
-          direction="bottom-left"></project-thumbnail>
-        <project-thumbnail
-          name="Identity Management"
-          description="Leveraging Okta's existing platform to move from B2B to B2C identity and security management"
-          pathname="identity-management"
+          name="Farm-to-School Procurement"
+          description="User experience research: participant recruitment, cognitive mapping, structured interviews, translating findings into insights, ideation"
+          pathname="farm-to-school"
           direction="bottom-right"></project-thumbnail>
       </div>
     </div>
@@ -108,6 +103,12 @@
       flex-flow: row;
       justify-content: space-between;
       margin-bottom: 60px;
+      &:last-of-type {
+        justify-content: center;
+        * {
+          margin: 0;
+        }
+      }
     }
   }
   canvas {
