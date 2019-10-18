@@ -129,13 +129,11 @@
 
 <script>
   import ContentBlock from '@/components/content/content-block.vue';
-  import ScrollTracker from '@/components/ui/scroll-tracker.vue';
 
   export default {
     name: 'voice-highlighting-content',
     components: {
-      ContentBlock,
-      ScrollTracker
+      ContentBlock
     },
     data: () => ({
       content: [{text: '24-Hour Challenge', theme: 'four'},

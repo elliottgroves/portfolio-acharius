@@ -41,6 +41,7 @@ export default {
     font-size: 40px;
     display: flex;
     margin-bottom: 60px;
+    font-weight: bold;
     .triangle-container {
       position: absolute;
       left: 200px;
@@ -77,7 +78,6 @@ export default {
     display: flex;
     flex-flow: column;
     .content-header {
-      text-transform: uppercase;
       font-weight: bold;
       align-self: flex-start;
       &:not(:first-of-type) {
