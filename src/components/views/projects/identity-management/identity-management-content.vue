@@ -473,8 +473,8 @@
         &:hover {
           background-color: darken(#fa6182, 3%);
           &:after {
-            left: 4px;
-            top: 4px;
+            left: 0;
+            top: 0;
           }
         }
       }
