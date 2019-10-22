@@ -258,6 +258,7 @@
             <p>In off-premise food operation vehicles, there is often a non-uniform, cluster, or array of artifacts. <b>This space is not readily interpretable environment for strangers</b> (such as delivery service-people).</p>
           </div>
           <div class="content-header">Secondary Research</div>
+          <img src="@/assets/projects/food-delivery/secondary-research.svg">
           <div class="secondary-research">
             <p><b>Off-premise dining will continue to contribute to a large proportion of meals</b>, increased by 12% each year. This is primarily attributed to <b>relationships surrounding food delivery</b>, where RPS (Restaurant Delivery Services) drivers are key players in that system.</p>
             <p>We also assembled a restaurant matrix to better understand our problem space.</p>

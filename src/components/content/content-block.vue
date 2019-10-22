@@ -2,7 +2,7 @@
   <div class="content-block" :class="`background-${theme}`">
     <div class="block-title">
       <div class="triangle-container">
-        <div class="triangle"></div>  
+        <img class="triangle" src="@/assets/images/triangles/triangles1.svg">
       </div>
       <span>{{ title.toUpperCase() }}</span>
     </div>
@@ -23,7 +23,7 @@ export default {
     theme: {
       type: String,
       default: ''
-    }
+    },
   }
 }
 </script>
@@ -44,33 +44,10 @@ export default {
     font-weight: bold;
     .triangle-container {
       position: absolute;
-      left: 200px;
+      left: 135px;
       .triangle {
-        position: relative;
-        width: 0;
-        height: 0;
-        border-right: 58px solid transparent;
-        border-top: 57px solid #fff;
-        &:before {
-          position: absolute;
-          left: 15px;
-          top: -45px;
-          width: 0;
-          height: 0;
-          border-right: 58px solid transparent;
-          border-top: 57px solid #999;
-          content: "";
-        }
-        &:after {
-          position: absolute;
-          left: 18px;
-          top: -42px;
-          width: 0;
-          height: 0;
-          border-right: 47px solid transparent;
-          border-top: 45px solid #fa6182;
-          content: "";
-        }
+        margin-top: 15px;
+        width: 70px;
       }
     }
   }

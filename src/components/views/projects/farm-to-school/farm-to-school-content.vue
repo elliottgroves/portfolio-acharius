@@ -3,7 +3,7 @@
     <div class="content">
       <content-block title="Farm-to-School" theme="five">
         <div class="block-one full-width">
-          <!-- <img class="screen" src="@/assets/projects/food-delivery/food-delivery-screen.png"> -->
+          <img class="header-image" src="@/assets/projects/farm-to-school/header.png">
           <span class="type-label">UX Research</span>
           <span class="info-label">Analyzing and researching complications from locally-sourced procurement from farms to schools</span>
           <div class="footer">
@@ -194,8 +194,8 @@
           vertical-align: -4px;
         }  
       }
-      .screen {
-        width: 200px;
+      .header-image {
+        width: 100%;
         margin-top: 30px;
       }
       .type-label {

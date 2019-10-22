@@ -33,6 +33,7 @@
         </div>
       </content-block>
       <content-block title="Design Process" theme="three">
+        <img style="width: 100%;" src="@/assets/projects/voice-highlighting/24-hour-process.svg">
       </content-block>
       <content-block title="Problem Framing" theme="two">
         <div class="block-four full-width">
@@ -109,7 +110,6 @@
             <img src="@/assets/projects/voice-highlighting/user-flow-two.png">
           </div>
           <div class="content-header">User Testing</div>
-
         </div>
       </content-block>
       <content-block title="Reflection" theme="one">
@@ -184,6 +184,7 @@
         font-size: 0.8em;
         margin: 40px 0;
         box-shadow: 2px 2px #D5D5D5;
+        align-self: center;
       }
       h2 {
         margin-top: 40px;

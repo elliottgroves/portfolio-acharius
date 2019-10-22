@@ -5,7 +5,6 @@
       <v-btn flat @click="home()">Home</v-btn>
       <v-btn flat :class="{ 'active-button' : false }" @click="projects()">Projects</v-btn>
       <v-btn flat>About</v-btn>
-      <div>{{activeRoute}}</div>
     </div>
   </div>
 </template>
@@ -13,11 +12,6 @@
 <script>
   export default {
     name: 'header',
-    computed: {
-      activeRoute() {
-        // return this.$route;
-      }
-    },
     methods: {
       home() {
         this.$router.push({ name: 'home' });

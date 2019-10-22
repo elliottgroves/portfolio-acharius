@@ -1,7 +1,7 @@
 <template>
   <div class="project-content">
     <div class="content">
-      <content-block title="Identity Management" theme="five">
+      <content-block title="Identity Management" header theme="five">
         <div class="block-one">
           <span class="sponsor-info">Sponsored by <img class="okta-logo" src="@/assets/projects/identity-management/okta-logo.png"></span>
           <img class="okta-devices" src="@/assets/projects/identity-management/okta-devices.png">
@@ -173,23 +173,23 @@
           <p>In the event that PIM's functionality does not work, users would still be able to control their data and security preferences through the individual applications. However, users would not be able to visualize how their personal data cascades.</p>
         </div>
       </content-block>
-      <content-block title="Research (Extended)" theme="four">
+      <content-block title="Research (Extended)" theme="seven">
         <div class="block-ten full-width" ref="FullResearchHeader">
           <div class="content-header">Insight Support</div>
           <div class="circles single full-width">
             <div class="circle">
-              <h1>1</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles1.svg">1</h1>
               <div class="image">
                 <img src="@/assets/projects/identity-management/research-circle-image.png">
               </div>
-              <p>Users often don't care about their personal data being online or consider their personal data valuable.</p>
+              <b>Users often don't care about their personal data being online or consider their personal data valuable.</b>
             </div>
           </div>
           <div class="content-header">Primary Research</div>
           <div class="research-content">
-            <span><b>Semi-Structured Interview</b>: 10.01.2018</span>
-            <div>
-              <span><b>Participant</b>: Female, 22, Professional Caretaker</span>
+            <div class="research-header">
+              <span class="big"><b>Semi-Structured Interview</b>: 10.01.2018</span>
+              <span class="big"><b>Participant</b>: Female, 22, Professional Caretaker</span>
             </div>
             <b>Q: What are your top concerns about your personal data on the Internet?</b>
             <span>"I just don't think about it."</span>
@@ -204,31 +204,30 @@
           </div>
           <div class="circles single full-width">
             <div class="circle">
-              <h1>2</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles1.svg">2</h1>
               <div class="image">
                 <img src="@/assets/projects/identity-management/circle-two.png">
               </div>
-              <p>Users often don't take preemptive measures to secure their personal data online.</p>
+              <b>Users often don't take preemptive measures to secure their personal data online.</b>
             </div>
           </div>
           <div class="content-header">Secondary Research</div>
-          <div class="research-graphs full-width">
-            <img src="@/assets/projects/identity-management/research-graph-one.png">
-            <img src="@/assets/projects/identity-management/research-graph-one.png">
-          </div>
+          <img class="secondary-research-image" src="@/assets/projects/identity-management/research-graph-one.png">
+          <img class="secondary-research-image" src="@/assets/projects/identity-management/research-graph-two.png">
           <div class="circles single full-width">
             <div class="circle">
-              <h1>3</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles1.svg">3</h1>
               <div class="image">
                 <img src="@/assets/projects/identity-management/circle-three.png">
               </div>
-              <p>Users are unaware of how their personal data is being handled online, particularly in the case of social media sites selling their data.</p>
+              <b>Users are unaware of how their personal data is being handled online, particularly in the case of social media sites selling their data.</b>
             </div>
           </div>
+          <div class="content-header">Primary Research</div>
           <div class="research-content">
-            <span><b>Semi-Structured Interview</b>: 10.02.2018</span>
-            <div>
-              <span><b>Participant</b>: Female, 56, Business Director</span>
+            <div class="research-header">
+              <span class="big"><b>Semi-Structured Interview</b>: 10.02.2018</span>
+              <span class="big"><b>Participant</b>: Female, 56, Business Director</span>
             </div>
             <b>Q: What does digital identity mean to you?</b>
             <span>"Identity is about keeping my personal identifiable information secure - so my social security number, driver's license number, and credit card numbers."</span>
@@ -242,11 +241,11 @@
           <div class="content-header">Competitive Analysis</div>
           <img class="full-width" src="@/assets/projects/identity-management/competitive-analysis.png">
           <div class="content-header">Contrary Research</div>
-          <p>It's always important to acknowledge contradictory information while researching because telling the perfect story of design is deceptive. If you only present information that directly supports your claims and don't include contrary information, you risk missing pain points users experience as well as oversimplifying the problem.</p>
           <div class="research-content">
-            <span><b>Semi-Structured Interview</b>: 10.03.2018</span>
-            <div>
-              <span><b>Participant</b>: Male, 27, Process Improvement Leader</span>
+            <p>It's always important to acknowledge contradictory information while researching because telling the perfect story of design is deceptive. If you only present information that directly supports your claims and don't include contrary information, you risk missing pain points users experience as well as oversimplifying the problem.</p>
+            <div class="research-header">
+              <span class="big"><b>Semi-Structured Interview</b>: 10.03.2018</span>
+              <span class="big"><b>Participant</b>: Male, 27, Process Improvement Leader</span>
             </div>
             <b>Q: What does digital identity mean to you?</b>
             <span>"Identity would be my footprint - my phones, social media, work computer, what other people have access to, and stuff like that."</span>
@@ -265,7 +264,7 @@
           <p>Our division of labor controlled for the lifespan of the project (one week). We set out a research plan and assigned deliverables for each team meeting. All group members delivered research, iterations, prototypes, and wireframes on-time and in-bulk. Each member of this team had distinct strengths to bring to the project that allowed us to not only balance each others' ideas, but also leverage our differing backgrounds and perspectives to consider many aspects of the design in the one-week timeline.</p>
           <b>What to improve for next time?</b>
           <p>Although it seemed that each area of our design had merit, it became difficult within the one-week timespan to prioritize these focus points of our design and design strategy. I can personally work to further constrain the scope of the project within the timeline in order to avoid having a design too narrow with many particular considerations identified versus a very apt design with not as many secondary considerations.</p>
-          <i><b>All iconography sourced from The Noun Project: https://thenounproject.com/</b></i>
+          <i>All iconography sourced from The Noun Project: https://thenounproject.com/</i>
           <div class="next-project-footer">
             <span>Next Project</span>
           </div>
@@ -329,6 +328,7 @@
         flex-flow: column;
         width: 250px;
         align-items: center;
+        text-align: center;
         &.one {
           text-align: left;
         }
@@ -351,7 +351,14 @@
           }
         }
         h1 {
-          width: 100%;
+          position: absolute;
+          left: 135px;
+          display: flex;
+          padding-top: 25px;
+          .triangle {
+            margin-top: -25px;
+            width: 70px;
+          }
         }
       }
       &.single {
@@ -540,21 +547,31 @@
       .research-content {
         display: flex;
         flex-flow: column;
-        font-size: 1.2em;
+        .research-header {
+          margin-top: 14px;
+          display: flex;
+          flex-flow: column;
+          * {
+            margin: 0;
+          }
+        }
         span {
           margin: 10px 0;
+          font-size: 0.8em;
+          &.big {
+            font-size: 1.2em;  
+          }
         }
         b {
           margin-top: 30px;
         }
-      }
-      .research-graphs {
-        display: flex;
-        margin-top: 40px;
-        justify-content: space-between;
-        img {
-          max-width: 400px;
+        p {
+          font-size: 0.8em;
         }
+      }
+      .secondary-research-image {
+        width: 100%;
+        margin: 30px 0;
       }
     }
     .block-eleven {

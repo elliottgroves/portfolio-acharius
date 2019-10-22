@@ -2,7 +2,7 @@
 @import 'mixins/mixins';
 
 html, body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   position: relative;
   width: 100%;
@@ -104,5 +104,17 @@ $block-max-width: 820px;
   }
   .content-header {
     color: #193d54;
+  }
+}
+
+.background-seven {
+  background-color: #14B0BF;
+  color: #fff;
+  .block-title {
+    color: #fff;
+    text-shadow: 3px 3px $blue;
+  }
+  .content-header {
+    color: #fff;
   }
 }
