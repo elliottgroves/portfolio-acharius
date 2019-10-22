@@ -1,293 +1,149 @@
 <template>
-	<div class="project-content">
+  <div class="project-content">
     <div class="content">
       <content-block title="Farm-to-School" theme="five">
         <div class="block-one full-width">
-          <span class="sponsor-info">Sponsored by <img class="logo" src="@/assets/projects/food-delivery/relishworkslogo.png"></span>
-          <img class="screen" src="@/assets/projects/food-delivery/food-delivery-screen.png">
-          <span class="type-label">UX Design</span>
-          <span class="info-label">Relish Works tasked us with exploring non-chain restaurants for unmet needs towards off-premise dining</span>
+          <!-- <img class="screen" src="@/assets/projects/food-delivery/food-delivery-screen.png"> -->
+          <span class="type-label">UX Research</span>
+          <span class="info-label">Analyzing and researching complications from locally-sourced procurement from farms to schools</span>
           <div class="footer">
             <div class="footer-spans">
               <div class="span-column">
                 <span><b>Category:</b>&nbsp;Academic</span>
-                <span><b>Duration:</b>&nbsp;One Week</span>
+                <span><b>Duration:</b>&nbsp;One Month</span>
               </div>
               <div class="span-column">
-                <span><b>Date:</b>&nbsp;Fall 2018</span>
-                <span><b>Team:</b>&nbsp;Sydney Arnold, Jordan Mazerolle, Collin Pfender</span>
+                <span><b>Date:</b>&nbsp;Spring 2018</span>
+                <span><b>Team:</b>&nbsp;Mengyi Liu, Taraneh Ekbia, Shakthidhar Gopavaram</span>
               </div>
             </div>
-            <span><b>Skills:</b>&nbsp;User Research Synthesis, Wireframing, Sketching, Hi-Fi Mocks, Design Strategy</span>
+            <span><b>Skills:</b>&nbsp;Research Planning, Recruitment, Toolkit and Workshop Deployment, Interviews</span>
           </div>
         </div>
       </content-block>
       <content-block title="Tl;dr" theme="two">
-        <span class="content-header">Why</span>
-        <p class="content-text">To discover new pain points caused by off-premise dining</p>
-        <span class="content-header">What</span>
-        <p class="content-text">Exploring off-premise dining rather than chain restaurants</p>
-        <span class="content-header">How</span>
-        <p class="content-text">Conducting extensive primary and secondary research and prototyping</p>
+        <div class="block-two full-width">
+          <span class="content-header">Why</span>
+          <p class="content-text">To investigate systemic issues surrounding farm-to-school procurement</p>
+          <span class="content-header">What</span>
+          <p class="content-text">NGO analysis and evaluation for specific needs-based approaches to design for Indiana schools</p>
+          <span class="content-header">How</span>
+          <p class="content-text">Research planning, recruitment of participants, deployment of workshops, semi-structured interviews, and design proposals</p>
+        </div>
       </content-block>
-      <content-block title="Design Process" theme="four">
+      <content-block title="Design Process" theme="three">
         <div class="block-three full-width">
-          <img class="design-process-artboard" src="@/assets/projects/food-delivery/design-process-artboard.svg">
+          <img class="design-process-artboard" src="@/assets/projects/farm-to-school/design-process-artboard.svg">
           <div class="artboard-labels">
-            <span>Explore problem space through constraints</span>
-            <span>Conduct extensive primary research, supplemented by secondary research</span>
-            <span>Ideate, conceptualize, and prototype</span>
+            <span>Conduct extensive secondary research</span>
+            <span>Narrow problem space and develop fieldwork plan</span>
+            <span>Recruit participants, deploy plan, and concretize solutions</span>
           </div>
         </div>
       </content-block>
-      <content-block title="Company Values" theme="two">
+      <content-block title="Problem Framing" theme="two">
         <div class="block-four">
-          <span class="content-header">Core Values</span>
-          <p class="content-text values-paragraph">After a class-conducted interview session with Relish Works, we identified three key focus areas that would connect our problem space and eventually final design to the values that Relish Works upholds. These are the main components and considerations that directed our research.<br><br>Relish Works expressed they wanted a solution that would <b>consider scalability, target market trends over fads, and provide immediate value</b> in our problem space.</p>  
+          <div class="content-header">Problem Space</div>
+          <div class="problem-space">
+            <img src="@/assets/projects/farm-to-school/problem-space.png">
+          </div>
+          <p>Our team needed to deliver a presentation, pictorial, and two-minute video within a month's timeline focusing on the systemic and social issues surrounding various NGOs from our choosing. We gravitated towards Farm to School, particularly due to their values and network to advocate for&nbsp;<b>education, procurement, and school gardening</b>. We also felt as a team that we would have more access to potential research participants in Indiana to aid the cause of this NGO.</p>
+          <div class="problem-space">
+            <img src="@/assets/projects/farm-to-school/problem-space-core-elements.png">
+          </div>
+          <p>We felt our strengths and interests best aligned with focusing on the procurement process for schools from local farmers and larger-networked farms.</p>
+          <p>Our extensive secondary research illuminated six key stakeholders: teachers and staff, community members, students, processors, partners and families, and farmers. Focusing our stakeholder groups of farmers and schools, we worked to understand the problem from each angle, including where the problems overlap.</p>
+          <div class="problem-space">
+            <img class="graph" src="@/assets/projects/farm-to-school/problem-space-graph.png">
+          </div>
+          <p>This narrowing of key problems and stakeholders allowed us to align our goals of the project with two key goals of the NGO Farm to School:</p>
+          <p>"Work with pilot schools to help their foodservice buy, menu, and prepare local foods" "Offer trainings and standard operating procedures on how to properly procure local foods" - Taken from <i>http://www.farmtoschool.org/our-network/Indiana</i></p>
         </div>
       </content-block>
-      <content-block title="Research" theme="four">
+      <content-block title="Fieldwork Plan" theme="four">
         <div class="block-five full-width">
-          <div class="content-header">Methods</div>
-          <p>We constructed a research deployment plan to work quickly in our problem space to better understand the complications and pain points surrounding off-premise dining. This included <b>expert interviews, a focus group, competitive analysis, and walking probes.</b><br><br>To see the full body of research we conducted, please click the button below.</p>
-          <div class="full-research-link">
-            <span>Full Research</span>
-          </div>
-          <div class="content-header">Research Takeaways</div>
-          <p><b>1.</b> The complications arise when a dedicated system and relationship hasn't been established for prioritization and handling</p>
-          <p><b>2.</b> Breakdowns in the system result in unmet expectations</p>
-          <p><b>3.</b> Restaurants build up reputations among delivery drivers for how they handle in-house dining, off-premise dining, and delivery processes.</p>
-          <p><b>4.</b> Relations between drivers and dispatch are often disjointed.</p>
+          <div class="content-header">Objectives + Scope</div>
+          <p>Our primary objectives focused around learning specifics from local farms and schools about how the procurement agreement takes place and how relationships are initially formed between farms and schools.</p>
+          <p>We constructed a plan to collect primarily qualitative data through semi-structured interviews, cognitive mapping workshops, and fantasy workshops. For participants, we focused on recruitment via email, clarifying our roles on the project and asking for potential interest from local farmers and schools. We were graduate students at a reputable college (Indiana University Bloomington), and didn't provide incentives in fear of biasing the data with affirmation in search of reward rather than honest answers. Our goal was to recruit at least one school and farm.</p>
+          <p>Our data collection methods included note taking, audio recording, picture taking, on-site mapping, and on-site card creation using the tools of pen and paper, phone cameras, and smartphone recording in addition to pre-prepared materials such as the "What If" cards for the fantasy workshop.</p>
         </div>
       </content-block>
-      <content-block title="Problem Space" theme="two">
+      <content-block title="Research" theme="two">
         <div class="block-six full-width">
-          <div class="content-header">AEIOU Workshop</div>
-          <p class="info-paragraph">In order to generate directive and provide a taxonomy towards our insights, we performed an AEIOU workshop. Akin to affinity diagramming this exercise required our team to develop as many ideas as possible. Unlike traditional affinity diagramming, we had preassigned categories: Activities, Environment, Interactions, Objects, and Users. We used this structure to provoke meaningful discussion over the entire problem space, eliciting our assumptions, and providing spatial representation of relation.</p>
-          <img class="planning-image" src="@/assets/projects/food-delivery/planning.png">
-          <img class="scalability-image" src="@/assets/projects/food-delivery/scalability.png">
-          <div class="content-header">Research Synthesis</div>
-          <div class="research-synthesis">
-            <div class="info">
-              <p>After our research phase, we complied possible pain points using the AEIOU methodology to identity multiple areas of the off-premise dining experience. Ultimately, our research pointed us towards focusing on the space between restaurant workers and delivery drivers.</p>
-              <p>Because third-party services do not always have established relationships with restaurants, we found that from a systemic level, the most effective change comes from <b>changing the relationship between operators and drivers</b>, as these interactions recur most.</p>
-            </div>
-            <img class="image" src="@/assets/projects/food-delivery/research-synthesis.png">
-          </div>
-          <p class="rs-footer">The <b>lack of relationship</b> between the delivery drivers and food service providers led to a <b>misattribution of fault</b> when there was a breakdown in the process.</p>
+          <div class="content-header">Recruitment</div>
+          <p>Following our research plan, we emailed several Indiana schools and farms to hopefully receive a response in the timeframe of one week. One local farm, two local school system representatives at separate schools, and one Farm to School network representative agreed to help us with our research, thus giving us three field sites and one remote field site to work with.</p>
+          <div class="content-header">Interviews + Workshops</div>
+          <p>To supplement our semi-structured interviews deployed with each of the five participants, we constructed one cognitive mapping workshop we deployed at the farm site and one fantasy workshop with a local school representative.</p>
+          <p>Conducting our cognitive mapping workshop with a local farm, we found that the process of procurement for their farm ecosystem constrained specifically towards experimentation and customer feedback. Another recurring theme stemmed from education of crops and typology versus customer expectations of those crops.</p>
+          <p>The most key theme of the procurement process for this farm centered around community, drawing our attention to their involvement with local events, volunteering, and other local farming communities.</p>
         </div>
       </content-block>
-      <content-block title="Proposed Design" theme="two">
+      <content-block title="Design Insights" theme="one">
         <div class="block-seven full-width">
-          <div class="content-header">Design Overview</div>
-          <p class="info">With our targeted pain points, we needed a <b>low-cost, potentially hands-free solution</b>. Our research illustrated that food truck workers are often on-the-go and cannot have that flow interrupted by incoming emails and notifications while also attempting to serve in-house customers. Therefore, we developed a digital ticket prototype using Arduinos and screens that would be placed in the same area that printed tickets go.</p>
-          <div class="content-header">Design Concept</div>
-          <div class="concept-header">
-            <img src="@/assets/projects/food-delivery/concept-header.png">
-          </div>
-          <div class="workflow-row full-width">
-            <div class="workflow-list-item">
-              <h1>1</h1>
-              <img src="@/assets/projects/food-delivery/concept-one.png">
-              <p>As an auto-rotating <b>digital ticket in physical Arduino form</b>, an indicator displays the current volume of orders.</p>
-            </div>
-            <div class="workflow-list-item">
-              <h1>2</h1>
-              <img src="@/assets/projects/food-delivery/concept-two.png">
-              <p>Tapping the order button brings up order details for easy access and checking between operator and drivers.</p>
-            </div>
-          </div>
-          <div class="workflow-row full-width">
-            <div class="workflow-list-item">
-              <h1>3</h1>
-              <img src="@/assets/projects/food-delivery/concept-three.png">
-              <p>Color change indicates urgency of order to arrival time.</p>
-            </div>
-            <div class="workflow-list-item">
-              <h1>4</h1>
-              <img src="@/assets/projects/food-delivery/concept-four.png">
-              <p>The driver profile panel includes basic information about the delivery driver to build trust with the operators.</p>
-            </div>
-          </div>
+          <h3>Following each of our research deployment sessions, we generated a combination of notes, recordings, pictures, and audio recordings. After parsing through each of them, we developed nine key insights to design around:</h3>
+          <p><b>1. Relationship management</b>: connecting and maintaining relationships between local farmers and schools</p>
+          <p><b>2. Assumption of needs / perceptual barriers</b>: specific logistics like quantity of produce required/ able to be provided are assumed by both sides</p>
+          <p><b>3. Interest farmers in Farm to School</b>: provide direct information and benefit to introduce and recruit farmers to the Farm to School program</p>
+          <p><b>4. Food processing post-procurement</b>: cleaning and maintaining the freshness of food and the responsibility of the schools and / or farmers towards this end.</p>
+          <p><b>5. Develop lasting trust between schools and farms</b>: What happens when a farm's produce or crops fails to grow for a season? What back-up plans can be created for both farms and schools?</p>
+          <p><b>6. Piazza Produce currently works well for schools</b>: schools are able to find locally-sourced foods at transparent prices with abundant produce amounts</p>
+          <p><b>7. Personal relationships (and secondary contacts) influence the procurement process</b>: schools procure from those whom they trust and rely on contacts to assist them in the procurement process</p>
+          <p><b>8. Additional funds may be available to initiate the Farm to School program</b>: money is a continuous and perhaps most constraining aspect of the procurement process for both farms and schools</p>
+          <p><b>9. Most of the work for our NGO is voluntary</b>: this relies heavily on the interest and motivation of volunteer workers who may already have additional resource and time constraints in their lives.</p>
+          <p>Narrowing our focus for our final design conceptualization stage, we chose to specifically focus on the bolded insights.</p>
         </div>
       </content-block>
-      <content-block title="Design Strategy" theme="three">
-        <div class="block-eight full-width">
-          <p class="full-width">We split our future concept into three phases, focusing primarily on phase one in this project and will continue to iterate as our success metrics are reached after phase one implementation starts. Phase one focuses on immediate communication issues, phase two upscales the cost of the design implementation to add features such as collecting delivery data and predictive supply trends, and phase three focuses on connecting fresh produce to local businesses as per Relish Works' values.</p>
-          <div class="phases">
-            <div class="image-block">
-              <span>Phase 1</span>
-              <img src="@/assets/projects/food-delivery/phase-one.png">
-            </div>
-            <div class="image-block">
-              <span>Phase 2</span>
-              <img src="@/assets/projects/food-delivery/phase-two.png">
-            </div>
-            <div class="image-block">
-              <span>Phase 3</span>
-              <img src="@/assets/projects/food-delivery/phase-three.png">
-            </div>
-          </div>
-          <div class="content-header">Defining Success</div>
-          <h3>Less Pressure Because Expectations Are Known</h3>
-          <p>In order to ensure that relationships between delivery drivers and operators have improved, a follow-up focus group can be used after a year-long period to monitor improvement of overall work environment along with surveys given to both food operators and delivery drivers. One survey should be dispersed at the beginning of the implementation and another one year after initialization.</p>
-          <h3>Quicker Pickup / Delivery Time Optimization</h3>
-          <p>To monitor time-of-delivery, the GPS-enabled delivery driver devices can be monitored for time to location (weighed against usual timing), time spent on-premise, and time to consumer. If this improves, the perceived quality of food will be higher on the consumer end due to freshness/ heat of the food maintained from optimized timing of the order.</p>
-        </div>
-      </content-block>
-      <content-block title="Research (Extended)" theme="four">
-        <div class="block-ten full-width">
-          <div class="content-header">Pain Points</div>
-          <div class="pain-point">
-            <img src="@/assets/projects/food-delivery/pain-points-systems.png">
+      <content-block title="Design Proposals" theme="three">
+        <div class="block-eight">
+          <div class="content-header">Design Concepts</div>
+          <p>After a few rounds of rapid ideation, we solidified five design concepts that we wanted to proceed and test with another fantasy workshop. Each concept sought to address a specific design insight we gathered or combination of insights that could directly develop a solid relationship between local farmers and Farm to School. We created a storyboard for each of our design concepts to showcase in the form of "What If" cards in our fantasy workshop. Our motivation to use a fantasy workshop to receive feedback stemmed from the concepts not being fully conceptualized and having lower-fidelity looking "What If" cards allowed our participant to more readily critique our given designs.</p>
+          <p>After receiving feedback and conducting another fantasy workshop and semi-structured interview with a local school representative to validate our concepts, it became very clear that one concept proved most plausible and met the goals of both farmers and values of Farm to School to better involve both parties in the procurement process.</p>
+          <div class="content-header">Exemplars</div>
+          <div class="exemplars">
+            <img src="@/assets/projects/farm-to-school/exemplars.png">
             <div>
-              <h3>Systems</h3>
-              <p>The major differentiation between all of the restaurants our class interview was that each restaurant had its own complex system of how they receive, process, and deliver orders. Some restaurants used technologies such as iPads, phones, or tickets to receive and process orders, while others used paper systems. Once the orders were done for a selected time period, there were again different methods and formats of storing and analyzing that data.</p>
+              <p>To better inform our final design concept, we collected ten exemplars of solutions already existing in our space. The one the most informed our final design came from IDEO's work with San Francisco Unified School District to design a student-centered cafeteria experience.</p>
+              <p>- Taken from <i>www.ideo.com/case-study/a-student-centered-cafeteria-experience</i></p>
             </div>
           </div>
-          <div class="pain-point">
-            <img src="@/assets/projects/food-delivery/pain-points-communication.png">
-            <div>
-              <h3>Communication</h3>
-              <p>Our team specifically focused on chatting with management positions within third party delivery companies. From these interviews we had conversations about the most common complaints they hear regarding their company. We realized that most complaints were focused on miscommunications between the restaurant workers preparing or giving the order to the driver, particularly concerning inaccuracies in the order.</p>
+          <div class="content-header">Design Visualization</div>
+          <img class="visualization" src="@/assets/projects/farm-to-school/design-visualization.png">
+          <p>For our final design, based on the fantasy workshop following our conceptualization of our five design concepts, we decided to move forward and iterate on our idea of <b>hosting farmer's markets directly inside of schools</b>. To this end, we believe that having schools host the farmer's markets will not only facilitate and build relationships between farms and schools, but also build relationships between student and farmers, allowing for educational opportunities while promoting local community.</p>
+          <div class="image-blocks">
+            <div class="row">
+              <div class="block">
+                <img src="@/assets/projects/farm-to-school/vis-block-one.png">
+                <p><b>Grocery shopping for their family</b>: While attending the farmer's market, the students would shop for produce based on familial need. This would not only allow students to consider more carefully the source and contents of what they eat at home, but also encourage discussion between family members about the importance of food source and quality.</p>
+              </div>
+              <div class="block">
+                <img src="@/assets/projects/farm-to-school/vis-block-two.png">
+                <p><b>Helping farmers set up stand for farmer's market</b>: students can volunteer to help farmers set up their respective stands to learn about the processes through which food is prepared for public consumption, as well as build relationships with local farmers.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="block">
+                <!-- <img src="@/assets/projects/farm-to-school/vis-block-three.png"> -->
+                <p><b>Browsing kiosk information</b>: during the farmer's market, different locations will have tablet kiosks that will provide information about the farms attending the farmer's market such as main produces, contact information, and location. Additionally, this is another educational opportunity for the students to provide information about farming practices and philosophy at-a-glance, such as permaculture and multi-level farming.</p>
+              </div>
+              <div class="block">
+                <img src="@/assets/projects/farm-to-school/vis-block-four.png">
+                <p><b>DIY Meal</b>: Of course, as a facet of any farmer's market, food quality and consumption are focal points. Having an activity where students creating their own meals using the available ingredients from attending farms would facilitate critical thought in the students about where their food is sourced and how to balance nutritional components of their everyday meals. This activity in particular would also be supervised by teachers or parents who attend, so that students don't simply choose two apples as a meal.</p>
+              </div>
             </div>
           </div>
-          <div class="content-header">Primary Research</div>
-          <div class="research-content">
-            <span><b>Expert Interview</b>: 09.18.2018</span>
-            <div>
-              <span><b>Participant</b>: Male, 35, Co-Owner of The Big Cheese (Food Truck)</span>
-            </div>
-            <p>When interviewing our participant, our team heard complaints regarding fresh food, complaints from customers, and the balance between serving in-house customers and off-premise dining orders.</p>
-            <p>He stressed that <b>often there is not a system set up</b> to deal with who should be prioritized in getting their food: in-house customers or off-premise dining delivery orders.</p>
+          <div class="video">
+            <p>Video showcase of our design concept</p>
           </div>
-          <div class="research-content">
-            <span><b>Expert Interview</b>: 09.17.2018</span>
-            <div>
-              <span><b>Participant</b>: Male, 45, RDS Manager / Owner (Order-In Delivery Service)</span>
-            </div>
-            <p>Most of the time it's not the driver's fault if a mistake happens. <b>The complications arise when a dedicated system and relationship hasn't been established with the restaurant and the delivery service provider.</b></p>
-            <p>Because of this absence, it leads to complications in predicting order times for consumers and thus unmet expectations when the order takes longer than anticipated.</p>
-          </div>
-          <div class="research-content">
-            <span><b>Expert Interview</b>: 09.18.2018</span>
-            <div>
-              <span><b>Participant</b>: Female, 50, RDS Delivery Driver</span>
-            </div>
-            <p>As a delivery driver, our participant noted <b>anxiety anytime the process of delivery took longer than expected, which usually leads to miscommunication with the customer</b> who then complains to the restaurant. These strings of miscommunications occur when a restaurant doesn't have a good system in place to handle delivery drivers during busy hours, such as dinner time.</p>
-          </div>
-          <div class="research-content">
-            <span><b>Focus Group</b>: 09.18.2018</span>
-            <div>
-              <span><b>Participant</b>: Three Men, 23-27, BtownMenus Delivery Drivers</span>
-            </div>
-            <p>Restaurants often build up reputations among the drivers determined by several factors such as order lateness, on-premise designated point of contact or pickup, and advance ordering. Drivers choose which restaurant orders they want to take, <b>often blacklisting certain restaurants because of difficulty dealing with the restaurants' processes.</b></p>
-            <p>Ultimately, these large ordering services lack repore with these restaurants, fostering no relationship or positive experiences towards this process internally, which provides <b>no incentive for restaurant employees to engage with these drivers</b> because it leads to complicating their daily job flow.</p>
-          </div>
-          <div class="research-content">
-            <span><b>Walking Probe</b>: 09.18.2018</span>
-            <div>
-              <span><b>Participant</b>: Us!</span>
-            </div>
-            <p>We took advantage of a few of the restaurants and food trucks along the downtown Bloomington, IN area. In cataloging and annotating photos, <b>we expanded our perception of what occurs in a service counter exchange</b>, as well as a sample of artifacts that our food operators and delivery drivers experience.</p>
-          </div>
-          <div class="workflow-row full-width">
-            <div class="workflow-list-item">
-              <h1>1</h1>
-              <img src="@/assets/projects/food-delivery/walk-one.png">
-              <p>At Chipotle, the open service encounter occurs at this POS. If picking up for delivery, workers cut the line to request if their order is ready.</p>
-            </div>
-            <div class="workflow-list-item">
-              <h1>2</h1>
-              <img src="@/assets/projects/food-delivery/walk-two.png">
-              <p>Outside Chipotle a BtownMenus delivery service car exits from a popular alleyway. Many sorts of vehicle types may demand different enter and exit strategies for drivers.</p>
-            </div>
-          </div>
-          <div class="workflow-row full-width">
-            <div class="workflow-list-item">
-              <h1>3</h1>
-              <img src="@/assets/projects/food-delivery/walk-three.png">
-              <p>Taking a closer look at the alleyway where the Btown Menus car once resided, we can see a natural "pull-up" or "rive-up" to a door on the left side of the photo. This acts as a point of entry for many call ahead orders, not simply for delivery services.</p>
-            </div>
-            <div class="workflow-list-item">
-              <h1>4</h1>
-              <img src="@/assets/projects/food-delivery/walk-four.png">
-              <p>Right next door, there is a very large Mexican food truck, which requires an extra large parking space.</p>
-            </div>
-          </div>
-          <div class="workflow-row full-width">
-            <div class="workflow-list-item">
-              <h1>5</h1>
-              <img src="@/assets/projects/food-delivery/walk-five.png">
-              <p>We got the opportunity to help this Kebab truck park in a tight spot. As you can see the service window is quite constrained.</p>
-            </div>
-            <div class="workflow-list-item">
-              <h1>6</h1>
-              <img src="@/assets/projects/food-delivery/walk-six.png">
-              <p>The Kebab owner was very generous in allowing us a photo of their inner artifact ecology. By looking closely at his main tools, you can see a hand-cut pan, for instance.</p>
-            </div>
-          </div>
-          <div class="workflow-row full-width">
-            <div class="workflow-list-item">
-              <h1>7</h1>
-              <img src="@/assets/projects/food-delivery/walk-seven.png">
-              <p>Accessing The Big Cheeze food truck, we are able to identify utensils such as formal spatulas,and a flat top grill. Creative heating is displayed as the workers place a tin can of cheese on the flat top.</p>
-            </div>
-            <div class="workflow-list-item">
-              <h1>8</h1>
-              <img src="@/assets/projects/food-delivery/walk-eight.png">
-              <p>Next to the flattop, we found a fryer, a pair oftongs, and a surface to hold finished items, like the fries.</p>
-            </div>
-          </div>
-          <div class="workflow-row full-width">
-            <div class="workflow-list-item">
-              <h1>9</h1>
-              <img src="@/assets/projects/food-delivery/walk-nine.png">
-              <p>The service exchange and holding counter has an iPad as the POS system. The messiness below demonstrates a creative array of things.</p>
-            </div>
-            <div class="workflow-list-item">
-              <h1>10</h1>
-              <img src="@/assets/projects/food-delivery/walk-ten.png">
-              <p>In comparison to the Kebab truck, this food truck has a very large service window, which affords more face time and interaction, whether from customers or delivery drivers.</p>
-            </div>
-          </div>
-          <div class="insights">
-            <h1>Walking Probe Insights</h1>
-            <p>When in brick and mortar environments, <b>it can feel a little awkward or intrusive to reach a POS system</b> to pick-up deliveries if a specific pick-up window is not in place.</p>
-            <p>The <b>service window</b>, especially in food trucks, is a strong determining factor on who has access to the food operate. <b>It can also constrict the social pressure felt by the worker</b>.</p>
-            <p>In off-premise food operation vehicles, there is often a non-uniform, cluster, or array of artifacts. <b>This space is not readily interpretable environment for strangers</b> (such as delivery service-people).</p>
-          </div>
-          <div class="content-header">Secondary Research</div>
-          <div class="secondary-research">
-            <p><b>Off-premise dining will continue to contribute to a large proportion of meals</b>, increased by 12% each year. This is primarily attributed to <b>relationships surrounding food delivery</b>, where RPS (Restaurant Delivery Services) drivers are key players in that system.</p>
-            <p>We also assembled a restaurant matrix to better understand our problem space.</p>
-            <img class="full-width" src="@/assets/projects/food-delivery/restaurant-matrix.png">
-            <p>Although we aren't technical engineers, we also tried to <b>consider the cost of our design's materials</b> through researching Arduino solutions already on the market at various price points based on our design strategy.</p>
-            <div class="costs">
-              <p><b>Wifi-Enabled Arduino Device</b>&nbsp;- $12.99<br>
-              <b>Arduino TFT 5-inch Touch Screen</b>&nbsp;- $34.88<br>
-              <b>Raspberry Pi 3 Model B</b>&nbsp;- $37.30<br>
-              <b>Raspberry Pi 5-inch TFT Touch Screen</b>&nbsp;- $36.99</p>
-              <p><i>Additional costs may include wiring, soldering supplies and resistors.</i></p>  
-            </div>
-          </div>
-          <div class="citations">
-            <h2>Citations:</h2>
-            <h3>Trends</h3>
-            <p><i>usfoods.com/great-food/food-trends/off-premise-dining-is-here-to-stay--are-you-ready-for-it-.html</i></p>
-            <p><i>restaurantbusinessonline.com/consumer-trends/stats-are-consumers-are-upping-restaurant-delivery</i></p>
-            <h3>Restaurant Matrix</h3>
-            <p><i>Data collected through personal knowledge and staff interviews</i></p>
-            <p><i>Costs taken from Amazon Marketplace listings in September of 2019.</i></p>
-          </div>
+          <p>Finally, we created an experience map of our concept to better understand and consider the flow of the users thorugh the farmer's market.</p>
+          <img class="flow" src="@/assets/projects/farm-to-school/flow.png">
         </div>
       </content-block>
       <content-block title="Reflection" theme="one">
-        <div class="block-eleven full-width">
+        <div class="block-nine full-width">
           <b>What worked?</b>
-          <p>We had a really good chemistry as a team that allowed us to experiment with unfamiliar design and research methodologies. As the point of this class, Rapid Design for Slow Change, was about how to apply classical learning of methods to practical design prompts sponsored by companies, we decided in this week and project to really push the boundaries of our problem space and exhaust all our resources and contacts to truly understand the users and interactions within this space.</p>
+          <p>Although 24-hours is not much time, we were able to accomplish fully-developed iterations on Audible's existing user interface by leveraging each of our team member's talents. The division of labor for this project was minimal given the time constraint. By the end, I realized how much my cohort and team members had grown as designers in just one semester of graduate studies. Being able to execute research, prototyping, existing interface critique, and user testing in 24-hours proved difficult but possible!</p>
           <b>What to improve for next time?</b>
-          <p>Overall, we executed our research plan well and within the time constraints of the project, but when the conceptualization phase of the project came, we struggled initially to ideate on any specific solution. We eventually arrived at the solution we have now, but needed to prioritize more time for prototyping and visual design for our concept.</p>
+          <p>The division of labor could've been better executed, but working closely for 24-hours put significant pressure on us to come up with a fully-executed design deliverable. If we were to do the project again, I would suggest that we divide the labor into segmented parts so that we could split up and reconvene, rather than all work on the project at once.</p>
           <i><b>All iconography sourced from The Noun Project: https://thenounproject.com/</b></i>
           <div class="next-project-footer">
             <span>Previous Project</span>
@@ -303,7 +159,7 @@
   import ContentBlock from '@/components/content/content-block.vue';
 
   export default {
-    name: 'food-delivery-content',
+    name: 'farm-to-school-content',
     components: {
       ContentBlock
     }
@@ -349,6 +205,7 @@
         padding: 3px 18px;
         font-size: 0.8em;
         margin: 40px 0;
+        box-shadow: 2px 2px #D5D5D5;
       }
       .info-label {
         color: #1C4966;
@@ -392,209 +249,80 @@
         color: #fff;
         text-align: center;
         font-size: 0.95em;
+        padding: 20px 0 0 20px;
+        * {
+          max-width: 200px;
+        }
       }
     }
     .block-four {
       max-width: 600px;
-      .values-paragraph {
-        margin-top: 20px;
-        font-size: 0.75em;
+      font-size: 0.7em;
+      .problem-space {
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+        img {
+          width: 400px;
+          &.graph {
+            width: 650px;
+          }
+        }
       }
     }
     .block-five {
-      .full-research-link {
-        position: relative;
-        cursor: pointer;
-        margin: auto;
-        height: 62px;
-        background-color: #fa6182;
-        width: 380px;
-        text-align: center;
-        font-weight: bold;
-        line-height: 62px;
-        margin-top: 80px;
-        margin-bottom: 60px;
-        span {
-          color: #fff;
-          text-transform: uppercase;
-          font-size: 1.8em;
-        }
-        &:after {
-          position: absolute;
-          transition: left 0.1s ease, top 0.1s ease;
-          left: -4px;
-          top: -4px;
-          width: 380px;
-          height: 62px;
-          border: 2px solid #ddd;
-          content: "";
-        }
-        &:hover {
-          background-color: darken(#fa6182, 3%);
-          &:after {
-            left: 4px;
-            top: 4px;
-          }
-        }
-      }
+      font-size: 0.8em;
     }
     .block-six {
-      .info-paragraph {
-        font-size: 0.8em;
-      }
-      .planning-image {
-        width: 100%;
-        margin-top: 40px;
-      }
-      .scalability-image {
-        width: 100%;
-        margin-top: 80px;
-      }
-      .research-synthesis {
-        display: flex;
-        .info {
-          font-size: 0.8em;
-        }
-        .image {
-          width: 50%;
-        }
-      }
-      .rs-footer {
-        font-size: 0.8em;
-        margin-top: 60px;
-      }
+      font-size: 0.8em;
     }
     .block-seven {
-      max-width: 600px;
-      .info {
-        font-size: 0.8em;
-        margin-bottom: 40px;
-      }
-      .concept-header {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        margin: 40px 0;
-        img {
-          width: 200px;  
-        }
-      }
-      .workflow-row {
-        display: flex;
-        flex-flow: row;
-        justify-content: space-between;
-        .workflow-list-item {
-          max-width: 200px;
-          img {
-            max-width: 200px;
-            margin-bottom: 20px;
-          }
-          p {
-            font-size: 0.8em;
-          }
-        }  
-      }
-      .label {
-        p {
-          width: 550px;
-          margin: auto;
-        }
+      max-width: 650px;
+      font-size: 0.8em;
+      h3 {
+        margin-bottom: 30px;
       }
     }
     .block-eight {
-      .phases {
+      max-width: 700px;
+      font-size: 0.75em;
+      .exemplars {
         display: flex;
-        justify-content: space-between;
-        margin-top: 80px;
-        margin-bottom: 40px;
-        .image-block {
-          display: flex;
-          flex-flow: column;
-          span {
-            text-align: center;
-          }
-          img {
-            width: 200px;
-          }
-        }
-      }
-      h3 {
-        margin-top: 50px;
-      }
-    }
-    .block-ten {
-      .pain-point {
-        display: flex;
-        margin-top: 50px;
         img {
-          width: 40%;
-        }
-        h3 {
-          margin-bottom: 20px;
-        }
-        p {
-          font-size: 0.8em;
+          width: 50%;
+          margin-right: 20px;
         }
       }
-      .research-content {
+      .visualization {
+        width: 100%;
+      }
+      .image-blocks {
         display: flex;
         flex-flow: column;
-        font-size: 1.2em;
-        margin-top: 30px;
-        span {
-          margin: 10px 0;
+        margin-top: 50px;
+        .row {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 15px;
+          .block {
+            width: 40%;
+            img {
+              width: 100%;
+              margin-bottom: 15px;
+            }
+          }
         }
-        b {
-          margin-top: 30px;
-        }
+      }
+      .video {
         p {
-          margin-top: 12px;
-          font-size: 0.8em;
-        }
-      }
-      .workflow-row {
-        display: flex;
-        flex-flow: row;
-        justify-content: space-between;
-        margin-bottom: 30px;
-        .workflow-list-item {
-          max-width: 400px;
-          img {
-            max-width: 400px;
-            margin-bottom: 20px;
-          }
-          p {
-            font-size: 0.7em;
-          }
-        }  
-      }
-      .insights {
-        background-color: #FD5F80;
-        padding: 50px 80px;
-        width: 700px;
-        margin: auto;
-        h1 {
           text-align: center;
-          margin-bottom: 20px;
-        }
-        p {
-          font-size: 0.8em;
         }
       }
-      .secondary-research {
-        p {
-          margin: 20px 0;
-          font-size: 0.8em;
-        }
-      }
-      .citations {
-        font-size: 0.8em;
-        h3 {
-          margin-top: 40px;
-        }
+      .flow {
+        width: 100%;
       }
     }
-    .block-eleven {
+    .block-nine {
       .next-project-footer {
         display: flex;
         justify-content: space-between;

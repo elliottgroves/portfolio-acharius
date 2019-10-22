@@ -1,5 +1,5 @@
 <template>
-	<div class="project-content">
+  <div class="project-content">
     <div class="content">
       <content-block title="Food Delivery" theme="five">
         <div class="block-one full-width">
@@ -50,7 +50,7 @@
         <div class="block-five full-width">
           <div class="content-header">Methods</div>
           <p>We constructed a research deployment plan to work quickly in our problem space to better understand the complications and pain points surrounding off-premise dining. This included <b>expert interviews, a focus group, competitive analysis, and walking probes.</b><br><br>To see the full body of research we conducted, please click the button below.</p>
-          <div class="full-research-link">
+          <div class="full-research-link" @click="scrollToFullResearch">
             <span>Full Research</span>
           </div>
           <div class="content-header">Research Takeaways</div>
@@ -136,7 +136,7 @@
         </div>
       </content-block>
       <content-block title="Research (Extended)" theme="four">
-        <div class="block-ten full-width">
+        <div class="block-ten full-width" ref="FullResearchHeader">
           <div class="content-header">Pain Points</div>
           <div class="pain-point">
             <img src="@/assets/projects/food-delivery/pain-points-systems.png">
@@ -306,6 +306,18 @@
     name: 'food-delivery-content',
     components: {
       ContentBlock
+    },
+    methods: {
+      scrollToFullResearch() {
+        const options = {
+            easing: 'ease-in-out',
+            offset: -200,
+            x: false,
+            y: true
+        };
+        const element = this.$refs.FullResearchHeader;     
+        this.$scrollTo(element, 1000, options);
+      }
     }
   }
 </script>
@@ -349,6 +361,7 @@
         padding: 3px 18px;
         font-size: 0.8em;
         margin: 40px 0;
+        box-shadow: 3px 3px #D5D5D5;
       }
       .info-label {
         color: #1C4966;

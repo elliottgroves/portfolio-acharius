@@ -1,22 +1,24 @@
 <template>
   <div class="project-content">
     <div class="content">
-      <content-block title="24-Hour Challenge" theme="four">
+      <content-block title="24-Hour Challenge" theme="six">
         <div class="block-one full-width">
-          <div class="header-details">
-            <div><span>UX Design</span></div>
-            <div><img class="audible-logo" src="@/assets/projects/voice-highlighting/audible-logo.png"></div>
-          </div>
+          <div class="header-details"><img class="audible-logo" src="@/assets/projects/voice-highlighting/audible-logo.png"></div>
           <img class="mockup-image" src="@/assets/projects/voice-highlighting/mockup.png">
+          <span class="type-label">UX Design</span>
           <h2>Conceptualizing how to highlight in audiobooks</h2>
-          <div class="footer-details">
-            <div class="row">
-              <span><u>Date</u>: Fall 2017</span>
-              <span><u>Duration</u>: 24 Hours</span>
-              <span><u>Category</u>: Academic</span>
+          <div class="footer">
+            <div class="footer-spans">
+              <div class="span-column">
+                <span><b>Category:</b>&nbsp;Academic</span>
+                <span><b>Duration:</b>&nbsp;24 Hours</span>
+              </div>
+              <div class="span-column">
+                <span><b>Date:</b>&nbsp;Fall 2017</span>
+                <span><b>Team:</b>&nbsp;TaCora Burton, Kailin Yang, Zheqi Zhu</span>
+              </div>
             </div>
-            <span><u>Team</u>: TaCora Burton, Kailin Yang, Zheqi Zhu</span>
-            <span><u>Skills</u>: Wireframing, Sketching, Prototyping, Research, Documentation</span>
+            <span><b>Skills:</b>&nbsp;Wireframing, Sketching, Prototyping, Research, Documentation</span>
           </div>
         </div>
       </content-block>
@@ -164,13 +166,9 @@
         display: flex;
         margin-bottom: 20px;
         font-size: 1.2em;
-        div {
-          width: 50%;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        }
+        justify-content: center;
         .audible-logo {
+          margin-left: 30px;
           width: 140px;
         }  
       }
@@ -178,24 +176,41 @@
         width: 500px;
         margin: auto;
       }
+      .type-label {
+        background-color: #193d54;
+        color: #fff;
+        font-weight: bold;
+        padding: 3px 18px;
+        font-size: 0.8em;
+        margin: 40px 0;
+        box-shadow: 2px 2px #D5D5D5;
+      }
       h2 {
         margin-top: 40px;
         text-align: center;
       }
-      .footer-details {
-        width: 500px;
-        color: #fff;
-        font-size: 0.8em;
-        margin: auto;
-        margin-top: 30px;
+      .footer {
+        background-color: #FD5F80;
         display: flex;
         flex-flow: column;
+        margin-top: 24px;
+        font-size: 0.66em;
+        color: #fff;
+        width: 100%;
+        text-align: left;
+        padding: 40px;
         &>* {
-          margin: 6px 0;
+          margin-bottom: 12px;
         }
-        .row {
+        .footer-spans {
           display: flex;
-          justify-content: space-between;
+          .span-column {
+            display: flex;
+            flex-flow: column;
+            span {
+              margin: 0 23px 14px 0;
+            }
+          }  
         }
       }
     }

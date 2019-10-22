@@ -1,5 +1,5 @@
 <template>
-	<div class="project-content">
+  <div class="project-content">
     <div class="content">
       <content-block title="My Portfolio" theme="three">
         <div class="block-one full-width">

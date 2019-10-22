@@ -4,7 +4,7 @@
     <div class="navigation">
       <v-btn flat :class="{ 'active-button' : activeButton === 'home' }" @click="home()">Home</v-btn>
       <v-btn flat :class="{ 'active-button' : activeButton === 'projects' }" @click="projects()">Projects</v-btn>
-      <v-btn flat :class="{ 'active-button' : activeButton === 'about' }">About</v-btn>
+      <v-btn flat :class="{ 'active-button' : activeButton === 'about' }" @click="about()">About</v-btn>
     </div>
   </div>
 </template>

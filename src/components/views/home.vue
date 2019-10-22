@@ -4,14 +4,6 @@
     <img ref="outline-image" style="display: none;" src="../../assets/bg-outline.png">
     <canvas ref="canvas"></canvas>
     <navbar activeButton="home"></navbar>
-    <!-- <div class="header">
-      <div class="title">Acharius Design</div>
-      <div class="navigation">
-        <v-btn depressed color="black" class="active-button">Home</v-btn>
-        <v-btn flat @click="portfolio()">Projects</v-btn>
-        <v-btn flat>About</v-btn>
-      </div>
-    </div> -->
   </div>
 </template>
 

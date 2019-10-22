@@ -1,20 +1,24 @@
 <template>
   <div class="project-content">
     <div class="content">
-      <content-block title="Identity Management" theme="one">
-        <div class="block-one full-width">
+      <content-block title="Identity Management" theme="five">
+        <div class="block-one">
           <span class="sponsor-info">Sponsored by <img class="okta-logo" src="@/assets/projects/identity-management/okta-logo.png"></span>
-          <span>UX / UI Design</span>
           <img class="okta-devices" src="@/assets/projects/identity-management/okta-devices.png">
+          <span class="type-label">UX Design</span>
           <h3>Okta tasked us with tackling identity from a B2B model towards a B2C model.</h3>
           <div class="footer">
-            <div class="three-spans">
-              <span><u>Date:</u>&nbsp;Fall 2018</span>
-              <span><u>Duration:</u>&nbsp;One Week</span>
-              <span><u>Category:</u>&nbsp;Academic</span>
+            <div class="footer-spans">
+              <div class="span-column">
+                <span><b>Category:</b>&nbsp;Academic</span>
+                <span><b>Duration:</b>&nbsp;One Week</span>
+              </div>
+              <div class="span-column">
+                <span><b>Date:</b>&nbsp;Fall 2018</span>
+                <span><b>Team:</b>&nbsp;Sheng Jiang, Yash Mittal, Elizabeth King</span>
+              </div>
             </div>
-            <span><u>Team:</u>&nbsp;Sheng Jiang, Yash Mittal, Elizabeth King</span>
-            <span><u>Skills:</u>&nbsp;User Research Synthesis, Wireframing, Sketching, Hi-Fi Mocks, Design Strategy</span>
+            <span><b>Skills:</b>&nbsp;User Research Synthesis, Wireframing, Sketching, Hi-Fi Mocks, Design Strategy</span>
           </div>
         </div>
       </content-block>
@@ -53,7 +57,7 @@
           <div class="content-header">Methods</div>
           <p>Based on our limited schedule, we decided to deploy three research methods: <b>literature review</b>,&nbsp;<b>semi-structured interviews</b>, and&nbsp;<b>competitive analysis</b>.</p>
           <p>To see the full body of research we conducted, please click the button below.</p>
-          <div class="full-research-link">
+          <div class="full-research-link" @click="scrollToFullResearch">
             <span>Full Research</span>
           </div>
           <div class="content-header">Key Insights</div>
@@ -170,7 +174,7 @@
         </div>
       </content-block>
       <content-block title="Research (Extended)" theme="four">
-        <div class="block-ten full-width">
+        <div class="block-ten full-width" ref="FullResearchHeader">
           <div class="content-header">Insight Support</div>
           <div class="circles single full-width">
             <div class="circle">
@@ -197,7 +201,6 @@
             <span>"It's annoying. I try not to pay attention to ads."</span>
             <b>Q: How do you feel about having your personal information public on Facebook?</b>
             <span>"I don't care really. Should I care?"</span>
-            <div class="divider-line"></div>
           </div>
           <div class="circles single full-width">
             <div class="circle">
@@ -213,7 +216,6 @@
             <img src="@/assets/projects/identity-management/research-graph-one.png">
             <img src="@/assets/projects/identity-management/research-graph-one.png">
           </div>
-          <div class="divider-line"></div>
           <div class="circles single full-width">
             <div class="circle">
               <h1>3</h1>
@@ -237,10 +239,8 @@
             <b>Q: What do you do to protect your digital identity?</b>
             <span>"I use LastPass and LifeLock. My husband had his identity stolen in an Anthem data breach, so I wanted to try and protect us from further misuse.</span>
           </div>
-          <div class="divider-line"></div>
           <div class="content-header">Competitive Analysis</div>
           <img class="full-width" src="@/assets/projects/identity-management/competitive-analysis.png">
-          <div class="divider-line"></div>
           <div class="content-header">Contrary Research</div>
           <p>It's always important to acknowledge contradictory information while researching because telling the perfect story of design is deceptive. If you only present information that directly supports your claims and don't include contrary information, you risk missing pain points users experience as well as oversimplifying the problem.</p>
           <div class="research-content">
@@ -296,6 +296,18 @@
                 {text: 'Research (Extended)', theme: 'four'},
                 {text: 'Reflection', theme: 'one'}]
     }),
+    methods: {
+      scrollToFullResearch() {
+        const options = {
+            easing: 'ease-in-out',
+            offset: -200,
+            x: false,
+            y: true
+        };
+        const element = this.$refs.FullResearchHeader;     
+        this.$scrollTo(element, 1000, options);
+      }
+    }
   }
 </script>
 
@@ -330,7 +342,7 @@
           width: 200px;
           height: 200px;
           border-radius: 100%;
-          background-color: #193d54;
+          background-color: #fff;
           margin-bottom: 20px;
           padding: 10px;
           padding-top: 22px;
@@ -351,7 +363,7 @@
       display: flex;
       flex-flow: column;
       align-items: center;
-      max-width: 500px;
+      max-width: 600px;
       margin: auto;
       text-align: center;
       .sponsor-info {
@@ -364,10 +376,21 @@
           vertical-align: -4px;
         }  
       }
+      .type-label {
+        background-color: #FD5F80;
+        color: #fff;
+        font-weight: bold;
+        padding: 3px 18px;
+        font-size: 0.8em;
+        margin: 40px 0;
+        box-shadow: 3px 3px #D5D5D5;
+      }
       .okta-devices {
         width: 440px;
       }
       .footer {
+        position: relative;
+        background-color: #FD5F80;
         display: flex;
         flex-flow: column;
         margin-top: 24px;
@@ -375,12 +398,20 @@
         color: #fff;
         width: 100%;
         text-align: left;
+        padding: 40px;
+        z-index: 2;
         &>* {
           margin-bottom: 12px;
         }
-        .three-spans {
+        .footer-spans {
           display: flex;
-          justify-content: space-between;
+          .span-column {
+            display: flex;
+            flex-flow: column;
+            span {
+              margin: 0 23px 14px 0;
+            }
+          }  
         }
       }
     }

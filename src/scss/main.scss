@@ -95,3 +95,14 @@ $block-max-width: 820px;
     color: #193d54;
   }
 }
+
+.background-six {
+  background-color: #fff;
+  .block-title {
+    color: $blue;
+    text-shadow: 3px 3px #d5d5d5;
+  }
+  .content-header {
+    color: #193d54;
+  }
+}
