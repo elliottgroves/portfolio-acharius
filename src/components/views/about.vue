@@ -2,7 +2,7 @@
   <div class="wrapper">
     <img ref="image" style="display: none;" src="../../assets/bg.png">
     <img ref="outline-image" style="display: none;" src="../../assets/bg-outline.png">
-    <navbar activeButton="projects"></navbar>
+    <navbar activeButton="about"></navbar>
     <canvas ref="canvas" v-if="renderCanvas"></canvas>
     <div class="content">
       <div class="picture">

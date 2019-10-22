@@ -110,6 +110,14 @@
             <img src="@/assets/projects/voice-highlighting/user-flow-two.png">
           </div>
           <div class="content-header">User Testing</div>
+          <div class="user-testing">
+            <img src="@/assets/projects/voice-highlighting/user-testing.png">
+            <p>For our testing, we tested whether or not the microphone icon was recognizable and if the auditory "ding" was distracting to users listening to an audiobook. Our results concluded both that the microphone icon to enable voice commands was recognizable and the auditory ding was not distracting. We tested three individuals in our school's Memorial Union under the time constraint and after conceptualization. We used sketches to get user feedback.</p>
+          </div>
+          <div class="content-header">Team Production</div>
+          <div class="team-production">
+            <img src="@/assets/projects/voice-highlighting/team-production.png">
+          </div>
         </div>
       </content-block>
       <content-block title="Reflection" theme="one">
@@ -118,7 +126,6 @@
           <p>We had a really good chemistry as a team that allowed us to experiment with unfamiliar design and research methodologies. As the point of this class, Rapid Design for Slow Change, was about how to apply classical learning of methods to practical design prompts sponsored by companies, we decided in this week and project to really push the boundaries of our problem space and exhaust all our resources and contacts to truly understand the users and interactions within this space.</p>
           <h3>What to improve for next time?</h3>
           <p>Overall, we executed our research plan well and within the time constraints of the project, but when the conceptualization phase of the project came, we struggled initially to ideate on any specific solution. We eventually arrived at the solution we have now, but needed to prioritize more time for prototyping and visual design for our concept.</p>
-          <i><b>All iconography sourced from The Noun Project: https://thenounproject.com/</b></i>
           <div class="next-project-footer">
             <span>Previous Project</span>
             <span>Next Project</span>
@@ -262,7 +269,25 @@
       .user-flow-images {
         margin-top: 20px;
         img {
-          width: 50%;
+          width: 100%;
+        }
+      }
+      .user-testing {
+        display: flex;
+        img {
+          width: 45%;
+        }
+        p {
+          width: 40%;
+          margin-left: 40px;
+          font-size: 0.8em;
+        }
+      }
+      .team-production {
+        display: flex;
+        justify-content: center;
+        img {
+          width: 60%;
         }
       }
     }
