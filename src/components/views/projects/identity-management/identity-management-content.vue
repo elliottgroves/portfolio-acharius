@@ -1,7 +1,7 @@
 <template>
   <div class="project-content">
     <div class="content">
-      <content-block title="Identity Management" header theme="five">
+      <content-block title="Identity Management" header theme="five" ref="header">
         <div class="block-one">
           <span class="sponsor-info">Sponsored by <img class="okta-logo" src="@/assets/projects/identity-management/okta-logo.png"></span>
           <img class="okta-devices" src="@/assets/projects/identity-management/okta-devices.png">
@@ -91,27 +91,27 @@
           <div class="content-header">Design Concept</div>
           <img class="full-width" src="@/assets/projects/identity-management/design-concept.png">
           <div class="content-header">Design Implementation</div>
-          <p>Our design leverages the three previously mentioned concepts into the Okta PIM. PIM is a multi-platform, identity management application that addresses users' pain points regarding application management, data transparency, and data security.</p>
+          <p>Our design leverages the three previously mentioned concepts into the <b>Okta PIM</b>. PIM is a multi-platform, identity management application that addresses users' pain points regarding <b>application management, data transparency, and data security</b>.</p>
           <div class="content-header">Onboarding</div>
           <div class="workflow-row full-width">
             <div class="workflow-list-item">
-              <h1>1</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-two.svg">1</h1>
               <img src="@/assets/projects/identity-management/workflow-one.png">
               <p>When new users sign up for Okta PIM, they can select their user type to better personalize their privacy and security settings.</p>
             </div>
             <div class="workflow-list-item right">
-              <h1>2</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-two.svg">2</h1>
               <img src="@/assets/projects/identity-management/workflow-two.png">
               <p>Users are then able to import their login and application information from web service providers like Chrome, Firefox, and others.</p>
             </div>
           </div>
           <div class="workflow-row full-width">
             <div class="workflow-list-item">
-              <h1>3</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-two.svg">3</h1>
               <img src="@/assets/projects/identity-management/workflow-three.png">
             </div>
             <div class="workflow-list-item">
-              <h1>4</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-two.svg">4</h1>
               <img src="@/assets/projects/identity-management/workflow-four.png">
             </div>
           </div>
@@ -120,17 +120,21 @@
           </span>
           <div class="content-header">Account Center</div>
           <div class="full-width">
-            <h1>5</h1>
-            <img class="full-width" src="@/assets/projects/identity-management/workflow-five.png">
+            <h1 class="space-top"><img class="triangle" src="@/assets/images/triangles/triangles-two.svg">5</h1>
+            <div class="account-five">
+              <p>In the Account Center, users can review the information of their digital accounts.</p>
+              <img src="@/assets/projects/identity-management/workflow-five.png">
+            </div>
+            <p class="thin">Users will be able to see their distributed number accounts two views. In the dashboard view, users can see detailed information about how their accounts are connected to different services linked through the connected accounts.</p>
           </div>
           <div class="workflow-row full-width">
             <div class="workflow-list-item">
-              <h1>6</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-two.svg">6</h1>
               <img src="@/assets/projects/identity-management/workflow-six.png">
               <p>As users visualize their profile, they can see the number of accounts associated with them. Users can see how those accounts are leveraged and shared to other accounts.</p>
             </div>
             <div class="workflow-list-item right">
-              <h1>7</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-two.svg">7</h1>
               <img src="@/assets/projects/identity-management/workflow-seven.png">
               <p>For example, in the case of James Morrow, he uses his Gmail account to log in to Facebook, which then uses his Facebook account to connect to other applications.</p>
             </div>
@@ -138,12 +142,12 @@
           <div class="content-header">Security Manager</div>
           <div class="workflow-row full-width">
             <div class="workflow-list-item">
-              <h1>8</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-two.svg">8</h1>
               <img src="@/assets/projects/identity-management/workflow-eight.png">
               <p>Additionally, users can receive updates on the status of their accounts.</p>
             </div>
             <div class="workflow-list-item right">
-              <h1>9</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-two.svg">9</h1>
               <img src="@/assets/projects/identity-management/workflow-nine.png">
               <p>Through these updates, users can decide to change their privacy and security settings to best fit thecurrent situation.</p>
             </div>
@@ -155,11 +159,11 @@
           <p class="full-width">As we move further into the digital world, the methods for defining an individual's identity grow more and more complex. A personal is no longer simply represented by name, sex, date of birth, and address. Identities have changed over time to include other details such as employment, social, financial, and medical data and history.</p>
           <img class="full-width design-strategy" src="@/assets/projects/identity-management/design-strategy-diagram.png">
           <p class="full-width">In order to address this ever-changing construct of identity in the digital world, we envision Okta PIM to be a precursor to Phase 4. In the near future, we anticipate self-sovereign identity networks driving this sort of human interaction and placing the locus of control in people's hands.</p>
-          <img class="full-width" src="@/assets/projects/identity-management/design-strategy-flow.png">
+          <img class="full-width" src="@/assets/projects/identity-management/design-strategy-flow.svg">
           <div class="flow-labels full-width">
             <p>Bring greater transparency to the user by introducing a real-time usage map that shows who, where, and how our personal information is being used, along with access control and security alert mechanicms.</p>
-            <p class="center">Creating services based off PIM that enable the user to perform actions such as filing taxes, making payments, filing insurance claims from a centralized locations.</p>
-            <p class="right">Providing ultimate authority to the user over their identity with control over identity profiles and attributes, visibility, auditable records, all while maintaining trust.</p>
+            <p>Creating services based off PIM that enable the user to perform actions such as filing taxes, making payments, filing insurance claims from a centralized locations.</p>
+            <p>Providing ultimate authority to the user over their identity with control over identity profiles and attributes, visibility, auditable records, all while maintaining trust.</p>
           </div>
         </div>
       </content-block>
@@ -178,7 +182,7 @@
           <div class="content-header">Insight Support</div>
           <div class="circles single full-width">
             <div class="circle">
-              <h1><img class="triangle" src="@/assets/images/triangles/triangles1.svg">1</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-five.svg">1</h1>
               <div class="image">
                 <img src="@/assets/projects/identity-management/research-circle-image.png">
               </div>
@@ -204,7 +208,7 @@
           </div>
           <div class="circles single full-width">
             <div class="circle">
-              <h1><img class="triangle" src="@/assets/images/triangles/triangles1.svg">2</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-five.svg">2</h1>
               <div class="image">
                 <img src="@/assets/projects/identity-management/circle-two.png">
               </div>
@@ -216,7 +220,7 @@
           <img class="secondary-research-image" src="@/assets/projects/identity-management/research-graph-two.png">
           <div class="circles single full-width">
             <div class="circle">
-              <h1><img class="triangle" src="@/assets/images/triangles/triangles1.svg">3</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-five.svg">3</h1>
               <div class="image">
                 <img src="@/assets/projects/identity-management/circle-three.png">
               </div>
@@ -239,7 +243,7 @@
             <span>"I use LastPass and LifeLock. My husband had his identity stolen in an Anthem data breach, so I wanted to try and protect us from further misuse.</span>
           </div>
           <div class="content-header">Competitive Analysis</div>
-          <img class="full-width" src="@/assets/projects/identity-management/competitive-analysis.png">
+          <img class="competitive-analysis-image" src="@/assets/projects/identity-management/competitive-analysis.png">
           <div class="content-header">Contrary Research</div>
           <div class="research-content">
             <p>It's always important to acknowledge contradictory information while researching because telling the perfect story of design is deceptive. If you only present information that directly supports your claims and don't include contrary information, you risk missing pain points users experience as well as oversimplifying the problem.</p>
@@ -266,7 +270,10 @@
           <p>Although it seemed that each area of our design had merit, it became difficult within the one-week timespan to prioritize these focus points of our design and design strategy. I can personally work to further constrain the scope of the project within the timeline in order to avoid having a design too narrow with many particular considerations identified versus a very apt design with not as many secondary considerations.</p>
           <i>All iconography sourced from The Noun Project: https://thenounproject.com/</i>
           <div class="next-project-footer">
-            <span>Next Project</span>
+            <div class="next-project">
+              <img class="triangle" src="@/assets/images/triangles/triangles-one.svg">
+              <span @click="$router.push({ name: 'Portfolio' })">Next Project</span>
+            </div>
           </div>
         </div>
       </content-block>
@@ -282,19 +289,6 @@
     components: {
       ContentBlock
     },
-    data: () => ({
-      content: [{text: 'Identity Management', theme: 'one'},
-                {text: 'Tl;dr', theme: 'two'},
-                {text: 'Design Process', theme: 'three'},
-                {text: 'Problem Framing', theme: 'two'},
-                {text: 'Research', theme: 'four'},
-                {text: 'Users', theme: 'one'},
-                {text: 'Proposed Design', theme: 'two'},
-                {text: 'Design Strategy', theme: 'three'},
-                {text: 'Design Considerations', theme: 'two'},
-                {text: 'Research (Extended)', theme: 'four'},
-                {text: 'Reflection', theme: 'one'}]
-    }),
     methods: {
       scrollToFullResearch() {
         const options = {
@@ -305,8 +299,8 @@
         };
         const element = this.$refs.FullResearchHeader;     
         this.$scrollTo(element, 1000, options);
-      }
-    }
+      },
+    },
   }
 </script>
 
@@ -329,15 +323,8 @@
         width: 250px;
         align-items: center;
         text-align: center;
-        &.one {
-          text-align: left;
-        }
-        &.two {
-          text-align: center;
-        }
-        &.three {
-          text-align: right;
-        }
+        position: relative;
+        margin-top: 40px;
         .image {
           width: 200px;
           height: 200px;
@@ -351,8 +338,8 @@
           }
         }
         h1 {
+          left: -170px;
           position: absolute;
-          left: 135px;
           display: flex;
           padding-top: 25px;
           .triangle {
@@ -376,7 +363,7 @@
       .sponsor-info {
         display: inline-block;
         font-size: 1.3em;
-        margin: 8px 0 10px 0;
+        margin: -40px 0 10px 0;
         .okta-logo {
           height: 28px;
           margin-left: 4px;
@@ -393,7 +380,7 @@
         box-shadow: 3px 3px #D5D5D5;
       }
       .okta-devices {
-        width: 440px;
+        width: 600px;
       }
       .footer {
         position: relative;
@@ -412,6 +399,7 @@
         }
         .footer-spans {
           display: flex;
+          margin: 0;
           .span-column {
             display: flex;
             flex-flow: column;
@@ -449,10 +437,10 @@
       .full-research-link {
         position: relative;
         cursor: pointer;
-        margin: auto;
+        margin: 100px auto;
         height: 62px;
         background-color: #fa6182;
-        width: 300px;
+        width: 350px;
         text-align: center;
         line-height: 62px;
         span {
@@ -465,7 +453,7 @@
           transition: left 0.1s ease, top 0.1s ease;
           left: -4px;
           top: -4px;
-          width: 300px;
+          width: 350px;
           height: 62px;
           border: 2px solid #ddd;
           content: "";
@@ -483,21 +471,56 @@
       border: 2px solid #777;
     }
     .block-seven {
+      display: flex;
+      flex-flow: column;
+      color: #1C4966;
+      h1 {
+        display: flex;
+        align-self: left;
+        color: #FD5F80;
+        font-weight: normal;
+        padding-top: 10px;
+        .triangle {
+          width: 70px;
+          margin: -20px -10px 0 0;
+        }
+        &.space-top {
+          margin-top: 20px;
+        }
+      }
+      .thin {
+        width: 500px;
+        margin: 30px auto;
+      }
+      .account-five {
+        text-align: center;
+        p {
+          text-align: left;
+          margin: 20px 0 50px 0;
+        }
+        img {
+          width: 500px;  
+        }
+      }
+      p {
+        font-size: 0.8em;
+        text-align: center;
+      }
       .workflow-row {
         display: flex;
         flex-flow: row;
         justify-content: space-between;
+        margin: 30px 0;
+
         .workflow-list-item {
           max-width: 400px;
+          display: flex;
+          flex-flow: column;
           img {
             max-width: 400px;
             margin-bottom: 20px;
           }
-          &.right {
-            p {
-              text-align: right;
-            }
-          }
+          text-align: center;
         }  
       }
       .label {
@@ -534,16 +557,13 @@
         justify-content: space-between;
         p {
           max-width: 260px;
-        }
-        .center {
-          text-align: center;
-        }
-        .right {
-          text-align: right;
+          font-size: 0.8em;
+          padding-right: 36px;
         }
       }
     }
     .block-ten {
+      max-width: 600px;
       .research-content {
         display: flex;
         flex-flow: column;
@@ -569,6 +589,9 @@
           font-size: 0.8em;
         }
       }
+      .competitive-analysis-image {
+        width: 600px;
+      }
       .secondary-research-image {
         width: 100%;
         margin: 30px 0;
@@ -577,11 +600,27 @@
     .block-eleven {
       .next-project-footer {
         margin-top: 100px;
-        text-align: right;
         font-size: 37px;
         text-transform: uppercase;
         color: #fff;
-        text-shadow: 3px 3px #549aae;
+        text-shadow: 3px 3px #1C4966;
+        font-weight: bold;
+        display: flex;
+        .next-project {
+          display: flex;
+          margin-left: auto;
+          .triangle {
+            margin-right: 10px;
+            width: 70px;
+          }
+          span {
+            cursor: pointer;
+            transition: margin 0.2s ease;
+            &:hover {
+              margin: 0 -5px 0 5px;
+            }
+          }
+        }
       }
     }
   }

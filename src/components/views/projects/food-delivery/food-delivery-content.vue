@@ -87,24 +87,24 @@
           </div>
           <div class="workflow-row full-width">
             <div class="workflow-list-item">
-              <h1>1</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-two.svg">1</h1>
               <img src="@/assets/projects/food-delivery/concept-one.png">
               <p>As an auto-rotating <b>digital ticket in physical Arduino form</b>, an indicator displays the current volume of orders.</p>
             </div>
             <div class="workflow-list-item">
-              <h1>2</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-two.svg">2</h1>
               <img src="@/assets/projects/food-delivery/concept-two.png">
               <p>Tapping the order button brings up order details for easy access and checking between operator and drivers.</p>
             </div>
           </div>
           <div class="workflow-row full-width">
             <div class="workflow-list-item">
-              <h1>3</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-two.svg">3</h1>
               <img src="@/assets/projects/food-delivery/concept-three.png">
               <p>Color change indicates urgency of order to arrival time.</p>
             </div>
             <div class="workflow-list-item">
-              <h1>4</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-two.svg">4</h1>
               <img src="@/assets/projects/food-delivery/concept-four.png">
               <p>The driver profile panel includes basic information about the delivery driver to build trust with the operators.</p>
             </div>
@@ -193,60 +193,60 @@
           </div>
           <div class="workflow-row full-width">
             <div class="workflow-list-item">
-              <h1>1</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-five.svg">1</h1>
               <img src="@/assets/projects/food-delivery/walk-one.png">
               <p>At Chipotle, the open service encounter occurs at this POS. If picking up for delivery, workers cut the line to request if their order is ready.</p>
             </div>
             <div class="workflow-list-item">
-              <h1>2</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-five.svg">2</h1>
               <img src="@/assets/projects/food-delivery/walk-two.png">
               <p>Outside Chipotle a BtownMenus delivery service car exits from a popular alleyway. Many sorts of vehicle types may demand different enter and exit strategies for drivers.</p>
             </div>
           </div>
           <div class="workflow-row full-width">
             <div class="workflow-list-item">
-              <h1>3</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-five.svg">3</h1>
               <img src="@/assets/projects/food-delivery/walk-three.png">
               <p>Taking a closer look at the alleyway where the Btown Menus car once resided, we can see a natural "pull-up" or "rive-up" to a door on the left side of the photo. This acts as a point of entry for many call ahead orders, not simply for delivery services.</p>
             </div>
             <div class="workflow-list-item">
-              <h1>4</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-five.svg">4</h1>
               <img src="@/assets/projects/food-delivery/walk-four.png">
               <p>Right next door, there is a very large Mexican food truck, which requires an extra large parking space.</p>
             </div>
           </div>
           <div class="workflow-row full-width">
             <div class="workflow-list-item">
-              <h1>5</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-five.svg">5</h1>
               <img src="@/assets/projects/food-delivery/walk-five.png">
               <p>We got the opportunity to help this Kebab truck park in a tight spot. As you can see the service window is quite constrained.</p>
             </div>
             <div class="workflow-list-item">
-              <h1>6</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-five.svg">6</h1>
               <img src="@/assets/projects/food-delivery/walk-six.png">
               <p>The Kebab owner was very generous in allowing us a photo of their inner artifact ecology. By looking closely at his main tools, you can see a hand-cut pan, for instance.</p>
             </div>
           </div>
           <div class="workflow-row full-width">
             <div class="workflow-list-item">
-              <h1>7</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-five.svg">7</h1>
               <img src="@/assets/projects/food-delivery/walk-seven.png">
               <p>Accessing The Big Cheeze food truck, we are able to identify utensils such as formal spatulas,and a flat top grill. Creative heating is displayed as the workers place a tin can of cheese on the flat top.</p>
             </div>
             <div class="workflow-list-item">
-              <h1>8</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-five.svg">8</h1>
               <img src="@/assets/projects/food-delivery/walk-eight.png">
               <p>Next to the flattop, we found a fryer, a pair oftongs, and a surface to hold finished items, like the fries.</p>
             </div>
           </div>
           <div class="workflow-row full-width">
             <div class="workflow-list-item">
-              <h1>9</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-five.svg">9</h1>
               <img src="@/assets/projects/food-delivery/walk-nine.png">
               <p>The service exchange and holding counter has an iPad as the POS system. The messiness below demonstrates a creative array of things.</p>
             </div>
             <div class="workflow-list-item">
-              <h1>10</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-five.svg">10</h1>
               <img src="@/assets/projects/food-delivery/walk-ten.png">
               <p>In comparison to the Kebab truck, this food truck has a very large service window, which affords more face time and interaction, whether from customers or delivery drivers.</p>
             </div>
@@ -291,8 +291,14 @@
           <p>Overall, we executed our research plan well and within the time constraints of the project, but when the conceptualization phase of the project came, we struggled initially to ideate on any specific solution. We eventually arrived at the solution we have now, but needed to prioritize more time for prototyping and visual design for our concept.</p>
           <i><b>All iconography sourced from The Noun Project: https://thenounproject.com/</b></i>
           <div class="next-project-footer">
-            <span>Previous Project</span>
-            <span>Next Project</span>
+            <div class="next-project">
+              <img class="triangle" src="@/assets/images/triangles/triangles-one.svg">
+              <span @click="$router.push({ name: 'Portfolio' })">Previous Project</span>
+            </div>
+            <div class="next-project">
+              <img class="triangle" src="@/assets/images/triangles/triangles-one.svg">
+              <span @click="$router.push({ name: 'VoiceHighlighting' })">Next Project</span>
+            </div>
           </div>
         </div>
       </content-block>
@@ -383,6 +389,7 @@
         }
         .footer-spans {
           display: flex;
+          margin: 0;
           .span-column {
             display: flex;
             flex-flow: column;
@@ -422,7 +429,7 @@
         margin: auto;
         height: 62px;
         background-color: #fa6182;
-        width: 380px;
+        width: 350px;
         text-align: center;
         font-weight: bold;
         line-height: 62px;
@@ -438,7 +445,7 @@
           transition: left 0.1s ease, top 0.1s ease;
           left: -4px;
           top: -4px;
-          width: 380px;
+          width: 350px;
           height: 62px;
           border: 2px solid #ddd;
           content: "";
@@ -479,7 +486,7 @@
       }
     }
     .block-seven {
-      max-width: 600px;
+      max-width: 800px;
       .info {
         font-size: 0.8em;
         margin-bottom: 40px;
@@ -497,6 +504,24 @@
         display: flex;
         flex-flow: row;
         justify-content: space-between;
+        margin: auto;
+        max-width: 600px;
+        margin-top: 40px;
+        h1 {
+          display: flex;
+          align-self: left;
+          color: #FD5F80;
+          font-weight: normal;
+          padding-top: 10px;
+          margin-left: -50px;
+          .triangle {
+            width: 70px;
+            margin: -20px -10px 0 0;
+          }
+          &.space-top {
+            margin-top: 20px;
+          }
+        }
         .workflow-list-item {
           max-width: 200px;
           img {
@@ -570,12 +595,28 @@
         display: flex;
         flex-flow: row;
         justify-content: space-between;
-        margin-bottom: 30px;
+        margin: 30px 0;
+        h1 {
+          display: flex;
+          align-self: left;
+          font-weight: normal;
+          padding-top: 10px;
+          .triangle {
+            width: 70px;
+            margin: -20px -10px 0 0;
+          }
+          &.space-top {
+            margin-top: 20px;
+          }
+        }
         .workflow-list-item {
           max-width: 400px;
           img {
             max-width: 400px;
             margin-bottom: 20px;
+            &.triangle {
+              margin-bottom: 10px;
+            }
           }
           p {
             font-size: 0.7em;
@@ -616,7 +657,22 @@
         font-size: 37px;
         text-transform: uppercase;
         color: #fff;
-        text-shadow: 3px 3px #549aae;
+        text-shadow: 3px 3px #1C4966;
+        font-weight: bold;
+        .next-project {
+          display: flex;
+          .triangle {
+            margin-right: 10px;
+            width: 70px;
+          }
+          span {
+            cursor: pointer;
+            transition: margin 0.2s ease;
+            &:hover {
+              margin: 0 -5px 0 5px;
+            }
+          }
+        }
       }
     }
   }

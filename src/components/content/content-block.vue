@@ -2,7 +2,7 @@
   <div class="content-block" :class="`background-${theme}`">
     <div class="block-title">
       <div class="triangle-container">
-        <img class="triangle" src="@/assets/images/triangles/triangles1.svg">
+        <img class="triangle" :src="require(`@/assets/images/triangles/triangles-${theme}.svg`)">
       </div>
       <span>{{ title.toUpperCase() }}</span>
     </div>

@@ -98,11 +98,13 @@
     flex-flow: column;
     height: 100vh;
     overflow: scroll;
+    min-width: 840px;
     .content-row {
       display: flex;
       flex-flow: row;
       justify-content: space-between;
       margin-bottom: 60px;
+      min-width: 840px;
       &:last-of-type {
         justify-content: center;
         * {

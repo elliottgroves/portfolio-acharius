@@ -33,7 +33,9 @@
         </div>
       </content-block>
       <content-block title="Design Process" theme="three">
-        <img style="width: 100%;" src="@/assets/projects/voice-highlighting/24-hour-process.svg">
+        <div class="block-three full-width">
+          <img class="design-process-image" src="@/assets/projects/voice-highlighting/24-hour-process.svg">  
+        </div>
       </content-block>
       <content-block title="Problem Framing" theme="two">
         <div class="block-four full-width">
@@ -50,7 +52,11 @@
       </content-block>
       <content-block title="Research" theme="four">
         <div class="block-five full-width">
-          <p>From our research, it is clear that users often are not simply sitting in one place while listening to audiobooks. This becomes problematic for Audible's current design (as of Fall 2019) that requires users to be present near the phone and tap the "clip" button and highlight sections of audio for later. This directly contradicts how most users are interacting with their device of choice for using the Audible app.</p>  
+          <img class="research-image" src="@/assets/projects/voice-highlighting/research.svg">
+          <div class="description">
+            <p>From our research, it is clear that users often are not simply sitting in one place while listening to audiobooks. This becomes problematic for Audible's current design (as of Fall 2019) that requires users to be present near the phone and tap the "clip" button and highlight sections of audio for later.</p>
+            <p>This directly contradicts how most users are interacting with their device of choice for using the Audible app.</p>  
+          </div>
         </div>
       </content-block>
       <content-block title="Proposed Design" theme="two">
@@ -61,15 +67,15 @@
           <p>After confirming permissions, when users turn on the feature for the first time, a short tutorial explaining how to use the voice commands will take users through the steps of the voice commands, as well as provide a list of available voice commands. We decided on this functionality as a way to allow users who are multitasking (which is the majority) the ability to still highlight certain sections of an audiobook.</p>
           <div class="workflow-steps">
             <div class="step">
-              <h1>1</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-two.svg">1</h1>
               <img src="@/assets/projects/voice-highlighting/workflow-one.png">
             </div>
             <div class="step">
-              <h1>2</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-two.svg">2</h1>
               <img src="@/assets/projects/voice-highlighting/workflow-two.png">
             </div>
             <div class="step">
-              <h1>3</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-two.svg">3</h1>
               <img src="@/assets/projects/voice-highlighting/workflow-three.png">
             </div>
           </div>
@@ -77,17 +83,17 @@
           <p>Finally, we addressed the current functionality of the clipping function using the previous 30 seconds to save as the clip when a user taps the "clip" button. We analyzed this to be problematic as the clip can occur in the middle of sentences and using time as the metric to save clips does not provide enough context with the audio clip. Therefore, in order to effectively highly, we are employing <b>Amazon's database of digital books to match the text with timestamps of the audiobook</b>. With Amazon's vast computing resources, machine learning and matching words in an audiobook to their respective words in a digital text should be possible in Amazon's backend of the app. With this functionality, <b>we would then be able to clip audiobooks by paragraph instead of by seconds</b>. The current clipping UI is clunky and provides no distinct metric which the audio clip is sized. In our iteration, we would show the waveform to give users a clear indication in the break in sentences. Then, arrows at the beginning of each sentence would be displayed so users could accurately reform and edit their saved audio clips using the voice commands. This provides a much more clear visual representation of the audio clip, as well as giving clear context through selecting a whole paragraph of text and avoids the potential for clipping while mid-sentence.</p>
           <div class="workflow-steps">
             <div class="step">
-              <h1>4</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-two.svg">4</h1>
               <img src="@/assets/projects/voice-highlighting/workflow-four.png">
               <span>Customizable Feedback</span>
             </div>
             <div class="step">
-              <h1>5</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-two.svg">5</h1>
               <img src="@/assets/projects/voice-highlighting/workflow-five.png">
               <span>Current Design</span>
             </div>
             <div class="step">
-              <h1>6</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-two.svg">6</h1>
               <img src="@/assets/projects/voice-highlighting/workflow-six.png">
               <span>Our Design</span>
             </div>
@@ -107,7 +113,7 @@
           <div class="content-header">User Flow</div>
           <div class="user-flow-images">
             <img src="@/assets/projects/voice-highlighting/user-flow-one.png">
-            <img src="@/assets/projects/voice-highlighting/user-flow-two.png">
+            <img class="two" src="@/assets/projects/voice-highlighting/user-flow-two.png">
           </div>
           <div class="content-header">User Testing</div>
           <div class="user-testing">
@@ -127,8 +133,14 @@
           <h3>What to improve for next time?</h3>
           <p>Overall, we executed our research plan well and within the time constraints of the project, but when the conceptualization phase of the project came, we struggled initially to ideate on any specific solution. We eventually arrived at the solution we have now, but needed to prioritize more time for prototyping and visual design for our concept.</p>
           <div class="next-project-footer">
-            <span>Previous Project</span>
-            <span>Next Project</span>
+            <div class="next-project">
+              <img class="triangle" src="@/assets/images/triangles/triangles-one.svg">
+              <span @click="$router.push({ name: 'FoodDelivery' })">Previous Project</span>
+            </div>
+            <div class="next-project">
+              <img class="triangle" src="@/assets/images/triangles/triangles-one.svg">
+              <span @click="$router.push({ name: 'FarmToSchool' })">Next Project</span>
+            </div>
           </div>
         </div>
       </content-block>
@@ -171,16 +183,16 @@
       flex-flow: column;
       .header-details {
         display: flex;
-        margin-bottom: 20px;
+        margin: -40px 0 20px 0;
         font-size: 1.2em;
         justify-content: center;
         .audible-logo {
           margin-left: 30px;
-          width: 140px;
+          width: 100px;
         }  
       }
       .mockup-image {
-        width: 500px;
+        width: 600px;
         margin: auto;
       }
       .type-label {
@@ -212,6 +224,7 @@
         }
         .footer-spans {
           display: flex;
+          margin: 0;
           .span-column {
             display: flex;
             flex-flow: column;
@@ -220,6 +233,11 @@
             }
           }  
         }
+      }
+    }
+    .block-three {
+      .design-process-image {
+        width: 800px;
       }
     }
     .block-four {
@@ -235,6 +253,19 @@
         }
       }
     }
+    .block-five {
+      display: flex;
+      max-width: 700px;
+      .research-image {
+        width: 60%;
+      }
+      .description {
+        display: flex;
+        flex-flow: column;
+        padding-left: 40px;
+        font-size: 0.8em;
+      }
+    }
     .block-six {
       .workflow-steps {
         display: flex;
@@ -244,6 +275,18 @@
           display: flex;
           flex-flow: column;
           font-size: 0.9em;
+          h1 {
+            display: flex;
+            align-self: left;
+            color: #FD5F80;
+            font-weight: normal;
+            padding-top: 10px;
+            margin: 40px 0;
+            .triangle {
+              width: 70px;
+              margin: -20px -10px 0 0;
+            }
+          }
           img {
             width: 200px;
           }
@@ -268,8 +311,15 @@
       }
       .user-flow-images {
         margin-top: 20px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
         img {
           width: 100%;
+          &.two {
+            margin-top: 50px;
+            width: 70%;
+          }
         }
       }
       .user-testing {
@@ -299,7 +349,22 @@
         font-size: 37px;
         text-transform: uppercase;
         color: #fff;
-        text-shadow: 3px 3px #549aae;
+        text-shadow: 3px 3px #1C4966;
+        font-weight: bold;
+        .next-project {
+          display: flex;
+          .triangle {
+            margin-right: 10px;
+            width: 70px;
+          }
+          span {
+            cursor: pointer;
+            transition: margin 0.2s ease;
+            &:hover {
+              margin: 0 -5px 0 5px;
+            }
+          }
+        }
       }
     }
   }

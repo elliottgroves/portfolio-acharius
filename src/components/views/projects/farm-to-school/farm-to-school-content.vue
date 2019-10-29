@@ -122,7 +122,7 @@
             </div>
             <div class="row">
               <div class="block">
-                <!-- <img src="@/assets/projects/farm-to-school/vis-block-three.png"> -->
+                <img src="@/assets/projects/farm-to-school/vis-block-three.png">
                 <p><b>Browsing kiosk information</b>: during the farmer's market, different locations will have tablet kiosks that will provide information about the farms attending the farmer's market such as main produces, contact information, and location. Additionally, this is another educational opportunity for the students to provide information about farming practices and philosophy at-a-glance, such as permaculture and multi-level farming.</p>
               </div>
               <div class="block">
@@ -132,6 +132,7 @@
             </div>
           </div>
           <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/AQAFAZc4LK4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <p>Video showcase of our design concept</p>
           </div>
           <p>Finally, we created an experience map of our concept to better understand and consider the flow of the users thorugh the farmer's market.</p>
@@ -146,8 +147,10 @@
           <p>The division of labor could've been better executed, but working closely for 24-hours put significant pressure on us to come up with a fully-executed design deliverable. If we were to do the project again, I would suggest that we divide the labor into segmented parts so that we could split up and reconvene, rather than all work on the project at once.</p>
           <i><b>All iconography sourced from The Noun Project: https://thenounproject.com/</b></i>
           <div class="next-project-footer">
-            <span>Previous Project</span>
-            <span>Next Project</span>
+            <div class="next-project">
+              <img class="triangle" src="@/assets/images/triangles/triangles-one.svg">
+              <span @click="$router.push({ name: 'VoiceHighlighting' })">Previous Project</span>
+            </div>
           </div>
         </div>
       </content-block>
@@ -226,6 +229,7 @@
         }
         .footer-spans {
           display: flex;
+          margin: 0;
           .span-column {
             display: flex;
             flex-flow: column;
@@ -314,7 +318,14 @@
         }
       }
       .video {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        iframe {
+          margin: auto;
+        }
         p {
+          margin: 20px 0 40px 0;
           text-align: center;
         }
       }
@@ -330,7 +341,22 @@
         font-size: 37px;
         text-transform: uppercase;
         color: #fff;
-        text-shadow: 3px 3px #549aae;
+        text-shadow: 3px 3px #1C4966;
+        font-weight: bold;
+        .next-project {
+          display: flex;
+          .triangle {
+            margin-right: 10px;
+            width: 70px;
+          }
+          span {
+            cursor: pointer;
+            transition: margin 0.2s ease;
+            &:hover {
+              margin: 0 -5px 0 5px;
+            }
+          }
+        }
       }
     }
   }
