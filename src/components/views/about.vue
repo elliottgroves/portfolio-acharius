@@ -1,12 +1,14 @@
 <template>
   <div class="wrapper">
-    <img ref="image" style="display: none;" src="../../assets/bg.png">
-    <img ref="outline-image" style="display: none;" src="../../assets/bg-outline.png">
+    <img ref="image" style="display: none;" src="@/assets/bg.png">
+    <img ref="outline-image" style="display: none;" src="@/assets/bg-outline.png">
     <navbar activeButton="about"></navbar>
     <canvas ref="canvas" v-if="renderCanvas"></canvas>
     <div class="content">
+      <img class="background-image" src="@/assets/aboutbackground.svg">
       <div class="picture">
         <span class="type-label">Acharius</span>
+        <img class="profile-picture" src="@/assets/about-me-picture.jpg">
       </div>
       <div class="info">
         <h1>About Me</h1>
@@ -76,12 +78,20 @@
     display: flex;
     justify-content: space-between;
     padding-top: 40px;
+    .background-image {
+      position: absolute;
+      z-index: 1;
+      width: 48%;
+    }
     .picture {
       width: 40%;
       height: 100%;
       display: flex;
       align-items: center;
+      padding-top: 65px;
       flex-flow: column;
+      z-index: 2;
+      margin-left: 50px;
       .type-label {
         background-color: #FD5F80;
         color: #fff;
@@ -90,6 +100,9 @@
         font-size: 0.8em;
         margin: 40px 0;
         box-shadow: 2px 2px #D5D5D5;
+      }
+      .profile-picture {
+        width: 100%;
       }
     }
     .info {
@@ -101,6 +114,7 @@
       font-size: 0.8em;
       align-items: center;
       padding: 100px 80px 0 0;
+      z-index: 2;
       h1 {
         text-shadow: 3px 3px #FD5F80;
         text-transform: uppercase;

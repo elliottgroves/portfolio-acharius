@@ -64,21 +64,21 @@
           <div class="circles">
             <div class="circle one">
               <div class="image">
-                <img src="@/assets/projects/identity-management/circle-one.png">
+                <img src="@/assets/projects/identity-management/circle-one.svg">
               </div>
-              <p>Users often don't care about their personal data being online or consider their personal data valuable.</p>
+              <b>Users often don't care about their personal data being online or consider their personal data valuable.</b>
             </div>
             <div class="circle two">
               <div class="image">
-                <img src="@/assets/projects/identity-management/circle-two.png">
+                <img src="@/assets/projects/identity-management/circle-two.svg">
               </div>
-              <p>Users often don't take preemptive measures to secure their personal data online.</p>
+              <b>Users often don't take preemptive measures to secure their personal data online.</b>
             </div>
             <div class="circle three">
               <div class="image">
-                <img src="@/assets/projects/identity-management/circle-three.png">
+                <img src="@/assets/projects/identity-management/circle-three.svg">
               </div>
-              <p>Users are unaware of how their personal data is being handled online, particularly in the case of social media sites selling their data.</p>
+              <b>Users are unaware of how their personal data is being handled online, particularly in the case of social media sites selling their data.</b>
             </div>
           </div>
         </div>
@@ -184,7 +184,7 @@
             <div class="circle">
               <h1><img class="triangle" src="@/assets/images/triangles/triangles-five.svg">1</h1>
               <div class="image">
-                <img src="@/assets/projects/identity-management/research-circle-image.png">
+                <img src="@/assets/projects/identity-management/research-circle-image.svg">
               </div>
               <b>Users often don't care about their personal data being online or consider their personal data valuable.</b>
             </div>
@@ -210,7 +210,7 @@
             <div class="circle">
               <h1><img class="triangle" src="@/assets/images/triangles/triangles-five.svg">2</h1>
               <div class="image">
-                <img src="@/assets/projects/identity-management/circle-two.png">
+                <img src="@/assets/projects/identity-management/circle-two.svg">
               </div>
               <b>Users often don't take preemptive measures to secure their personal data online.</b>
             </div>
@@ -222,7 +222,7 @@
             <div class="circle">
               <h1><img class="triangle" src="@/assets/images/triangles/triangles-five.svg">3</h1>
               <div class="image">
-                <img src="@/assets/projects/identity-management/circle-three.png">
+                <img src="@/assets/projects/identity-management/circle-three.svg">
               </div>
               <b>Users are unaware of how their personal data is being handled online, particularly in the case of social media sites selling their data.</b>
             </div>
@@ -332,7 +332,6 @@
           background-color: #fff;
           margin-bottom: 20px;
           padding: 10px;
-          padding-top: 22px;
           img {
             width: 180px;
           }

@@ -76,6 +76,18 @@
           <p>To supplement our semi-structured interviews deployed with each of the five participants, we constructed one cognitive mapping workshop we deployed at the farm site and one fantasy workshop with a local school representative.</p>
           <p>Conducting our cognitive mapping workshop with a local farm, we found that the process of procurement for their farm ecosystem constrained specifically towards experimentation and customer feedback. Another recurring theme stemmed from education of crops and typology versus customer expectations of those crops.</p>
           <p>The most key theme of the procurement process for this farm centered around community, drawing our attention to their involvement with local events, volunteering, and other local farming communities.</p>
+          <div class="workshops-images">
+            <div class="workshops-row">
+              <img class="one" src="@/assets/projects/farm-to-school/workshops-one.svg">
+              <img class="two" src="@/assets/projects/farm-to-school/workshops-two.jpg">
+            </div>
+            <div class="workshops-row">
+              <img class="three" src="@/assets/projects/farm-to-school/workshops-three.svg">
+              <img class="four" src="@/assets/projects/farm-to-school/workshops-four.jpg">
+            </div>
+            <div class="workshops-row"></div>
+          </div>
+          <p>At each school field site, both local Bloomington schools, we deployed a fantasy workshop involving "What If?" cards in order to prompt new design ideas through a co-design session. This generative tool allowed us to construct and understand new insights without simply asking questions as in our supplementary semi-structured interview questions.</p>
         </div>
       </content-block>
       <content-block title="Design Insights" theme="one">
@@ -279,6 +291,23 @@
     }
     .block-six {
       font-size: 0.8em;
+      .workshops-images {
+        .workshops-row {
+          display: flex;
+          .one {
+
+          }
+          .two {
+            width: 40%;
+          }
+          .three {
+            width: 40%;
+          }
+          .four {
+            width: 40%;
+          }
+        }
+      }
     }
     .block-seven {
       max-width: 650px;
