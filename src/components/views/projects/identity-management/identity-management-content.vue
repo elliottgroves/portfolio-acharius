@@ -86,12 +86,12 @@
       <content-block title="Proposed Design" theme="two">
         <div class="block-seven full-width">
           <div class="content-header">Design Overview</div>
-          <p>Okta, being one of the market leaders in the IDaaS [Identity as a Service] markets, has a state-of-the-art platform deploying Single Sign-On (SSO), Multi-factor Authentication (MFA), Universal Directory, Lifecycle Management, etc. It already has a stronghold in the B2B and B2E categories across industries.</p>
-          <p>We intend to leverage these strengths and extend the platform to the consumer market.</p>
+          <p class="left">Okta, being one of the market leaders in the IDaaS [Identity as a Service] markets, has a state-of-the-art platform deploying Single Sign-On (SSO), Multi-factor Authentication (MFA), Universal Directory, Lifecycle Management, etc. It already has a stronghold in the B2B and B2E categories across industries.</p>
+          <p class="left">We intend to leverage these strengths and extend the platform to the consumer market.</p>
           <div class="content-header">Design Concept</div>
           <img class="full-width" src="@/assets/projects/identity-management/design-concept.png">
           <div class="content-header">Design Implementation</div>
-          <p>Our design leverages the three previously mentioned concepts into the <b>Okta PIM</b>. PIM is a multi-platform, identity management application that addresses users' pain points regarding <b>application management, data transparency, and data security</b>.</p>
+          <p class="left">Our design leverages the three previously mentioned concepts into the <b>Okta PIM</b>. PIM is a multi-platform, identity management application that addresses users' pain points regarding <b>application management, data transparency, and data security</b>.</p>
           <div class="content-header">Onboarding</div>
           <div class="workflow-row full-width">
             <div class="workflow-list-item">
@@ -473,6 +473,9 @@
       display: flex;
       flex-flow: column;
       color: #1C4966;
+      .left {
+        text-align: left;
+      }
       h1 {
         display: flex;
         align-self: left;

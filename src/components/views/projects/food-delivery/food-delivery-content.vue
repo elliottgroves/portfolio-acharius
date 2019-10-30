@@ -41,7 +41,7 @@
         </div>
       </content-block>
       <content-block title="Company Values" theme="two">
-        <div class="block-four">
+        <div class="block-four full-width">
           <span class="content-header">Core Values</span>
           <p class="content-text values-paragraph">After a class-conducted interview session with Relish Works, we identified three key focus areas that would connect our problem space and eventually final design to the values that Relish Works upholds. These are the main components and considerations that directed our research.<br><br>Relish Works expressed they wanted a solution that would <b>consider scalability, target market trends over fads, and provide immediate value</b> in our problem space.</p>  
         </div>
@@ -416,7 +416,6 @@
       }
     }
     .block-four {
-      max-width: 600px;
       .values-paragraph {
         margin-top: 20px;
         font-size: 0.75em;

@@ -46,15 +46,17 @@
     .title { 
       padding-top: 10px;
       padding-left: 70px;
+      color: #FD5F80;
     }
     .navigation {
       margin-right: 60px;
       * {
         margin: 0;
         height: 41px;
+        color: #FD5F80;
       }
       .active-button {
-        background-color: #000;
+        background-color: #FD5F80;
         color: #fff;
         border-radius: 0;
       }
