@@ -22,7 +22,7 @@
         </div>
       </content-block>
       <content-block title="Tl;dr" theme="two">
-        <div class="block-two full-width">
+        <div class="block-two">
           <span class="content-header">Why</span>
           <p class="content-text">To investigate systemic issues surrounding farm-to-school procurement</p>
           <span class="content-header">What</span>
@@ -76,17 +76,7 @@
           <p>To supplement our semi-structured interviews deployed with each of the five participants, we constructed one cognitive mapping workshop we deployed at the farm site and one fantasy workshop with a local school representative.</p>
           <p>Conducting our cognitive mapping workshop with a local farm, we found that the process of procurement for their farm ecosystem constrained specifically towards experimentation and customer feedback. Another recurring theme stemmed from education of crops and typology versus customer expectations of those crops.</p>
           <p>The most key theme of the procurement process for this farm centered around community, drawing our attention to their involvement with local events, volunteering, and other local farming communities.</p>
-          <div class="workshops-images">
-            <div class="workshops-row">
-              <img class="one" src="@/assets/projects/farm-to-school/workshops-one.svg">
-              <img class="two" src="@/assets/projects/farm-to-school/workshops-two.jpg">
-            </div>
-            <div class="workshops-row">
-              <img class="three" src="@/assets/projects/farm-to-school/workshops-three.svg">
-              <img class="four" src="@/assets/projects/farm-to-school/workshops-four.jpg">
-            </div>
-            <div class="workshops-row"></div>
-          </div>
+          <img class="workshops-image full-width" src="@/assets/projects/farm-to-school/workshops.svg">
           <p>At each school field site, both local Bloomington schools, we deployed a fantasy workshop involving "What If?" cards in order to prompt new design ideas through a co-design session. This generative tool allowed us to construct and understand new insights without simply asking questions as in our supplementary semi-structured interview questions.</p>
         </div>
       </content-block>
@@ -157,7 +147,7 @@
           <p>Although 24-hours is not much time, we were able to accomplish fully-developed iterations on Audible's existing user interface by leveraging each of our team member's talents. The division of labor for this project was minimal given the time constraint. By the end, I realized how much my cohort and team members had grown as designers in just one semester of graduate studies. Being able to execute research, prototyping, existing interface critique, and user testing in 24-hours proved difficult but possible!</p>
           <b>What to improve for next time?</b>
           <p>The division of labor could've been better executed, but working closely for 24-hours put significant pressure on us to come up with a fully-executed design deliverable. If we were to do the project again, I would suggest that we divide the labor into segmented parts so that we could split up and reconvene, rather than all work on the project at once.</p>
-          <i><b>All iconography sourced from The Noun Project: https://thenounproject.com/</b></i>
+          <i>All iconography sourced from The Noun Project: https://thenounproject.com/</i>
           <div class="next-project-footer">
             <div class="next-project">
               <img class="triangle" src="@/assets/images/triangles/triangles-one.svg">
@@ -236,6 +226,7 @@
         width: 100%;
         text-align: left;
         padding: 40px;
+        box-shadow: 10px 10px #D5D5D5;
         &>* {
           margin-bottom: 12px;
         }
@@ -251,6 +242,9 @@
           }  
         }
       }
+    }
+    .block-two {
+      width: 625px;
     }
     .block-three {
       .design-process-artboard {
@@ -291,23 +285,6 @@
     }
     .block-six {
       font-size: 0.8em;
-      .workshops-images {
-        .workshops-row {
-          display: flex;
-          .one {
-
-          }
-          .two {
-            width: 40%;
-          }
-          .three {
-            width: 40%;
-          }
-          .four {
-            width: 40%;
-          }
-        }
-      }
     }
     .block-seven {
       max-width: 650px;
@@ -363,6 +340,12 @@
       }
     }
     .block-nine {
+      p {
+        margin: 20px 0 60px 0;
+      }
+      i {
+        font-weight: 300;
+      }
       .next-project-footer {
         display: flex;
         justify-content: space-between;

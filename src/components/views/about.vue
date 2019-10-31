@@ -11,7 +11,10 @@
         <img class="profile-picture" src="@/assets/about-me-picture.jpg">
       </div>
       <div class="info">
-        <h1>About Me</h1>
+        <div class="header">
+          <img class="triangle" src="@/assets/images/triangles/triangles-seven.svg">
+          <h1>About Me</h1>
+        </div>
         <p>Currently residing in the Greater Chicago Area, I cut through the difficulties of design thinking by applying the methodologies I've learned in my work and school experience thus far. A lifelong learner, I always strive to continue to hone my understanding and craft. I have over a year of industry experience and a Masters degree in Human-Computer Interaction Design from IU Bloomington.</p>
         <p>When I'm not working on UX projects, I cast a wide net of interests to further understand my own creative process. I try to specialize in many artistic mediums and crafts while applying what I've learned as a designer to my own life. On the weekends, you can find me DJing, playing video games, hiking, camping, or trying to pick up more skills to add to my skillset.</p>
       </div>
@@ -115,10 +118,21 @@
       align-items: center;
       padding: 100px 80px 0 0;
       z-index: 2;
-      h1 {
-        text-shadow: 3px 3px #FD5F80;
-        text-transform: uppercase;
+      .header {
+        display: flex;
+        width: 100%;
         margin-bottom: 80px;
+        justify-content: center;
+        position: relative;
+        .triangle {
+          width: 80px;
+          position: absolute;
+          left: 0;
+        }
+        h1 {
+          text-shadow: 3px 3px #FD5F80;
+          text-transform: uppercase;
+        }  
       }
     }  
   }

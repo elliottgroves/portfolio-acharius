@@ -23,7 +23,7 @@
         </div>
       </content-block>
       <content-block title="Tl;dr" theme="two">
-        <div class="block-two full-width">
+        <div class="block-two">
           <div class="content-header">Why</div>
           <span>To improve Audible's existing interface and user experience</span>
           <div class="content-header">What</div>
@@ -219,6 +219,7 @@
         width: 100%;
         text-align: left;
         padding: 40px;
+        box-shadow: 10px 10px #D5D5D5;
         &>* {
           margin-bottom: 12px;
         }
@@ -234,6 +235,9 @@
           }  
         }
       }
+    }
+    .block-two {
+      width: 625px;
     }
     .block-three {
       .design-process-image {
@@ -263,7 +267,7 @@
         display: flex;
         flex-flow: column;
         padding-left: 40px;
-        font-size: 0.8em;
+        font-size: 0.95em;
       }
     }
     .block-six {
@@ -342,6 +346,12 @@
       }
     }
     .block-seven {
+      p {
+        margin: 20px 0 60px 0;
+      }
+      i {
+        font-weight: 300;
+      }
       .next-project-footer {
         display: flex;
         justify-content: space-between;

@@ -28,7 +28,7 @@
       about() {
         this.$router.push({ name: 'About' });
       }
-    }
+    },
   }
 </script>
 

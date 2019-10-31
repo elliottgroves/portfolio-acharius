@@ -19,7 +19,7 @@
       home() {
         this.$router.push('/');
       },
-    }
+    },
   }
 </script>
 

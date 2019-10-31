@@ -4,7 +4,7 @@
       <content-block title="Food Delivery" theme="five">
         <div class="block-one full-width">
           <span class="sponsor-info">Sponsored by <img class="logo" src="@/assets/projects/food-delivery/relishworkslogo.png"></span>
-          <img class="screen" src="@/assets/projects/food-delivery/food-delivery-screen.png">
+          <img class="screen" src="@/assets/projects/food-delivery/food-delivery-screen.gif">
           <span class="type-label">UX Design</span>
           <span class="info-label">Relish Works tasked us with exploring non-chain restaurants for unmet needs towards off-premise dining</span>
           <div class="footer">
@@ -83,7 +83,7 @@
           <p class="info">With our targeted pain points, we needed a <b>low-cost, potentially hands-free solution</b>. Our research illustrated that food truck workers are often on-the-go and cannot have that flow interrupted by incoming emails and notifications while also attempting to serve in-house customers. Therefore, we developed a digital ticket prototype using Arduinos and screens that would be placed in the same area that printed tickets go.</p>
           <div class="content-header">Design Concept</div>
           <div class="concept-header">
-            <img src="@/assets/projects/food-delivery/concept-header.png">
+            <img class="screen" src="@/assets/projects/food-delivery/food-delivery-screen.gif">
           </div>
           <div class="workflow-row full-width">
             <div class="workflow-list-item">
@@ -289,7 +289,7 @@
           <p>We had a really good chemistry as a team that allowed us to experiment with unfamiliar design and research methodologies. As the point of this class, Rapid Design for Slow Change, was about how to apply classical learning of methods to practical design prompts sponsored by companies, we decided in this week and project to really push the boundaries of our problem space and exhaust all our resources and contacts to truly understand the users and interactions within this space.</p>
           <b>What to improve for next time?</b>
           <p>Overall, we executed our research plan well and within the time constraints of the project, but when the conceptualization phase of the project came, we struggled initially to ideate on any specific solution. We eventually arrived at the solution we have now, but needed to prioritize more time for prototyping and visual design for our concept.</p>
-          <i><b>All iconography sourced from The Noun Project: https://thenounproject.com/</b></i>
+          <i>All iconography sourced from The Noun Project: https://thenounproject.com/</i>
           <div class="next-project-footer">
             <div class="next-project">
               <img class="triangle" src="@/assets/images/triangles/triangles-one.svg">
@@ -384,6 +384,7 @@
         width: 100%;
         text-align: left;
         padding: 40px;
+        box-shadow: 10px 10px #D5D5D5;
         &>* {
           margin-bottom: 12px;
         }
@@ -472,15 +473,11 @@
       }
       .research-synthesis {
         display: flex;
-        .info {
-          font-size: 0.8em;
-        }
         .image {
           width: 50%;
         }
       }
       .rs-footer {
-        font-size: 0.8em;
         margin-top: 60px;
       }
     }
@@ -627,6 +624,7 @@
         padding: 50px 80px;
         width: 700px;
         margin: auto;
+        box-shadow: 15px 15px #fff;
         h1 {
           text-align: center;
           margin-bottom: 20px;
@@ -643,12 +641,19 @@
       }
       .citations {
         font-size: 0.8em;
+        margin-top: 60px;
         h3 {
-          margin-top: 40px;
+          margin-top: 30px;
         }
       }
     }
     .block-eleven {
+      p {
+        margin: 20px 0 60px 0;
+      }
+      i {
+        font-weight: 300;
+      }
       .next-project-footer {
         display: flex;
         justify-content: space-between;

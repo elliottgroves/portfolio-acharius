@@ -156,9 +156,9 @@
       </content-block>
       <content-block title="Design Strategy" theme="three">
         <div class="block-eight">
-          <p class="full-width">As we move further into the digital world, the methods for defining an individual's identity grow more and more complex. A personal is no longer simply represented by name, sex, date of birth, and address. Identities have changed over time to include other details such as employment, social, financial, and medical data and history.</p>
+          <p class="full-width text-one">As we move further into the digital world, the methods for defining an individual's identity grow more and more complex. A personal is no longer simply represented by name, sex, date of birth, and address. Identities have changed over time to include other details such as employment, social, financial, and medical data and history.</p>
           <img class="full-width design-strategy" src="@/assets/projects/identity-management/design-strategy-diagram.png">
-          <p class="full-width">In order to address this ever-changing construct of identity in the digital world, we envision Okta PIM to be a precursor to Phase 4. In the near future, we anticipate self-sovereign identity networks driving this sort of human interaction and placing the locus of control in people's hands.</p>
+          <p class="full-width text-two">In order to address this ever-changing construct of identity in the digital world, we envision Okta PIM to be a <b>precursor to Phase 4</b>. In the near future, we anticipate self-sovereign identity networks driving this sort of human interaction and <b>placing the locus of control in people's hands.</b></p>
           <img class="full-width" src="@/assets/projects/identity-management/design-strategy-flow.svg">
           <div class="flow-labels full-width">
             <p>Bring greater transparency to the user by introducing a real-time usage map that shows who, where, and how our personal information is being used, along with access control and security alert mechanicms.</p>
@@ -182,7 +182,7 @@
           <div class="content-header">Insight Support</div>
           <div class="circles single full-width">
             <div class="circle">
-              <h1><img class="triangle" src="@/assets/images/triangles/triangles-five.svg">1</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-seven.svg">1</h1>
               <div class="image">
                 <img src="@/assets/projects/identity-management/research-circle-image.svg">
               </div>
@@ -208,7 +208,7 @@
           </div>
           <div class="circles single full-width">
             <div class="circle">
-              <h1><img class="triangle" src="@/assets/images/triangles/triangles-five.svg">2</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-seven.svg">2</h1>
               <div class="image">
                 <img src="@/assets/projects/identity-management/circle-two.svg">
               </div>
@@ -220,7 +220,7 @@
           <img class="secondary-research-image" src="@/assets/projects/identity-management/research-graph-two.png">
           <div class="circles single full-width">
             <div class="circle">
-              <h1><img class="triangle" src="@/assets/images/triangles/triangles-five.svg">3</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-seven.svg">3</h1>
               <div class="image">
                 <img src="@/assets/projects/identity-management/circle-three.svg">
               </div>
@@ -393,6 +393,7 @@
         text-align: left;
         padding: 40px;
         z-index: 2;
+        box-shadow: 10px 10px #D5D5D5;
         &>* {
           margin-bottom: 12px;
         }
@@ -537,6 +538,14 @@
       display: flex;
       flex-flow: column;
       align-items: center;
+      .text-one {
+        font-size: 0.94em;
+        margin: 20px 0 60px 0;
+      }
+      .text-two {
+        font-size: 0.94em;
+        margin: 30px 0 90px 0;
+      }
       .design-strategy {
         position: relative;
         &:after {
@@ -562,6 +571,16 @@
           font-size: 0.8em;
           padding-right: 36px;
         }
+      }
+    }
+    .block-nine {
+      padding-top: 50px;
+      b {
+        font-size: 1.2em;
+        color: #1C4966;
+      }
+      p {
+        margin: 22px 0 60px 0;
       }
     }
     .block-ten {
@@ -600,6 +619,12 @@
       }
     }
     .block-eleven {
+      p {
+        margin: 20px 0 60px 0;
+      }
+      i {
+        font-weight: 300;
+      }
       .next-project-footer {
         margin-top: 100px;
         font-size: 37px;
