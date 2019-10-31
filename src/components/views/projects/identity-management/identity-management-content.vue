@@ -120,9 +120,9 @@
           </span>
           <div class="content-header">Account Center</div>
           <div class="full-width">
-            <h1 class="space-top"><img class="triangle" src="@/assets/images/triangles/triangles-two.svg">5</h1>
+            <p class="left">In the Account Center, users can review the information of their digital accounts.</p>
             <div class="account-five">
-              <p>In the Account Center, users can review the information of their digital accounts.</p>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-two.svg">5</h1>
               <img src="@/assets/projects/identity-management/workflow-five.png">
             </div>
             <p class="thin">Users will be able to see their distributed number accounts two views. In the dashboard view, users can see detailed information about how their accounts are connected to different services linked through the connected accounts.</p>
@@ -500,12 +500,16 @@
       }
       .account-five {
         text-align: center;
+        margin-top: 90px;
         p {
           text-align: left;
           margin: 20px 0 50px 0;
         }
         img {
-          width: 500px;  
+          width: 700px;
+          &.triangle {
+            width: 80px;
+          }
         }
       }
       p {

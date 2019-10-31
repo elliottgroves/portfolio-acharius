@@ -193,60 +193,60 @@
           </div>
           <div class="workflow-row full-width">
             <div class="workflow-list-item">
-              <h1><img class="triangle" src="@/assets/images/triangles/triangles-five.svg">1</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-four.svg">1</h1>
               <img src="@/assets/projects/food-delivery/walk-one.png">
               <p>At Chipotle, the open service encounter occurs at this POS. If picking up for delivery, workers cut the line to request if their order is ready.</p>
             </div>
             <div class="workflow-list-item">
-              <h1><img class="triangle" src="@/assets/images/triangles/triangles-five.svg">2</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-four.svg">2</h1>
               <img src="@/assets/projects/food-delivery/walk-two.png">
               <p>Outside Chipotle a BtownMenus delivery service car exits from a popular alleyway. Many sorts of vehicle types may demand different enter and exit strategies for drivers.</p>
             </div>
           </div>
           <div class="workflow-row full-width">
             <div class="workflow-list-item">
-              <h1><img class="triangle" src="@/assets/images/triangles/triangles-five.svg">3</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-four.svg">3</h1>
               <img src="@/assets/projects/food-delivery/walk-three.png">
               <p>Taking a closer look at the alleyway where the Btown Menus car once resided, we can see a natural "pull-up" or "rive-up" to a door on the left side of the photo. This acts as a point of entry for many call ahead orders, not simply for delivery services.</p>
             </div>
             <div class="workflow-list-item">
-              <h1><img class="triangle" src="@/assets/images/triangles/triangles-five.svg">4</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-four.svg">4</h1>
               <img src="@/assets/projects/food-delivery/walk-four.png">
               <p>Right next door, there is a very large Mexican food truck, which requires an extra large parking space.</p>
             </div>
           </div>
           <div class="workflow-row full-width">
             <div class="workflow-list-item">
-              <h1><img class="triangle" src="@/assets/images/triangles/triangles-five.svg">5</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-four.svg">5</h1>
               <img src="@/assets/projects/food-delivery/walk-five.png">
               <p>We got the opportunity to help this Kebab truck park in a tight spot. As you can see the service window is quite constrained.</p>
             </div>
             <div class="workflow-list-item">
-              <h1><img class="triangle" src="@/assets/images/triangles/triangles-five.svg">6</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-four.svg">6</h1>
               <img src="@/assets/projects/food-delivery/walk-six.png">
               <p>The Kebab owner was very generous in allowing us a photo of their inner artifact ecology. By looking closely at his main tools, you can see a hand-cut pan, for instance.</p>
             </div>
           </div>
           <div class="workflow-row full-width">
             <div class="workflow-list-item">
-              <h1><img class="triangle" src="@/assets/images/triangles/triangles-five.svg">7</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-four.svg">7</h1>
               <img src="@/assets/projects/food-delivery/walk-seven.png">
               <p>Accessing The Big Cheeze food truck, we are able to identify utensils such as formal spatulas,and a flat top grill. Creative heating is displayed as the workers place a tin can of cheese on the flat top.</p>
             </div>
             <div class="workflow-list-item">
-              <h1><img class="triangle" src="@/assets/images/triangles/triangles-five.svg">8</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-four.svg">8</h1>
               <img src="@/assets/projects/food-delivery/walk-eight.png">
               <p>Next to the flattop, we found a fryer, a pair oftongs, and a surface to hold finished items, like the fries.</p>
             </div>
           </div>
           <div class="workflow-row full-width">
             <div class="workflow-list-item">
-              <h1><img class="triangle" src="@/assets/images/triangles/triangles-five.svg">9</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-four.svg">9</h1>
               <img src="@/assets/projects/food-delivery/walk-nine.png">
               <p>The service exchange and holding counter has an iPad as the POS system. The messiness below demonstrates a creative array of things.</p>
             </div>
             <div class="workflow-list-item">
-              <h1><img class="triangle" src="@/assets/images/triangles/triangles-five.svg">10</h1>
+              <h1><img class="triangle" src="@/assets/images/triangles/triangles-four.svg">10</h1>
               <img src="@/assets/projects/food-delivery/walk-ten.png">
               <p>In comparison to the Kebab truck, this food truck has a very large service window, which affords more face time and interaction, whether from customers or delivery drivers.</p>
             </div>
