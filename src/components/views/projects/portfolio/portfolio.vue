@@ -18,7 +18,7 @@
     methods: {
       home() {
         this.$router.push('/');
-      },
+      }
     }
   }
 </script>

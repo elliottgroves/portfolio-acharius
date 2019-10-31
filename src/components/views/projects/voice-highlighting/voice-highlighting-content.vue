@@ -165,6 +165,9 @@
                 {text: 'Proposed Design', theme: 'two'},
                 {text: 'Refelction', theme: 'one'}]
     }),
+    created() {
+      window.scrollTo(0,0);
+    }
   }
 </script>
 

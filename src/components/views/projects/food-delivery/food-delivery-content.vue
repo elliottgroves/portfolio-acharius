@@ -325,6 +325,9 @@
         const element = this.$refs.FullResearchHeader;     
         this.$scrollTo(element, 1000, options);
       }
+    },
+    created() {
+      window.scrollTo(0,0);
     }
   }
 </script>
