@@ -3,6 +3,7 @@
     <div class="content">
       <content-block title="My Portfolio" theme="three">
         <div class="block-one">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/MiiqHub3XPY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <div class="next-project-footer">
             <div class="next-project">
               <img class="triangle" src="@/assets/images/triangles/triangles-three.svg">
@@ -34,8 +35,18 @@
 </script>
 
 <style scoped lang="scss">
+.content {
+  padding-top: 40px;
+}
 .block-one {
   width: 900px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  iframe {
+    background-color: #000;
+    box-shadow: 10px 10px #d5d5d5;
+  }
   .next-project-footer {
     display: flex;
     justify-content: space-between;

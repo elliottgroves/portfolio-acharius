@@ -85,6 +85,9 @@
       position: absolute;
       z-index: 1;
       width: 48%;
+      flex-grow: 1;
+      height: calc(100% - 40px);
+      object-fit: cover;
     }
     .picture {
       width: 40%;

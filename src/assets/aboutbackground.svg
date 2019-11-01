@@ -1,150 +1,300 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="723.225" height="914.881" viewBox="0 0 723.225 914.881">
-  <g id="aboutbackground" transform="translate(783.817 -36) rotate(90)">
-    <path id="Path_235" data-name="Path 235" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(80.313 113.82) rotate(90)" fill="none" stroke="#67ffd6" stroke-width="8"/>
-    <circle id="Ellipse_64" data-name="Ellipse 64" cx="34.819" cy="34.819" r="34.819" transform="translate(636.146 236.451)" fill="#14b0bf"/>
-    <path id="Path_238" data-name="Path 238" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(738.301 63.42) rotate(90)" fill="none" stroke="#14b0bf" stroke-width="8"/>
-    <g id="Circle" transform="translate(90.797 112.208)">
-      <circle id="Ellipse_2" data-name="Ellipse 2" cx="34.819" cy="34.819" r="34.819" transform="translate(0 0)" fill="#fd5f80"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="723.225" height="1845.881" viewBox="0 0 723.225 1845.881">
+  <g id="aboutbackground" transform="translate(-99.161 -93.137)">
+    <g id="aboutbackground-2" data-name="aboutbackground" transform="translate(882.978 57.137) rotate(90)">
+      <path id="Path_235" data-name="Path 235" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(80.313 113.82) rotate(90)" fill="none" stroke="#67ffd6" stroke-width="8"/>
+      <circle id="Ellipse_64" data-name="Ellipse 64" cx="34.819" cy="34.819" r="34.819" transform="translate(636.146 236.451)" fill="#14b0bf"/>
+      <path id="Path_238" data-name="Path 238" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(738.301 63.42) rotate(90)" fill="none" stroke="#14b0bf" stroke-width="8"/>
+      <g id="Circle" transform="translate(90.797 112.208)">
+        <circle id="Ellipse_2" data-name="Ellipse 2" cx="34.819" cy="34.819" r="34.819" transform="translate(0 0)" fill="#fd5f80"/>
+      </g>
+      <g id="Triangles" transform="translate(392.429 143.031)">
+        <path id="Path_20" data-name="Path 20" d="M1266,390.375v46.159h44.911Z" transform="translate(-1266 -390.375)" fill="#fe4b4b"/>
+        <path id="Path_58" data-name="Path 58" d="M1266,390.375v46.159h44.911Z" transform="translate(-1266 -390.375)" fill="#fd5f80"/>
+      </g>
+      <g id="Triangles-2" data-name="Triangles" transform="translate(628.404 73.668)">
+        <path id="Path_1" data-name="Path 1" d="M1266,390.375v46.159h44.911Z" transform="translate(-1266 -390.375)" fill="#fd5f80"/>
+      </g>
+      <g id="Swiggly" transform="translate(66.983 113.82)">
+        <path id="Path_49" data-name="Path 49" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(13.329 0) rotate(90)" fill="none" stroke="#14b0bf" stroke-width="8"/>
+      </g>
+      <g id="Triangles-3" data-name="Triangles" transform="translate(246.67 116.209)">
+        <path id="Path_9" data-name="Path 9" d="M0,0V33.559H32.652Z" transform="translate(6.113 50.117) rotate(-90)" fill="#fe4b4b"/>
+        <path id="Path_12" data-name="Path 12" d="M0,0V46.159H44.911Z" transform="translate(46.159 0) rotate(90)" fill="#ffe561"/>
+        <path id="Path_50" data-name="Path 50" d="M0,0V33.559H32.652Z" transform="translate(6.113 50.117) rotate(-90)" fill="#fd5f80"/>
+        <path id="Path_53" data-name="Path 53" d="M0,0V46.159H44.911Z" transform="translate(46.159 0) rotate(90)" fill="#fff"/>
+      </g>
+      <g id="Triangles-4" data-name="Triangles" transform="translate(320.847 335.526)">
+        <path id="Path_7" data-name="Path 7" d="M0,0V46.159H44.911Z" transform="translate(44.911 46.159) rotate(180)" fill="#ffe561"/>
+        <path id="Path_48" data-name="Path 48" d="M0,0V46.159H44.911Z" transform="translate(44.911 46.159) rotate(180)" fill="#fff"/>
+      </g>
+      <g id="Triangles-5" data-name="Triangles" transform="translate(314.43 216.194)">
+        <path id="Path_19" data-name="Path 19" d="M1266,390.375v46.159h44.911Z" transform="translate(-1266 -390.375)" fill="#67ffd6"/>
+        <path id="Path_57" data-name="Path 57" d="M1266,390.375v46.159h44.911Z" transform="translate(-1266 -390.375)" fill="#14b0bf"/>
+      </g>
+      <g id="Swiggly-2" data-name="Swiggly" transform="translate(348.735 292.244)">
+        <path id="Path_18" data-name="Path 18" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(66.647 13.329) rotate(180)" fill="none" stroke="#ffe561" stroke-width="8"/>
+        <path id="Path_56" data-name="Path 56" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(66.647 13.329) rotate(180)" fill="none" stroke="#fff" stroke-width="8"/>
+      </g>
+      <g id="Swiggly-3" data-name="Swiggly" transform="translate(479.032 346.641)">
+        <path id="Path_5" data-name="Path 5" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(13.329 0) rotate(90)" fill="none" stroke="#fe4b4b" stroke-width="8"/>
+        <path id="Path_47" data-name="Path 47" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(13.329 0) rotate(90)" fill="none" stroke="#fd5f80" stroke-width="8"/>
+      </g>
+      <g id="Swiggly-4" data-name="Swiggly" transform="translate(868.962 164.289)">
+        <path id="Path_44" data-name="Path 44" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(66.647 13.329) rotate(180)" fill="none" stroke="#fff" stroke-width="8"/>
+      </g>
+      <path id="Path_239" data-name="Path 239" d="M0,0" transform="translate(730.015 130.565) rotate(90)" fill="none" stroke="#727272" stroke-width="5"/>
+      <g id="Swiggly-5" data-name="Swiggly" transform="translate(673.117 334.427)">
+        <path id="Path_21" data-name="Path 21" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(0 66.647) rotate(-90)" fill="none" stroke="#14b0bf" stroke-width="8"/>
+      </g>
+      <g id="Triangles-6" data-name="Triangles" transform="translate(516.34 246.09)">
+        <path id="Path_10" data-name="Path 10" d="M0,0V33.559H32.652Z" transform="translate(5.944 18.135)" fill="#fe4b4b"/>
+        <path id="Path_11" data-name="Path 11" d="M0,0V46.159H44.911Z" transform="translate(44.911 46.159) rotate(180)" fill="#14b0bf"/>
+        <path id="Path_51" data-name="Path 51" d="M0,0V33.559H32.652Z" transform="translate(5.944 18.135)" fill="#fd5f80"/>
+        <path id="Path_119" data-name="Path 119" d="M0,0V46.159H44.911Z" transform="translate(44.911 46.159) rotate(180)" fill="none"/>
+        <path id="Path_120" data-name="Path 120" d="M0,0Z" transform="translate(3.947 59.678)" fill="none" stroke="#707070" stroke-width="5"/>
+      </g>
+      <g id="Triangles-7" data-name="Triangles" transform="translate(541.576 357.104)">
+        <path id="Path_16" data-name="Path 16" d="M0,0V33.559H32.652Z" transform="translate(33.559 5.943) rotate(90)" fill="#14b0bf"/>
+        <path id="Path_17" data-name="Path 17" d="M0,0V46.159H44.911Z" transform="translate(5.535 44.911) rotate(-90)" fill="#fff"/>
+      </g>
+      <g id="Circle-2" data-name="Circle" transform="translate(867.544 188.243)">
+        <ellipse id="Ellipse_19" data-name="Ellipse 19" cx="34.819" cy="35.389" rx="34.819" ry="35.389" transform="translate(0 0)" fill="#14b0bf"/>
+      </g>
+      <g id="Triangles-8" data-name="Triangles" transform="translate(570.019 184.528)">
+        <path id="Path_6" data-name="Path 6" d="M0,0V46.159H44.911Z" transform="translate(46.159 0) rotate(90)" fill="#fff"/>
+      </g>
+      <g id="Triangles-9" data-name="Triangles" transform="translate(904.722 79.781)">
+        <path id="Path_39" data-name="Path 39" d="M0,0V33.559H32.652Z" transform="translate(6.113 50.117) rotate(-90)" fill="#fd5f80"/>
+        <path id="Path_42" data-name="Path 42" d="M0,0V46.159H44.911Z" transform="translate(46.159 0) rotate(90)" fill="#fff"/>
+      </g>
+      <path id="Path_240" data-name="Path 240" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(505.695 461.619) rotate(90)" fill="none" stroke="#67ffd6" stroke-width="8"/>
+      <g id="Circle-3" data-name="Circle" transform="translate(515.887 460.278)">
+        <ellipse id="Ellipse_2-2" data-name="Ellipse 2" cx="34.819" cy="34.248" rx="34.819" ry="34.248" transform="translate(0 0)" fill="#fd5f80"/>
+      </g>
+      <g id="Triangles-10" data-name="Triangles" transform="translate(817.02 488.289)">
+        <path id="Path_20-2" data-name="Path 20" d="M1266,390.375v46.159h44.911Z" transform="translate(-1266 -390.375)" fill="#fe4b4b"/>
+        <path id="Path_58-2" data-name="Path 58" d="M1266,390.375v46.159h44.911Z" transform="translate(-1266 -390.375)" fill="#fd5f80"/>
+      </g>
+      <g id="Swiggly-6" data-name="Swiggly" transform="translate(492.366 461.619)">
+        <path id="Path_49-2" data-name="Path 49" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(13.329 0) rotate(90)" fill="none" stroke="#14b0bf" stroke-width="8"/>
+      </g>
+      <g id="Circle-4" data-name="Circle" transform="translate(589.188 556.702)">
+        <circle id="Ellipse_5" data-name="Ellipse 5" cx="34.819" cy="34.819" r="34.819" transform="translate(0 0)" fill="#67ffd6"/>
+        <circle id="Ellipse_21" data-name="Ellipse 21" cx="34.819" cy="34.819" r="34.819" transform="translate(0 0)" fill="#14b0bf"/>
+      </g>
+      <g id="Swiggly-7" data-name="Swiggly" transform="translate(588.593 534.073)">
+        <path id="Path_55" data-name="Path 55" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(66.647 13.329) rotate(180)" fill="none" stroke="#fff" stroke-width="8"/>
+      </g>
+      <g id="Triangles-11" data-name="Triangles" transform="translate(672.207 465.183)">
+        <path id="Path_9-2" data-name="Path 9" d="M0,0V33.559H32.652Z" transform="translate(6.113 50.117) rotate(-90)" fill="#fe4b4b"/>
+        <path id="Path_12-2" data-name="Path 12" d="M0,0V46.159H44.911Z" transform="translate(46.159 0) rotate(90)" fill="#ffe561"/>
+        <path id="Path_50-2" data-name="Path 50" d="M0,0V33.559H32.652Z" transform="translate(6.113 50.117) rotate(-90)" fill="#fd5f80"/>
+        <path id="Path_53-2" data-name="Path 53" d="M0,0V46.159H44.911Z" transform="translate(46.159 0) rotate(90)" fill="#fff"/>
+      </g>
+      <g id="Swiggly-8" data-name="Swiggly" transform="translate(527.888 748.432)">
+        <path id="Path_13" data-name="Path 13" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(66.647 13.329) rotate(180)" fill="none" stroke="#fe4b4b" stroke-width="8"/>
+        <path id="Path_54" data-name="Path 54" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(66.647 13.329) rotate(180)" fill="none" stroke="#fd5f80" stroke-width="8"/>
+      </g>
+      <g id="Triangles-12" data-name="Triangles" transform="translate(746.39 685.114)">
+        <path id="Path_7-2" data-name="Path 7" d="M0,0V46.159H44.911Z" transform="translate(44.911 46.159) rotate(180)" fill="#ffe561"/>
+        <path id="Path_48-2" data-name="Path 48" d="M0,0V46.159H44.911Z" transform="translate(44.911 46.159) rotate(180)" fill="#fff"/>
+      </g>
+      <g id="Swiggly-9" data-name="Swiggly" transform="translate(904.392 699.816)">
+        <path id="Path_5-2" data-name="Path 5" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(13.329 0) rotate(90)" fill="none" stroke="#fe4b4b" stroke-width="8"/>
+        <path id="Path_47-2" data-name="Path 47" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(13.329 0) rotate(90)" fill="none" stroke="#fd5f80" stroke-width="8"/>
+      </g>
+      <path id="Path_243" data-name="Path 243" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(257.78 443.087) rotate(90)" fill="none" stroke="#14b0bf" stroke-width="8"/>
+      <g id="Swiggly-10" data-name="Swiggly" transform="translate(388.91 546.005)">
+        <path id="Path_44-2" data-name="Path 44" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(66.647 13.329) rotate(180)" fill="none" stroke="#fff" stroke-width="8"/>
+      </g>
+      <path id="Path_244" data-name="Path 244" d="M0,0" transform="translate(249.422 506.156) rotate(90)" fill="none" stroke="#727272" stroke-width="5"/>
+      <g id="Swiggly-11" data-name="Swiggly" transform="translate(247.067 600.789)">
+        <path id="Path_15" data-name="Path 15" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(66.647 13.329) rotate(180)" fill="none" stroke="#14b0bf" stroke-width="8"/>
+      </g>
+      <g id="Swiggly-12" data-name="Swiggly" transform="translate(194.232 713.789)">
+        <path id="Path_21-2" data-name="Path 21" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(0 66.647) rotate(-90)" fill="none" stroke="#14b0bf" stroke-width="8"/>
+      </g>
+      <g id="Circle-5" data-name="Circle" transform="translate(268.498 441.917)">
+        <ellipse id="Ellipse_18" data-name="Ellipse 18" cx="34.248" cy="34.819" rx="34.248" ry="34.819" transform="translate(0 0)" fill="#fd5f80"/>
+      </g>
+      <g id="Triangles-13" data-name="Triangles" transform="translate(36 610.697)">
+        <path id="Path_10-2" data-name="Path 10" d="M0,0V33.559H32.652Z" transform="translate(5.944 18.135)" fill="#fe4b4b"/>
+        <path id="Path_11-2" data-name="Path 11" d="M0,0V46.159H44.911Z" transform="translate(44.911 46.159) rotate(180)" fill="#14b0bf"/>
+        <path id="Path_51-2" data-name="Path 51" d="M0,0V33.559H32.652Z" transform="translate(5.944 18.135)" fill="#fd5f80"/>
+        <path id="Path_119-2" data-name="Path 119" d="M0,0V46.159H44.911Z" transform="translate(44.911 46.159) rotate(180)" fill="none"/>
+        <path id="Path_120-2" data-name="Path 120" d="M0,0Z" transform="translate(3.947 59.678)" fill="none" stroke="#707070" stroke-width="5"/>
+      </g>
+      <g id="Triangles-14" data-name="Triangles" transform="translate(61.552 738.905)">
+        <path id="Path_16-2" data-name="Path 16" d="M0,0V33.559H32.652Z" transform="translate(33.559 5.943) rotate(90)" fill="#14b0bf"/>
+        <path id="Path_17-2" data-name="Path 17" d="M0,0V46.159H44.911Z" transform="translate(5.535 44.911) rotate(-90)" fill="#fff"/>
+      </g>
+      <g id="Circle-6" data-name="Circle" transform="translate(387.612 568.18)">
+        <circle id="Ellipse_19-2" data-name="Ellipse 19" cx="34.819" cy="34.819" r="34.819" transform="translate(0 0)" fill="#14b0bf"/>
+      </g>
+      <g id="Triangles-15" data-name="Triangles" transform="translate(90.268 549.467)">
+        <path id="Path_6-2" data-name="Path 6" d="M0,0V46.159H44.911Z" transform="translate(46.159 0) rotate(90)" fill="#fff"/>
+      </g>
+      <g id="Triangles-16" data-name="Triangles" transform="translate(424.388 458.418)">
+        <path id="Path_39-2" data-name="Path 39" d="M0,0V33.559H32.652Z" transform="translate(6.113 50.117) rotate(-90)" fill="#fd5f80"/>
+        <path id="Path_42-2" data-name="Path 42" d="M0,0V46.159H44.911Z" transform="translate(46.159 0) rotate(90)" fill="#fff"/>
+      </g>
+      <g id="Swiggly-13" data-name="Swiggly" transform="translate(282.602 761.406)">
+        <path id="Path_43" data-name="Path 43" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(66.647 13.329) rotate(180)" fill="none" stroke="#fd5f80" stroke-width="8"/>
+      </g>
+      <g id="Circle-7" data-name="Circle" transform="translate(862.01 471.04) rotate(-90)">
+        <circle id="Ellipse_2-3" data-name="Ellipse 2" cx="34.608" cy="34.608" r="34.608" fill="#fd5f80"/>
+      </g>
+      <g id="Swiggly-14" data-name="Swiggly" transform="translate(863.487 495.371) rotate(-90)">
+        <path id="Path_49-3" data-name="Path 49" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(13.329) rotate(90)" fill="none" stroke="#14b0bf" stroke-width="8"/>
+      </g>
     </g>
-    <g id="Triangles" transform="translate(392.429 143.031)">
-      <path id="Path_20" data-name="Path 20" d="M1266,390.375v46.159h44.911Z" transform="translate(-1266 -390.375)" fill="#fe4b4b"/>
-      <path id="Path_58" data-name="Path 58" d="M1266,390.375v46.159h44.911Z" transform="translate(-1266 -390.375)" fill="#fd5f80"/>
-    </g>
-    <g id="Triangles-2" data-name="Triangles" transform="translate(628.404 73.668)">
-      <path id="Path_1" data-name="Path 1" d="M1266,390.375v46.159h44.911Z" transform="translate(-1266 -390.375)" fill="#fd5f80"/>
-    </g>
-    <g id="Swiggly" transform="translate(66.983 113.82)">
-      <path id="Path_49" data-name="Path 49" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(13.329 0) rotate(90)" fill="none" stroke="#14b0bf" stroke-width="8"/>
-    </g>
-    <g id="Triangles-3" data-name="Triangles" transform="translate(246.67 116.209)">
-      <path id="Path_9" data-name="Path 9" d="M0,0V33.559H32.652Z" transform="translate(6.113 50.117) rotate(-90)" fill="#fe4b4b"/>
-      <path id="Path_12" data-name="Path 12" d="M0,0V46.159H44.911Z" transform="translate(46.159 0) rotate(90)" fill="#ffe561"/>
-      <path id="Path_50" data-name="Path 50" d="M0,0V33.559H32.652Z" transform="translate(6.113 50.117) rotate(-90)" fill="#fd5f80"/>
-      <path id="Path_53" data-name="Path 53" d="M0,0V46.159H44.911Z" transform="translate(46.159 0) rotate(90)" fill="#fff"/>
-    </g>
-    <g id="Triangles-4" data-name="Triangles" transform="translate(320.847 335.526)">
-      <path id="Path_7" data-name="Path 7" d="M0,0V46.159H44.911Z" transform="translate(44.911 46.159) rotate(180)" fill="#ffe561"/>
-      <path id="Path_48" data-name="Path 48" d="M0,0V46.159H44.911Z" transform="translate(44.911 46.159) rotate(180)" fill="#fff"/>
-    </g>
-    <g id="Triangles-5" data-name="Triangles" transform="translate(314.43 216.194)">
-      <path id="Path_19" data-name="Path 19" d="M1266,390.375v46.159h44.911Z" transform="translate(-1266 -390.375)" fill="#67ffd6"/>
-      <path id="Path_57" data-name="Path 57" d="M1266,390.375v46.159h44.911Z" transform="translate(-1266 -390.375)" fill="#14b0bf"/>
-    </g>
-    <g id="Swiggly-2" data-name="Swiggly" transform="translate(348.735 292.244)">
-      <path id="Path_18" data-name="Path 18" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(66.647 13.329) rotate(180)" fill="none" stroke="#ffe561" stroke-width="8"/>
-      <path id="Path_56" data-name="Path 56" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(66.647 13.329) rotate(180)" fill="none" stroke="#fff" stroke-width="8"/>
-    </g>
-    <g id="Swiggly-3" data-name="Swiggly" transform="translate(479.032 346.641)">
-      <path id="Path_5" data-name="Path 5" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(13.329 0) rotate(90)" fill="none" stroke="#fe4b4b" stroke-width="8"/>
-      <path id="Path_47" data-name="Path 47" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(13.329 0) rotate(90)" fill="none" stroke="#fd5f80" stroke-width="8"/>
-    </g>
-    <g id="Swiggly-4" data-name="Swiggly" transform="translate(868.962 164.289)">
-      <path id="Path_44" data-name="Path 44" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(66.647 13.329) rotate(180)" fill="none" stroke="#fff" stroke-width="8"/>
-    </g>
-    <path id="Path_239" data-name="Path 239" d="M0,0" transform="translate(730.015 130.565) rotate(90)" fill="none" stroke="#727272" stroke-width="5"/>
-    <g id="Swiggly-5" data-name="Swiggly" transform="translate(673.117 334.427)">
-      <path id="Path_21" data-name="Path 21" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(0 66.647) rotate(-90)" fill="none" stroke="#14b0bf" stroke-width="8"/>
-    </g>
-    <g id="Triangles-6" data-name="Triangles" transform="translate(516.34 246.09)">
-      <path id="Path_10" data-name="Path 10" d="M0,0V33.559H32.652Z" transform="translate(5.944 18.135)" fill="#fe4b4b"/>
-      <path id="Path_11" data-name="Path 11" d="M0,0V46.159H44.911Z" transform="translate(44.911 46.159) rotate(180)" fill="#14b0bf"/>
-      <path id="Path_51" data-name="Path 51" d="M0,0V33.559H32.652Z" transform="translate(5.944 18.135)" fill="#fd5f80"/>
-      <path id="Path_119" data-name="Path 119" d="M0,0V46.159H44.911Z" transform="translate(44.911 46.159) rotate(180)" fill="none"/>
-      <path id="Path_120" data-name="Path 120" d="M0,0Z" transform="translate(3.947 59.678)" fill="none" stroke="#707070" stroke-width="5"/>
-    </g>
-    <g id="Triangles-7" data-name="Triangles" transform="translate(541.576 357.104)">
-      <path id="Path_16" data-name="Path 16" d="M0,0V33.559H32.652Z" transform="translate(33.559 5.943) rotate(90)" fill="#14b0bf"/>
-      <path id="Path_17" data-name="Path 17" d="M0,0V46.159H44.911Z" transform="translate(5.535 44.911) rotate(-90)" fill="#fff"/>
-    </g>
-    <g id="Circle-2" data-name="Circle" transform="translate(867.544 188.243)">
-      <ellipse id="Ellipse_19" data-name="Ellipse 19" cx="34.819" cy="35.389" rx="34.819" ry="35.389" transform="translate(0 0)" fill="#14b0bf"/>
-    </g>
-    <g id="Triangles-8" data-name="Triangles" transform="translate(570.019 184.528)">
-      <path id="Path_6" data-name="Path 6" d="M0,0V46.159H44.911Z" transform="translate(46.159 0) rotate(90)" fill="#fff"/>
-    </g>
-    <g id="Triangles-9" data-name="Triangles" transform="translate(904.722 79.781)">
-      <path id="Path_39" data-name="Path 39" d="M0,0V33.559H32.652Z" transform="translate(6.113 50.117) rotate(-90)" fill="#fd5f80"/>
-      <path id="Path_42" data-name="Path 42" d="M0,0V46.159H44.911Z" transform="translate(46.159 0) rotate(90)" fill="#fff"/>
-    </g>
-    <path id="Path_240" data-name="Path 240" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(505.695 461.619) rotate(90)" fill="none" stroke="#67ffd6" stroke-width="8"/>
-    <g id="Circle-3" data-name="Circle" transform="translate(515.887 460.278)">
-      <ellipse id="Ellipse_2-2" data-name="Ellipse 2" cx="34.819" cy="34.248" rx="34.819" ry="34.248" transform="translate(0 0)" fill="#fd5f80"/>
-    </g>
-    <g id="Triangles-10" data-name="Triangles" transform="translate(817.02 488.289)">
-      <path id="Path_20-2" data-name="Path 20" d="M1266,390.375v46.159h44.911Z" transform="translate(-1266 -390.375)" fill="#fe4b4b"/>
-      <path id="Path_58-2" data-name="Path 58" d="M1266,390.375v46.159h44.911Z" transform="translate(-1266 -390.375)" fill="#fd5f80"/>
-    </g>
-    <g id="Swiggly-6" data-name="Swiggly" transform="translate(492.366 461.619)">
-      <path id="Path_49-2" data-name="Path 49" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(13.329 0) rotate(90)" fill="none" stroke="#14b0bf" stroke-width="8"/>
-    </g>
-    <g id="Circle-4" data-name="Circle" transform="translate(589.188 556.702)">
-      <circle id="Ellipse_5" data-name="Ellipse 5" cx="34.819" cy="34.819" r="34.819" transform="translate(0 0)" fill="#67ffd6"/>
-      <circle id="Ellipse_21" data-name="Ellipse 21" cx="34.819" cy="34.819" r="34.819" transform="translate(0 0)" fill="#14b0bf"/>
-    </g>
-    <g id="Swiggly-7" data-name="Swiggly" transform="translate(588.593 534.073)">
-      <path id="Path_55" data-name="Path 55" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(66.647 13.329) rotate(180)" fill="none" stroke="#fff" stroke-width="8"/>
-    </g>
-    <g id="Triangles-11" data-name="Triangles" transform="translate(672.207 465.183)">
-      <path id="Path_9-2" data-name="Path 9" d="M0,0V33.559H32.652Z" transform="translate(6.113 50.117) rotate(-90)" fill="#fe4b4b"/>
-      <path id="Path_12-2" data-name="Path 12" d="M0,0V46.159H44.911Z" transform="translate(46.159 0) rotate(90)" fill="#ffe561"/>
-      <path id="Path_50-2" data-name="Path 50" d="M0,0V33.559H32.652Z" transform="translate(6.113 50.117) rotate(-90)" fill="#fd5f80"/>
-      <path id="Path_53-2" data-name="Path 53" d="M0,0V46.159H44.911Z" transform="translate(46.159 0) rotate(90)" fill="#fff"/>
-    </g>
-    <g id="Swiggly-8" data-name="Swiggly" transform="translate(527.888 748.432)">
-      <path id="Path_13" data-name="Path 13" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(66.647 13.329) rotate(180)" fill="none" stroke="#fe4b4b" stroke-width="8"/>
-      <path id="Path_54" data-name="Path 54" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(66.647 13.329) rotate(180)" fill="none" stroke="#fd5f80" stroke-width="8"/>
-    </g>
-    <g id="Triangles-12" data-name="Triangles" transform="translate(746.39 685.114)">
-      <path id="Path_7-2" data-name="Path 7" d="M0,0V46.159H44.911Z" transform="translate(44.911 46.159) rotate(180)" fill="#ffe561"/>
-      <path id="Path_48-2" data-name="Path 48" d="M0,0V46.159H44.911Z" transform="translate(44.911 46.159) rotate(180)" fill="#fff"/>
-    </g>
-    <g id="Swiggly-9" data-name="Swiggly" transform="translate(904.392 699.816)">
-      <path id="Path_5-2" data-name="Path 5" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(13.329 0) rotate(90)" fill="none" stroke="#fe4b4b" stroke-width="8"/>
-      <path id="Path_47-2" data-name="Path 47" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(13.329 0) rotate(90)" fill="none" stroke="#fd5f80" stroke-width="8"/>
-    </g>
-    <path id="Path_243" data-name="Path 243" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(257.78 443.087) rotate(90)" fill="none" stroke="#14b0bf" stroke-width="8"/>
-    <g id="Swiggly-10" data-name="Swiggly" transform="translate(388.91 546.005)">
-      <path id="Path_44-2" data-name="Path 44" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(66.647 13.329) rotate(180)" fill="none" stroke="#fff" stroke-width="8"/>
-    </g>
-    <path id="Path_244" data-name="Path 244" d="M0,0" transform="translate(249.422 506.156) rotate(90)" fill="none" stroke="#727272" stroke-width="5"/>
-    <g id="Swiggly-11" data-name="Swiggly" transform="translate(247.067 600.789)">
-      <path id="Path_15" data-name="Path 15" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(66.647 13.329) rotate(180)" fill="none" stroke="#14b0bf" stroke-width="8"/>
-    </g>
-    <g id="Swiggly-12" data-name="Swiggly" transform="translate(194.232 713.789)">
-      <path id="Path_21-2" data-name="Path 21" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(0 66.647) rotate(-90)" fill="none" stroke="#14b0bf" stroke-width="8"/>
-    </g>
-    <g id="Circle-5" data-name="Circle" transform="translate(268.498 441.917)">
-      <ellipse id="Ellipse_18" data-name="Ellipse 18" cx="34.248" cy="34.819" rx="34.248" ry="34.819" transform="translate(0 0)" fill="#fd5f80"/>
-    </g>
-    <g id="Triangles-13" data-name="Triangles" transform="translate(36 610.697)">
-      <path id="Path_10-2" data-name="Path 10" d="M0,0V33.559H32.652Z" transform="translate(5.944 18.135)" fill="#fe4b4b"/>
-      <path id="Path_11-2" data-name="Path 11" d="M0,0V46.159H44.911Z" transform="translate(44.911 46.159) rotate(180)" fill="#14b0bf"/>
-      <path id="Path_51-2" data-name="Path 51" d="M0,0V33.559H32.652Z" transform="translate(5.944 18.135)" fill="#fd5f80"/>
-      <path id="Path_119-2" data-name="Path 119" d="M0,0V46.159H44.911Z" transform="translate(44.911 46.159) rotate(180)" fill="none"/>
-      <path id="Path_120-2" data-name="Path 120" d="M0,0Z" transform="translate(3.947 59.678)" fill="none" stroke="#707070" stroke-width="5"/>
-    </g>
-    <g id="Triangles-14" data-name="Triangles" transform="translate(61.552 738.905)">
-      <path id="Path_16-2" data-name="Path 16" d="M0,0V33.559H32.652Z" transform="translate(33.559 5.943) rotate(90)" fill="#14b0bf"/>
-      <path id="Path_17-2" data-name="Path 17" d="M0,0V46.159H44.911Z" transform="translate(5.535 44.911) rotate(-90)" fill="#fff"/>
-    </g>
-    <g id="Circle-6" data-name="Circle" transform="translate(387.612 568.18)">
-      <circle id="Ellipse_19-2" data-name="Ellipse 19" cx="34.819" cy="34.819" r="34.819" transform="translate(0 0)" fill="#14b0bf"/>
-    </g>
-    <g id="Triangles-15" data-name="Triangles" transform="translate(90.268 549.467)">
-      <path id="Path_6-2" data-name="Path 6" d="M0,0V46.159H44.911Z" transform="translate(46.159 0) rotate(90)" fill="#fff"/>
-    </g>
-    <g id="Triangles-16" data-name="Triangles" transform="translate(424.388 458.418)">
-      <path id="Path_39-2" data-name="Path 39" d="M0,0V33.559H32.652Z" transform="translate(6.113 50.117) rotate(-90)" fill="#fd5f80"/>
-      <path id="Path_42-2" data-name="Path 42" d="M0,0V46.159H44.911Z" transform="translate(46.159 0) rotate(90)" fill="#fff"/>
-    </g>
-    <g id="Swiggly-13" data-name="Swiggly" transform="translate(282.602 761.406)">
-      <path id="Path_43" data-name="Path 43" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(66.647 13.329) rotate(180)" fill="none" stroke="#fd5f80" stroke-width="8"/>
-    </g>
-    <g id="Circle-7" data-name="Circle" transform="translate(862.01 471.04) rotate(-90)">
-      <circle id="Ellipse_2-3" data-name="Ellipse 2" cx="34.608" cy="34.608" r="34.608" fill="#fd5f80"/>
-    </g>
-    <g id="Swiggly-14" data-name="Swiggly" transform="translate(863.487 495.371) rotate(-90)">
-      <path id="Path_49-3" data-name="Path 49" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(13.329) rotate(90)" fill="none" stroke="#14b0bf" stroke-width="8"/>
+    <g id="aboutbackground-3" data-name="aboutbackground" transform="translate(882.978 988.137) rotate(90)">
+      <path id="Path_235-2" data-name="Path 235" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(80.313 113.82) rotate(90)" fill="none" stroke="#67ffd6" stroke-width="8"/>
+      <circle id="Ellipse_64-2" data-name="Ellipse 64" cx="34.819" cy="34.819" r="34.819" transform="translate(636.146 236.451)" fill="#14b0bf"/>
+      <path id="Path_238-2" data-name="Path 238" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(738.301 63.42) rotate(90)" fill="none" stroke="#14b0bf" stroke-width="8"/>
+      <g id="Circle-8" data-name="Circle" transform="translate(90.797 112.208)">
+        <circle id="Ellipse_2-4" data-name="Ellipse 2" cx="34.819" cy="34.819" r="34.819" transform="translate(0 0)" fill="#fd5f80"/>
+      </g>
+      <g id="Triangles-17" data-name="Triangles" transform="translate(392.429 143.031)">
+        <path id="Path_20-3" data-name="Path 20" d="M1266,390.375v46.159h44.911Z" transform="translate(-1266 -390.375)" fill="#fe4b4b"/>
+        <path id="Path_58-3" data-name="Path 58" d="M1266,390.375v46.159h44.911Z" transform="translate(-1266 -390.375)" fill="#fd5f80"/>
+      </g>
+      <g id="Triangles-18" data-name="Triangles" transform="translate(628.404 73.668)">
+        <path id="Path_1-2" data-name="Path 1" d="M1266,390.375v46.159h44.911Z" transform="translate(-1266 -390.375)" fill="#fd5f80"/>
+      </g>
+      <g id="Swiggly-15" data-name="Swiggly" transform="translate(66.983 113.82)">
+        <path id="Path_49-4" data-name="Path 49" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(13.329 0) rotate(90)" fill="none" stroke="#14b0bf" stroke-width="8"/>
+      </g>
+      <g id="Triangles-19" data-name="Triangles" transform="translate(246.67 116.209)">
+        <path id="Path_9-3" data-name="Path 9" d="M0,0V33.559H32.652Z" transform="translate(6.113 50.117) rotate(-90)" fill="#fe4b4b"/>
+        <path id="Path_12-3" data-name="Path 12" d="M0,0V46.159H44.911Z" transform="translate(46.159 0) rotate(90)" fill="#ffe561"/>
+        <path id="Path_50-3" data-name="Path 50" d="M0,0V33.559H32.652Z" transform="translate(6.113 50.117) rotate(-90)" fill="#fd5f80"/>
+        <path id="Path_53-3" data-name="Path 53" d="M0,0V46.159H44.911Z" transform="translate(46.159 0) rotate(90)" fill="#fff"/>
+      </g>
+      <g id="Triangles-20" data-name="Triangles" transform="translate(320.847 335.526)">
+        <path id="Path_7-3" data-name="Path 7" d="M0,0V46.159H44.911Z" transform="translate(44.911 46.159) rotate(180)" fill="#ffe561"/>
+        <path id="Path_48-3" data-name="Path 48" d="M0,0V46.159H44.911Z" transform="translate(44.911 46.159) rotate(180)" fill="#fff"/>
+      </g>
+      <g id="Triangles-21" data-name="Triangles" transform="translate(314.43 216.194)">
+        <path id="Path_19-2" data-name="Path 19" d="M1266,390.375v46.159h44.911Z" transform="translate(-1266 -390.375)" fill="#67ffd6"/>
+        <path id="Path_57-2" data-name="Path 57" d="M1266,390.375v46.159h44.911Z" transform="translate(-1266 -390.375)" fill="#14b0bf"/>
+      </g>
+      <g id="Swiggly-16" data-name="Swiggly" transform="translate(348.735 292.244)">
+        <path id="Path_18-2" data-name="Path 18" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(66.647 13.329) rotate(180)" fill="none" stroke="#ffe561" stroke-width="8"/>
+        <path id="Path_56-2" data-name="Path 56" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(66.647 13.329) rotate(180)" fill="none" stroke="#fff" stroke-width="8"/>
+      </g>
+      <g id="Swiggly-17" data-name="Swiggly" transform="translate(479.032 346.641)">
+        <path id="Path_5-3" data-name="Path 5" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(13.329 0) rotate(90)" fill="none" stroke="#fe4b4b" stroke-width="8"/>
+        <path id="Path_47-3" data-name="Path 47" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(13.329 0) rotate(90)" fill="none" stroke="#fd5f80" stroke-width="8"/>
+      </g>
+      <g id="Swiggly-18" data-name="Swiggly" transform="translate(868.962 164.289)">
+        <path id="Path_44-3" data-name="Path 44" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(66.647 13.329) rotate(180)" fill="none" stroke="#fff" stroke-width="8"/>
+      </g>
+      <path id="Path_239-2" data-name="Path 239" d="M0,0" transform="translate(730.015 130.565) rotate(90)" fill="none" stroke="#727272" stroke-width="5"/>
+      <g id="Swiggly-19" data-name="Swiggly" transform="translate(673.117 334.427)">
+        <path id="Path_21-3" data-name="Path 21" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(0 66.647) rotate(-90)" fill="none" stroke="#14b0bf" stroke-width="8"/>
+      </g>
+      <g id="Triangles-22" data-name="Triangles" transform="translate(516.34 246.09)">
+        <path id="Path_10-3" data-name="Path 10" d="M0,0V33.559H32.652Z" transform="translate(5.944 18.135)" fill="#fe4b4b"/>
+        <path id="Path_11-3" data-name="Path 11" d="M0,0V46.159H44.911Z" transform="translate(44.911 46.159) rotate(180)" fill="#14b0bf"/>
+        <path id="Path_51-3" data-name="Path 51" d="M0,0V33.559H32.652Z" transform="translate(5.944 18.135)" fill="#fd5f80"/>
+        <path id="Path_119-3" data-name="Path 119" d="M0,0V46.159H44.911Z" transform="translate(44.911 46.159) rotate(180)" fill="none"/>
+        <path id="Path_120-3" data-name="Path 120" d="M0,0Z" transform="translate(3.947 59.678)" fill="none" stroke="#707070" stroke-width="5"/>
+      </g>
+      <g id="Triangles-23" data-name="Triangles" transform="translate(541.576 357.104)">
+        <path id="Path_16-3" data-name="Path 16" d="M0,0V33.559H32.652Z" transform="translate(33.559 5.943) rotate(90)" fill="#14b0bf"/>
+        <path id="Path_17-3" data-name="Path 17" d="M0,0V46.159H44.911Z" transform="translate(5.535 44.911) rotate(-90)" fill="#fff"/>
+      </g>
+      <g id="Circle-9" data-name="Circle" transform="translate(867.544 188.243)">
+        <ellipse id="Ellipse_19-3" data-name="Ellipse 19" cx="34.819" cy="35.389" rx="34.819" ry="35.389" transform="translate(0 0)" fill="#14b0bf"/>
+      </g>
+      <g id="Triangles-24" data-name="Triangles" transform="translate(570.019 184.528)">
+        <path id="Path_6-3" data-name="Path 6" d="M0,0V46.159H44.911Z" transform="translate(46.159 0) rotate(90)" fill="#fff"/>
+      </g>
+      <g id="Triangles-25" data-name="Triangles" transform="translate(904.722 79.781)">
+        <path id="Path_39-3" data-name="Path 39" d="M0,0V33.559H32.652Z" transform="translate(6.113 50.117) rotate(-90)" fill="#fd5f80"/>
+        <path id="Path_42-3" data-name="Path 42" d="M0,0V46.159H44.911Z" transform="translate(46.159 0) rotate(90)" fill="#fff"/>
+      </g>
+      <path id="Path_240-2" data-name="Path 240" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(505.695 461.619) rotate(90)" fill="none" stroke="#67ffd6" stroke-width="8"/>
+      <g id="Circle-10" data-name="Circle" transform="translate(515.887 460.278)">
+        <ellipse id="Ellipse_2-5" data-name="Ellipse 2" cx="34.819" cy="34.248" rx="34.819" ry="34.248" transform="translate(0 0)" fill="#fd5f80"/>
+      </g>
+      <g id="Triangles-26" data-name="Triangles" transform="translate(817.02 488.289)">
+        <path id="Path_20-4" data-name="Path 20" d="M1266,390.375v46.159h44.911Z" transform="translate(-1266 -390.375)" fill="#fe4b4b"/>
+        <path id="Path_58-4" data-name="Path 58" d="M1266,390.375v46.159h44.911Z" transform="translate(-1266 -390.375)" fill="#fd5f80"/>
+      </g>
+      <g id="Swiggly-20" data-name="Swiggly" transform="translate(492.366 461.619)">
+        <path id="Path_49-5" data-name="Path 49" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(13.329 0) rotate(90)" fill="none" stroke="#14b0bf" stroke-width="8"/>
+      </g>
+      <g id="Circle-11" data-name="Circle" transform="translate(589.188 556.702)">
+        <circle id="Ellipse_5-2" data-name="Ellipse 5" cx="34.819" cy="34.819" r="34.819" transform="translate(0 0)" fill="#67ffd6"/>
+        <circle id="Ellipse_21-2" data-name="Ellipse 21" cx="34.819" cy="34.819" r="34.819" transform="translate(0 0)" fill="#14b0bf"/>
+      </g>
+      <g id="Swiggly-21" data-name="Swiggly" transform="translate(588.593 534.073)">
+        <path id="Path_55-2" data-name="Path 55" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(66.647 13.329) rotate(180)" fill="none" stroke="#fff" stroke-width="8"/>
+      </g>
+      <g id="Triangles-27" data-name="Triangles" transform="translate(672.207 465.183)">
+        <path id="Path_9-4" data-name="Path 9" d="M0,0V33.559H32.652Z" transform="translate(6.113 50.117) rotate(-90)" fill="#fe4b4b"/>
+        <path id="Path_12-4" data-name="Path 12" d="M0,0V46.159H44.911Z" transform="translate(46.159 0) rotate(90)" fill="#ffe561"/>
+        <path id="Path_50-4" data-name="Path 50" d="M0,0V33.559H32.652Z" transform="translate(6.113 50.117) rotate(-90)" fill="#fd5f80"/>
+        <path id="Path_53-4" data-name="Path 53" d="M0,0V46.159H44.911Z" transform="translate(46.159 0) rotate(90)" fill="#fff"/>
+      </g>
+      <g id="Swiggly-22" data-name="Swiggly" transform="translate(527.888 748.432)">
+        <path id="Path_13-2" data-name="Path 13" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(66.647 13.329) rotate(180)" fill="none" stroke="#fe4b4b" stroke-width="8"/>
+        <path id="Path_54-2" data-name="Path 54" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(66.647 13.329) rotate(180)" fill="none" stroke="#fd5f80" stroke-width="8"/>
+      </g>
+      <g id="Triangles-28" data-name="Triangles" transform="translate(746.39 685.114)">
+        <path id="Path_7-4" data-name="Path 7" d="M0,0V46.159H44.911Z" transform="translate(44.911 46.159) rotate(180)" fill="#ffe561"/>
+        <path id="Path_48-4" data-name="Path 48" d="M0,0V46.159H44.911Z" transform="translate(44.911 46.159) rotate(180)" fill="#fff"/>
+      </g>
+      <g id="Swiggly-23" data-name="Swiggly" transform="translate(904.392 699.816)">
+        <path id="Path_5-4" data-name="Path 5" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(13.329 0) rotate(90)" fill="none" stroke="#fe4b4b" stroke-width="8"/>
+        <path id="Path_47-4" data-name="Path 47" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(13.329 0) rotate(90)" fill="none" stroke="#fd5f80" stroke-width="8"/>
+      </g>
+      <path id="Path_243-2" data-name="Path 243" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(257.78 443.087) rotate(90)" fill="none" stroke="#14b0bf" stroke-width="8"/>
+      <g id="Swiggly-24" data-name="Swiggly" transform="translate(388.91 546.005)">
+        <path id="Path_44-4" data-name="Path 44" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(66.647 13.329) rotate(180)" fill="none" stroke="#fff" stroke-width="8"/>
+      </g>
+      <path id="Path_244-2" data-name="Path 244" d="M0,0" transform="translate(249.422 506.156) rotate(90)" fill="none" stroke="#727272" stroke-width="5"/>
+      <g id="Swiggly-25" data-name="Swiggly" transform="translate(247.067 600.789)">
+        <path id="Path_15-2" data-name="Path 15" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(66.647 13.329) rotate(180)" fill="none" stroke="#14b0bf" stroke-width="8"/>
+      </g>
+      <g id="Swiggly-26" data-name="Swiggly" transform="translate(194.232 713.789)">
+        <path id="Path_21-4" data-name="Path 21" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(0 66.647) rotate(-90)" fill="none" stroke="#14b0bf" stroke-width="8"/>
+      </g>
+      <g id="Circle-12" data-name="Circle" transform="translate(268.498 441.917)">
+        <ellipse id="Ellipse_18-2" data-name="Ellipse 18" cx="34.248" cy="34.819" rx="34.248" ry="34.819" transform="translate(0 0)" fill="#fd5f80"/>
+      </g>
+      <g id="Triangles-29" data-name="Triangles" transform="translate(36 610.697)">
+        <path id="Path_10-4" data-name="Path 10" d="M0,0V33.559H32.652Z" transform="translate(5.944 18.135)" fill="#fe4b4b"/>
+        <path id="Path_11-4" data-name="Path 11" d="M0,0V46.159H44.911Z" transform="translate(44.911 46.159) rotate(180)" fill="#14b0bf"/>
+        <path id="Path_51-4" data-name="Path 51" d="M0,0V33.559H32.652Z" transform="translate(5.944 18.135)" fill="#fd5f80"/>
+        <path id="Path_119-4" data-name="Path 119" d="M0,0V46.159H44.911Z" transform="translate(44.911 46.159) rotate(180)" fill="none"/>
+        <path id="Path_120-4" data-name="Path 120" d="M0,0Z" transform="translate(3.947 59.678)" fill="none" stroke="#707070" stroke-width="5"/>
+      </g>
+      <g id="Triangles-30" data-name="Triangles" transform="translate(61.552 738.905)">
+        <path id="Path_16-4" data-name="Path 16" d="M0,0V33.559H32.652Z" transform="translate(33.559 5.943) rotate(90)" fill="#14b0bf"/>
+        <path id="Path_17-4" data-name="Path 17" d="M0,0V46.159H44.911Z" transform="translate(5.535 44.911) rotate(-90)" fill="#fff"/>
+      </g>
+      <g id="Circle-13" data-name="Circle" transform="translate(387.612 568.18)">
+        <circle id="Ellipse_19-4" data-name="Ellipse 19" cx="34.819" cy="34.819" r="34.819" transform="translate(0 0)" fill="#14b0bf"/>
+      </g>
+      <g id="Triangles-31" data-name="Triangles" transform="translate(90.268 549.467)">
+        <path id="Path_6-4" data-name="Path 6" d="M0,0V46.159H44.911Z" transform="translate(46.159 0) rotate(90)" fill="#fff"/>
+      </g>
+      <g id="Triangles-32" data-name="Triangles" transform="translate(424.388 458.418)">
+        <path id="Path_39-4" data-name="Path 39" d="M0,0V33.559H32.652Z" transform="translate(6.113 50.117) rotate(-90)" fill="#fd5f80"/>
+        <path id="Path_42-4" data-name="Path 42" d="M0,0V46.159H44.911Z" transform="translate(46.159 0) rotate(90)" fill="#fff"/>
+      </g>
+      <g id="Swiggly-27" data-name="Swiggly" transform="translate(282.602 761.406)">
+        <path id="Path_43-2" data-name="Path 43" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(66.647 13.329) rotate(180)" fill="none" stroke="#fd5f80" stroke-width="8"/>
+      </g>
+      <g id="Circle-14" data-name="Circle" transform="translate(862.01 471.04) rotate(-90)">
+        <circle id="Ellipse_2-6" data-name="Ellipse 2" cx="34.608" cy="34.608" r="34.608" fill="#fd5f80"/>
+      </g>
+      <g id="Swiggly-28" data-name="Swiggly" transform="translate(863.487 495.371) rotate(-90)">
+        <path id="Path_49-6" data-name="Path 49" d="M0,0,13.329,13.329,26.659,0,39.988,13.329,53.317,0,66.647,13.329" transform="translate(13.329) rotate(90)" fill="none" stroke="#14b0bf" stroke-width="8"/>
+      </g>
     </g>
   </g>
 </svg>
