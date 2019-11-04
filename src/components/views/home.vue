@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
-    <img ref="image" style="display: none;" src="../../assets/bg.png">
-    <img ref="outline-image" style="display: none;" src="../../assets/bg-outline.png">
+    <img ref="image" style="display: none;" src="@/assets/bg.svg">
+    <img ref="outline-image" style="display: none;" src="@/assets/bg-outline.svg">
     <canvas ref="canvas"></canvas>
     <navbar activeButton="home"></navbar>
   </div>

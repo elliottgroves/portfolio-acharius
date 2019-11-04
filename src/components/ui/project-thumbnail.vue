@@ -34,10 +34,10 @@
     },
     computed: {
       imageOneSrc() {
-        return `project-thumbnails/${this.pathname}/image-one.svg`;
+        return `project-thumbnails/${this.pathname}/image-one.png`;
       },
       imageTwoSrc() {
-        return `project-thumbnails/${this.pathname}/image-two.svg`;
+        return `project-thumbnails/${this.pathname}/image-two.png`;
       }
     },
     methods: {
