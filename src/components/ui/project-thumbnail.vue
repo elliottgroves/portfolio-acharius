@@ -34,12 +34,10 @@
     },
     computed: {
       imageOneSrc() {
-        const fileExt = this.pathname === 'portfolio' ? '.svg' : '.png';
-        return `project-thumbnails/${this.pathname}/image-one${fileExt}`;
+        return `project-thumbnails/${this.pathname}/image-one.svg`;
       },
       imageTwoSrc() {
-        const fileExt = this.pathname === 'portfolio' ? '.svg' : '.png';
-        return `project-thumbnails/${this.pathname}/image-two${fileExt}`;
+        return `project-thumbnails/${this.pathname}/image-two.svg`;
       }
     },
     methods: {
